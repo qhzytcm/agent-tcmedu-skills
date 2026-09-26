@@ -32,6 +32,12 @@ jobs:
         run: npm run build && npm run eval
         continue-on-error: true
 
+      - name: Automated dialogue test (needs DEEPSEEK_API_KEY secret)
+        run: npm run dialogue
+        continue-on-error: true
+        env:
+          DEEPSEEK_API_KEY: ${{ secrets.DEEPSEEK_API_KEY }}
+
       - name: Rebuild pack from spec
         run: npm run build
 

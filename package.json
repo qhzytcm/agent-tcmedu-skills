@@ -34,6 +34,7 @@
     "sync": "node scripts/sync-from-tcmP.mjs",
     "extract": "node scripts/extract-from-upstream.mjs",
     "eval": "node scripts/eval-routing.mjs",
+    "dialogue": "node scripts/dialogue-test.mjs",
     "build": "node scripts/build-pack.mjs",
     "validate": "node scripts/validate.mjs",
     "check:docs": "node scripts/check-docs.mjs",

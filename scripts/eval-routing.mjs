@@ -135,13 +135,25 @@ if (!dialogue) {
   L.push('hermes chat -s <skill> "<问题>"       # 观察技能是否被加载、输出是否遵循技能工作流');
   L.push('```');
 } else {
-  L.push(`接入方式：${dialogue.setup}。共 ${dialogue.cases.length} 轮对话。`);
+  L.push(`接入方式：${dialogue.setup}`);
   L.push('');
-  L.push('| # | 技能 | 问题 | 技能是否被加载 | 输出是否遵循技能工作流 | 判定 |');
-  L.push('| :-: | --- | --- | :-: | :-: | :-: |');
+  if (dialogue.model) L.push(`后端模型：\`${dialogue.model}\` ｜ 平台探测：${dialogue.platformProbe?.reachable ? '可达' : '不可达'}（${dialogue.platformProbe?.detail ?? '-'}）`);
+  if (dialogue.mainCount != null) {
+    L.push('');
+    L.push(`**结果：技能用例 ${dialogue.mainPassed}/${dialogue.mainCount} 完全通过；负对照 ${dialogue.controlPassed}/${dialogue.controlCount} 正确收敛。**`);
+  }
+  L.push('');
+  L.push('| # | 类型 | 技能 | 提问 | 工作流遵循 | 质量门禁 | 判定 | 耗时 |');
+  L.push('| :-: | :-: | --- | --- | :-: | :-: | --- | :-: |');
   dialogue.cases.forEach((c, i) => {
-    L.push(`| ${i + 1} | \`${c.skill}\` | ${c.question} | ${c.loaded ? '✅' : '❌'} | ${c.followedWorkflow ? '✅' : '⚠️'} | ${c.verdict} |`);
+    const chk = c.checks;
+    const wf = chk ? `${chk.requirePass}/${chk.requireTotal}` : '-';
+    const gt = chk ? `${chk.forbidPass}/${chk.forbidTotal}` : '-';
+    L.push(`| ${i + 1} | ${c.control ? '对照' : '技能'} | \`${c.skill}\` | ${c.question} | ${wf} | ${gt} | ${c.verdict.split(' — ')[0]} | ${c.ms ?? '-'}ms |`);
   });
+  L.push('');
+  L.push('> 判分口径：**工作流遵循** = 技能规定的关键步骤证据齐备数；**质量门禁** = 未越界/未编造项数。');
+  L.push('> 「对照」为负样本 —— 提问技能明确声明「不适合 / Not For」的事项，正确行为是**收敛范围或拒绝**，用于证明判分具备判别力（能失败）。');
   L.push('');
   for (const c of dialogue.cases) {
     L.push(`### 对话 ${c.skill}`);
