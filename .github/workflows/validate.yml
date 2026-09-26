@@ -1,0 +1,38 @@
+name: Validate Agent TCM Edu Skills
+
+on:
+  pull_request:
+  push:
+    branches:
+      - main
+      - master
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Rebuild pack from spec
+        run: npm run build
+
+      - name: Validate skill pack
+        run: npm run validate
+
+      - name: Check documentation sync
+        run: npm run check:docs
+
+      - name: Fail if build output is not committed
+        run: |
+          if [ -n "$(git status --porcelain)" ]; then
+            echo "::error::生成物与提交不一致，请本地执行 npm run build 后提交。"
+            git status --porcelain
+            exit 1
+          fi

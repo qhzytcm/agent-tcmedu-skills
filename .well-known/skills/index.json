@@ -1,0 +1,303 @@
+{
+  "name": "agent-tcmedu-skills",
+  "version": "0.1.0",
+  "description": "tcmP 中医药网络教育平台 Agent Skill Pack 发现索引（.well-known/skills/index.json）",
+  "generatedFrom": "scripts/skills.spec.mjs",
+  "skillCount": 42,
+  "skills": [
+    {
+      "name": "tcm-basic-theory",
+      "title": "中医基础理论 Skill",
+      "description": "把阴阳五行、藏象、气血津液、经络、病因病机转成可自检的概念网络学习任务。",
+      "category": "tcm-foundation",
+      "path": "skills/tcm-foundation/tcm-basic-theory/SKILL.md"
+    },
+    {
+      "name": "tcm-diagnostics",
+      "title": "中医诊断学 Skill",
+      "description": "把望闻问切四诊信息规范成可复用的采集表单，并训练「四诊合参→辨证要素」的推理链。",
+      "category": "tcm-foundation",
+      "path": "skills/tcm-foundation/tcm-diagnostics/SKILL.md"
+    },
+    {
+      "name": "tcm-neijing",
+      "title": "内经选读 Skill",
+      "description": "《黄帝内经》原文—注释—译文三层对照研读，并把经文落到现代生理与临床场景。",
+      "category": "tcm-foundation",
+      "path": "skills/tcm-foundation/tcm-neijing/SKILL.md"
+    },
+    {
+      "name": "tcm-shanghan",
+      "title": "伤寒论讲义 Skill",
+      "description": "按六经辨证把《伤寒论》条文整理成「方证—脉证—治法—禁忌」四栏可检索卡片。",
+      "category": "tcm-foundation",
+      "path": "skills/tcm-foundation/tcm-shanghan/SKILL.md"
+    },
+    {
+      "name": "tcm-wenbing",
+      "title": "温病学 Skill",
+      "description": "卫气营血与三焦两条辨证主线并行，配合四大家学说与温病方剂的情境化应用。",
+      "category": "tcm-foundation",
+      "path": "skills/tcm-foundation/tcm-wenbing/SKILL.md"
+    },
+    {
+      "name": "tcm-internal-medicine",
+      "title": "中医内科学 Skill",
+      "description": "按「病—证—法—方—药」五级落点，把内科各病种的辨证分型训练成可判分的诊疗路径。",
+      "category": "tcm-clinical",
+      "path": "skills/tcm-clinical/tcm-internal-medicine/SKILL.md"
+    },
+    {
+      "name": "tcm-gynecology",
+      "title": "中医妇科学 Skill",
+      "description": "以「经带胎产」四期为轴，把妇科病种的周期疗法与调周法落到具体方药与时机。",
+      "category": "tcm-clinical",
+      "path": "skills/tcm-clinical/tcm-gynecology/SKILL.md"
+    },
+    {
+      "name": "tcm-pediatrics",
+      "title": "中医儿科学 Skill",
+      "description": "按小儿生理特点调整问诊重心与用药剂量，把儿科病种转成家长可执行的照护任务。",
+      "category": "tcm-clinical",
+      "path": "skills/tcm-clinical/tcm-pediatrics/SKILL.md"
+    },
+    {
+      "name": "tcm-case-dialectics",
+      "title": "病案辨证实训 Skill",
+      "description": "拉取平台病证单位（DSU）真实病案，做「以病索证 / 以证溯病」的双向辨证对抗训练。",
+      "category": "tcm-clinical",
+      "path": "skills/tcm-clinical/tcm-case-dialectics/SKILL.md"
+    },
+    {
+      "name": "tcm-materia-medica",
+      "title": "中药学 Skill",
+      "description": "按「性味归经—功效—主治—用法用量—使用注意」五要素记忆中药，并做同类药横向比较。",
+      "category": "tcm-materia",
+      "path": "skills/tcm-materia/tcm-materia-medica/SKILL.md"
+    },
+    {
+      "name": "tcm-formulas",
+      "title": "方剂学 Skill",
+      "description": "从君臣佐使拆方义，把「方—证—法」绑定，并训练加减变化对功效的迁移。",
+      "category": "tcm-materia",
+      "path": "skills/tcm-materia/tcm-formulas/SKILL.md"
+    },
+    {
+      "name": "tcm-herb-processing",
+      "title": "中药炮制与鉴定 Skill",
+      "description": "讲清「炮制减毒增效」的原理，并接入平台饮片溯源做过关式鉴定训练。",
+      "category": "tcm-materia",
+      "path": "skills/tcm-materia/tcm-herb-processing/SKILL.md"
+    },
+    {
+      "name": "tcm-meridians-acupoints",
+      "title": "经络腧穴学 Skill",
+      "description": "按「循行—定位—主治—配伍—禁忌」学习经络腧穴，并用体表标志法做定位自测。",
+      "category": "tcm-acupuncture",
+      "path": "skills/tcm-acupuncture/tcm-meridians-acupoints/SKILL.md"
+    },
+    {
+      "name": "tcm-acupuncture-technique",
+      "title": "刺法灸法学 Skill",
+      "description": "把毫针刺法、灸法、拔罐与电针的操作规范拆成可检查的步骤序列与安全边界。",
+      "category": "tcm-acupuncture",
+      "path": "skills/tcm-acupuncture/tcm-acupuncture-technique/SKILL.md"
+    },
+    {
+      "name": "tcm-tuina",
+      "title": "推拿手法学 Skill",
+      "description": "按「力度—频率—着力部位—操作要领」解析推拿手法，并给出可自练的分解动作。",
+      "category": "tcm-acupuncture",
+      "path": "skills/tcm-acupuncture/tcm-tuina/SKILL.md"
+    },
+    {
+      "name": "tcm-orthopedics-trauma",
+      "title": "中医骨伤科学 Skill",
+      "description": "把正骨理筋手法的适应证、复位标准与固定康复方案串成完整的骨伤处理链。",
+      "category": "tcm-orthopedics",
+      "path": "skills/tcm-orthopedics/tcm-orthopedics-trauma/SKILL.md"
+    },
+    {
+      "name": "tcm-ent-stomatology",
+      "title": "中医五官口腔科学 Skill",
+      "description": "按「局部辨证 + 脏腑经络关联」处理眼、耳鼻喉、口腔疾病，避免只见局部不见整体。",
+      "category": "tcm-orthopedics",
+      "path": "skills/tcm-orthopedics/tcm-ent-stomatology/SKILL.md"
+    },
+    {
+      "name": "tcm-dsu-retrieval",
+      "title": "病证单位检索 Skill（RAG）",
+      "description": "用平台的病证单元引擎做检索增强问答：TF-IDF + FTS5 + RRF 融合，内网零 token。",
+      "category": "tcm-intelligence",
+      "path": "skills/tcm-intelligence/tcm-dsu-retrieval/SKILL.md"
+    },
+    {
+      "name": "tcm-kg-query",
+      "title": "病证知识图谱查询 Skill",
+      "description": "查询病证知识图谱的节点与关系，支持以病索证、以证溯病双向遍历与规模统计。",
+      "category": "tcm-intelligence",
+      "path": "skills/tcm-intelligence/tcm-kg-query/SKILL.md"
+    },
+    {
+      "name": "tcm-icd11-coding",
+      "title": "ICD-11 编码桥接 Skill",
+      "description": "把中医病证名称映射到 ICD-11（含传统医学章节）标准编码，走内网镜像零外网依赖。",
+      "category": "tcm-intelligence",
+      "path": "skills/tcm-intelligence/tcm-icd11-coding/SKILL.md"
+    },
+    {
+      "name": "tcm-soul-agent-forge",
+      "title": "六者 SOUL 智能体锻造 Skill",
+      "description": "按六段式 SOUL 规范锻造角色人格，并注册到平台 /agents 端点完成上线。",
+      "category": "tcm-intelligence",
+      "path": "skills/tcm-intelligence/tcm-soul-agent-forge/SKILL.md"
+    },
+    {
+      "name": "tcm-ai-course-lab",
+      "title": "中医 AI 课程实验 Skill",
+      "description": "D07 中医智能学院的六阶实验线：TF-IDF 检索→倒排索引 RRF→RAG 对话→结构化输出→Agent SOUL→医院编排。",
+      "category": "tcm-intelligence",
+      "path": "skills/tcm-intelligence/tcm-ai-course-lab/SKILL.md"
+    },
+    {
+      "name": "tcm-quality-control",
+      "title": "中医医疗质控 Skill",
+      "description": "把中医病历质量、辨证规范性与优势病种管理转成可抽查、可量化的质控指标。",
+      "category": "tcm-management",
+      "path": "skills/tcm-management/tcm-quality-control/SKILL.md"
+    },
+    {
+      "name": "tcm-medical-insurance",
+      "title": "中医医保与法规 Skill",
+      "description": "查清医保报销口径、药品分类与费用估算，并给出可复核的法规依据。",
+      "category": "tcm-management",
+      "path": "skills/tcm-management/tcm-medical-insurance/SKILL.md"
+    },
+    {
+      "name": "tcm-study-plan",
+      "title": "中医学习计划 Skill",
+      "description": "把模糊目标拆成今天、本周与下一轮可执行的中医学习安排。",
+      "category": "tcm-learning-core",
+      "path": "skills/tcm-learning-core/tcm-study-plan/SKILL.md"
+    },
+    {
+      "name": "tcm-mistake-review",
+      "title": "中医错题复盘 Skill",
+      "description": "把错题按「概念型 / 记忆型 / 推理型 / 粗心型」四类归因，并生成复测。",
+      "category": "tcm-learning-core",
+      "path": "skills/tcm-learning-core/tcm-mistake-review/SKILL.md"
+    },
+    {
+      "name": "tcm-photo-question",
+      "title": "中医拍照答疑 Skill",
+      "description": "上传舌象、方剂或教材截图，先识别可见信息再讲解，不臆测不可见内容。",
+      "category": "tcm-learning-core",
+      "path": "skills/tcm-learning-core/tcm-photo-question/SKILL.md"
+    },
+    {
+      "name": "tcm-preview-review",
+      "title": "中医预习与每周复盘 Skill",
+      "description": "课前用问题清单预习，周末用「掌握了什么—还差什么」做结构化复盘。",
+      "category": "tcm-learning-core",
+      "path": "skills/tcm-learning-core/tcm-preview-review/SKILL.md"
+    },
+    {
+      "name": "tcm-learning-report",
+      "title": "中医学情报告 Skill",
+      "description": "把学习行为与考核结果汇总成带证据的学情报告，供学生、教师、师承导师共用。",
+      "category": "tcm-learning-core",
+      "path": "skills/tcm-learning-core/tcm-learning-report/SKILL.md"
+    },
+    {
+      "name": "tcm-licensed-physician-exam",
+      "title": "中医执业医师考试 Skill",
+      "description": "按实践技能与医学综合两阶段拆解考纲，做诊断、提分优先级与限时训练闭环。",
+      "category": "tcm-exam-prep",
+      "path": "skills/tcm-exam-prep/tcm-licensed-physician-exam/SKILL.md"
+    },
+    {
+      "name": "tcm-postgraduate-exam",
+      "title": "考研中医综合 Skill",
+      "description": "面向考研中医综合（中基 / 中诊 / 中药 / 方剂 / 内科 / 针灸），做长周期分段备考。",
+      "category": "tcm-exam-prep",
+      "path": "skills/tcm-exam-prep/tcm-postgraduate-exam/SKILL.md"
+    },
+    {
+      "name": "tcm-residency-training",
+      "title": "住院医师规范化培训 Skill",
+      "description": "按轮转科室与出科考核组织规培学习，对接医圣成长的病证数门槛。",
+      "category": "tcm-exam-prep",
+      "path": "skills/tcm-exam-prep/tcm-residency-training/SKILL.md"
+    },
+    {
+      "name": "role-healer",
+      "title": "医者 Agent Skill（含师带徒）",
+      "description": "医者临床辅助与带教一体：病证推理、方剂推荐、师带徒教学与医圣成长路径规划。",
+      "category": "tcm-role-agents",
+      "path": "skills/tcm-role-agents/role-healer/SKILL.md"
+    },
+    {
+      "name": "role-patient",
+      "title": "患者 Agent Skill",
+      "description": "面向患者的症状自查、导诊建议与用药说明，明确边界、突出就医提示。",
+      "category": "tcm-role-agents",
+      "path": "skills/tcm-role-agents/role-patient/SKILL.md"
+    },
+    {
+      "name": "role-pharmacist",
+      "title": "药者 Agent Skill",
+      "description": "处方审核、相互作用核查、替代建议与饮片溯源一体化的药事服务能力。",
+      "category": "tcm-role-agents",
+      "path": "skills/tcm-role-agents/role-pharmacist/SKILL.md"
+    },
+    {
+      "name": "role-device",
+      "title": "械者 Agent Skill",
+      "description": "中医诊疗设备的维护、影像辅助、采购论证与质控追溯，打通设备全生命周期。",
+      "category": "tcm-role-agents",
+      "path": "skills/tcm-role-agents/role-device/SKILL.md"
+    },
+    {
+      "name": "role-regulator",
+      "title": "规者 Agent Skill",
+      "description": "质控管理、排班优化、资源利用与应急调度：用指标驱动医院运行。",
+      "category": "tcm-role-agents",
+      "path": "skills/tcm-role-agents/role-regulator/SKILL.md"
+    },
+    {
+      "name": "role-legal",
+      "title": "法者 Agent Skill",
+      "description": "医疗风险识别、知情同意、法规查询与纠纷预防，并覆盖医保报销合规口径。",
+      "category": "tcm-role-agents",
+      "path": "skills/tcm-role-agents/role-legal/SKILL.md"
+    },
+    {
+      "name": "sage-mentorship",
+      "title": "医圣带教 Skill",
+      "description": "调用张仲景 / 孙思邈人格做专题授课与病案点评，按学员层级调整深度。",
+      "category": "tcm-sage-growth",
+      "path": "skills/tcm-sage-growth/sage-mentorship/SKILL.md"
+    },
+    {
+      "name": "sage-growth-path",
+      "title": "医圣成长路径 Skill",
+      "description": "把职称阶段映射为病证数门槛与能力清单，给出可追踪、可考核的成长路径。",
+      "category": "tcm-sage-growth",
+      "path": "skills/tcm-sage-growth/sage-growth-path/SKILL.md"
+    },
+    {
+      "name": "tcm-lesson-prep",
+      "title": "中医备课 Skill",
+      "description": "按学时与学情生成教案：目标、重点难点、板书结构、课堂活动与作业。",
+      "category": "tcm-teacher-tools",
+      "path": "skills/tcm-teacher-tools/tcm-lesson-prep/SKILL.md"
+    },
+    {
+      "name": "tcm-item-generation",
+      "title": "中医命题与组卷 Skill",
+      "description": "按知识点与难度分布命题组卷，自动配答案、解析、评分标准与双向细目表。",
+      "category": "tcm-teacher-tools",
+      "path": "skills/tcm-teacher-tools/tcm-item-generation/SKILL.md"
+    }
+  ]
+}

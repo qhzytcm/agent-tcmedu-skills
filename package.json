@@ -1,0 +1,66 @@
+{
+  "name": "agent-tcmedu-skills",
+  "version": "0.1.0",
+  "private": false,
+  "description": "tcmP 中医药网络教育平台的 Agent Skill Pack 亚项目：把中医基础、经典、临床、中药方剂、针灸推拿、骨伤五官、中医智能、中医管理，以及六者角色与医圣成长，封装成 Hermes Agent 可发现、可调用、可安装的结构化能力库。",
+  "license": "MIT",
+  "type": "module",
+  "homepage": "https://www.zyyywaccn.com.cn/",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/qhzytcm/agent-tcmedu-skills.git"
+  },
+  "bin": {
+    "agent-tcmedu": "scripts/agent-pack.mjs",
+    "agent-tcmedu-skills": "scripts/agent-pack.mjs"
+  },
+  "keywords": [
+    "hermes-agent",
+    "agent-skills",
+    "skill-pack",
+    "tcm",
+    "tcmp",
+    "中医药",
+    "中医教育",
+    "网络教育平台",
+    "六者",
+    "医圣成长",
+    "教材同步",
+    "病证单位",
+    "icd-11",
+    "知识图谱"
+  ],
+  "scripts": {
+    "build": "node scripts/build-pack.mjs",
+    "validate": "node scripts/validate.mjs",
+    "check:docs": "node scripts/check-docs.mjs",
+    "verify": "node scripts/build-pack.mjs && node scripts/validate.mjs && node scripts/check-docs.mjs",
+    "list": "node scripts/agent-pack.mjs list",
+    "search": "node scripts/agent-pack.mjs search",
+    "info": "node scripts/agent-pack.mjs info",
+    "match": "node scripts/agent-pack.mjs match",
+    "ask": "node scripts/agent-pack.mjs ask",
+    "doctor": "node scripts/agent-pack.mjs doctor",
+    "prompt": "node scripts/agent-pack.mjs prompt",
+    "install:hermes": "node scripts/agent-pack.mjs install hermes",
+    "export:generic": "node scripts/agent-pack.mjs export generic --target ./dist/agent-skills"
+  },
+  "files": [
+    "skills",
+    "scripts",
+    "docs",
+    "catalog.json",
+    ".well-known/skills/index.json",
+    "HERMES.md",
+    "README.md",
+    "README.en.md",
+    "LICENSE",
+    "CHANGELOG.md",
+    "CONTRIBUTING.md",
+    "RELEASE.md",
+    "SECURITY.md"
+  ],
+  "engines": {
+    "node": ">=20"
+  }
+}
