@@ -1,7 +1,7 @@
 ---
 name: "tcm-ai-course-lab"
 description: "D07 中医智能学院的六阶实验线：TF-IDF 检索→倒排索引 RRF→RAG 对话→结构化输出→Agent SOUL→医院编排。"
-version: "0.1.0"
+version: "0.2.0"
 author: qhzytcm
 license: MIT
 platforms: [windows, linux, macos]
@@ -11,6 +11,7 @@ metadata:
     source: agent-tcmedu-skills
     category: "tcm-intelligence"
     domain: "D07"
+    library_code: "6.1.3.1"
     stages: ["本科","硕士","继续教育"]
     subjects: ["中医智能","软件工程"]
     abilities: ["工程实践","检索与 RAG"]
@@ -27,6 +28,14 @@ metadata:
 # 中医 AI 课程实验 Skill
 
 中医智能方向缺一条「从零到平台」的可跑实验线，学习者常在概念与工程之间断层。本 Skill 把 ai-curriculum 六阶实验串成可逐阶验收的课程。
+
+## 四级目录定位 / Library Position
+
+**四级编码** `6.1.3.1`（篇·章·节·目，横向读即完整编码）
+
+**定位路径** 06 中医智能 / 01 中医智能 / 03 教学与学习 / 01 中医 AI 课程实验 Skill
+
+> 完整目录见 [`docs/05-四级目录（篇·章·节·目）.md`](../../../docs/05-四级目录（篇·章·节·目）.md)。
 
 ## 最适合 / Best For
 

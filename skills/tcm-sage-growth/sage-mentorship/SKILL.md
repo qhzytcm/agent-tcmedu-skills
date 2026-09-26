@@ -1,7 +1,7 @@
 ---
 name: "sage-mentorship"
 description: "调用张仲景 / 孙思邈人格做专题授课与病案点评，按学员层级调整深度。 依赖 tcmP 平台接口，离线不可用。"
-version: "0.1.0"
+version: "0.2.0"
 author: qhzytcm
 license: MIT
 platforms: [windows, linux, macos]
@@ -11,6 +11,7 @@ metadata:
     source: agent-tcmedu-skills
     category: "tcm-sage-growth"
     domain: "平台"
+    library_code: "11.1.1.1"
     stages: ["规培","继续教育"]
     subjects: ["中医各家学说"]
     abilities: ["师承教学","流派对比"]
@@ -30,6 +31,14 @@ metadata:
 # 医圣带教 Skill
 
 医圣人格若只做问答，就浪费了其学术风格差异。本 Skill 用「人格—主题—层级」三维匹配，让张仲景讲六经、孙思邈讲博采众长。
+
+## 四级目录定位 / Library Position
+
+**四级编码** `11.1.1.1`（篇·章·节·目，横向读即完整编码）
+
+**定位路径** 11 医圣成长 / 01 中医各家学说 / 01 平台与角色 / 01 医圣带教 Skill
+
+> 完整目录见 [`docs/05-四级目录（篇·章·节·目）.md`](../../../docs/05-四级目录（篇·章·节·目）.md)。
 
 ## 最适合 / Best For
 

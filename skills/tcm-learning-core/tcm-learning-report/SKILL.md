@@ -1,7 +1,7 @@
 ---
 name: "tcm-learning-report"
 description: "把学习行为与考核结果汇总成带证据的学情报告，供学生、教师、师承导师共用。"
-version: "0.1.0"
+version: "0.2.0"
 author: qhzytcm
 license: MIT
 platforms: [windows, linux, macos]
@@ -11,6 +11,7 @@ metadata:
     source: agent-tcmedu-skills
     category: "tcm-learning-core"
     domain: "-"
+    library_code: "8.1.1.5"
     stages: ["本科","硕士","规培","继续教育"]
     subjects: ["学习能力"]
     abilities: ["学情分析","数据证据"]
@@ -27,6 +28,14 @@ metadata:
 # 中医学情报告 Skill
 
 学情报告常停留在「态度端正、继续努力」。本 Skill 要求每条结论都带证据，并区分「已掌握 / 需巩固 / 未覆盖」。
+
+## 四级目录定位 / Library Position
+
+**四级编码** `8.1.1.5`（篇·章·节·目，横向读即完整编码）
+
+**定位路径** 08 学习核心 / 01 学习能力 / 01 教学与学习 / 05 中医学情报告 Skill
+
+> 完整目录见 [`docs/05-四级目录（篇·章·节·目）.md`](../../../docs/05-四级目录（篇·章·节·目）.md)。
 
 ## 最适合 / Best For
 

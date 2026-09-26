@@ -1,7 +1,7 @@
 ---
 name: "tcm-basic-theory"
 description: "把阴阳五行、藏象、气血津液、经络、病因病机转成可自检的概念网络学习任务。"
-version: "0.1.0"
+version: "0.2.0"
 author: qhzytcm
 license: MIT
 platforms: [windows, linux, macos]
@@ -11,6 +11,7 @@ metadata:
     source: agent-tcmedu-skills
     category: "tcm-foundation"
     domain: "D01"
+    library_code: "1.1.1.1"
     stages: ["本科"]
     subjects: ["中医基础理论"]
     abilities: ["概念网络","知识记忆"]
@@ -28,6 +29,14 @@ metadata:
 # 中医基础理论 Skill
 
 中医基础理论概念密集且相互定义，学习者容易「背得下名词、串不起关系」。本 Skill 把 S01 教材的章节骨架转成概念网络，让学习者每完成一次学习都能回答「这个概念和谁有关、靠什么证据成立」。
+
+## 四级目录定位 / Library Position
+
+**四级编码** `1.1.1.1`（篇·章·节·目，横向读即完整编码）
+
+**定位路径** 01 中医基础与经典 / 01 中医基础理论 / 01 概念与记忆 / 01 中医基础理论 Skill
+
+> 完整目录见 [`docs/05-四级目录（篇·章·节·目）.md`](../../../docs/05-四级目录（篇·章·节·目）.md)。
 
 ## 最适合 / Best For
 

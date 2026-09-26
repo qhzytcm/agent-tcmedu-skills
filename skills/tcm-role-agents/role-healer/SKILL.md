@@ -1,7 +1,7 @@
 ---
 name: "role-healer"
 description: "医者临床辅助与带教一体：病证推理、方剂推荐、师带徒教学与医圣成长路径规划。 依赖 tcmP 平台接口，离线不可用。"
-version: "0.1.0"
+version: "0.2.0"
 author: qhzytcm
 license: MIT
 platforms: [windows, linux, macos]
@@ -11,6 +11,7 @@ metadata:
     source: agent-tcmedu-skills
     category: "tcm-role-agents"
     domain: "平台"
+    library_code: "10.1.1.1"
     stages: ["规培","继续教育"]
     subjects: ["中医临床综合"]
     abilities: ["辨证论治","师带徒教学"]
@@ -30,6 +31,14 @@ metadata:
 # 医者 Agent Skill（含师带徒）
 
 医者是六者的核心枢纽，既要服务临床又要带教。若两者割裂，带教就会退化成脱离病例的讲授。本 Skill 强制「以病例为教学载体」。
+
+## 四级目录定位 / Library Position
+
+**四级编码** `10.1.1.1`（篇·章·节·目，横向读即完整编码）
+
+**定位路径** 10 六者角色 / 01 中医临床综合 / 01 平台与角色 / 01 医者 Agent Skill（含师带徒）
+
+> 完整目录见 [`docs/05-四级目录（篇·章·节·目）.md`](../../../docs/05-四级目录（篇·章·节·目）.md)。
 
 ## 最适合 / Best For
 

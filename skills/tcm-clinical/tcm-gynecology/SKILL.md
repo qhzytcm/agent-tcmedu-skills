@@ -1,7 +1,7 @@
 ---
 name: "tcm-gynecology"
 description: "以「经带胎产」四期为轴，把妇科病种的周期疗法与调周法落到具体方药与时机。"
-version: "0.1.0"
+version: "0.2.0"
 author: qhzytcm
 license: MIT
 platforms: [windows, linux, macos]
@@ -11,6 +11,7 @@ metadata:
     source: agent-tcmedu-skills
     category: "tcm-clinical"
     domain: "D01"
+    library_code: "2.2.1.1"
     stages: ["本科","规培"]
     subjects: ["中医妇科学"]
     abilities: ["周期疗法","调周法"]
@@ -29,6 +30,14 @@ metadata:
 # 中医妇科学 Skill
 
 妇科用药强调「因时制宜」，同一病种在不同周期用方不同。本 Skill 把时间轴显式化，避免不分周期一律用同一方。
+
+## 四级目录定位 / Library Position
+
+**四级编码** `2.2.1.1`（篇·章·节·目，横向读即完整编码）
+
+**定位路径** 02 中医临床各科 / 02 中医妇科学 / 01 综合能力 / 01 中医妇科学 Skill
+
+> 完整目录见 [`docs/05-四级目录（篇·章·节·目）.md`](../../../docs/05-四级目录（篇·章·节·目）.md)。
 
 ## 最适合 / Best For
 

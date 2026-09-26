@@ -1,7 +1,7 @@
 ---
 name: "tcm-kg-query"
 description: "查询病证知识图谱的节点与关系，支持以病索证、以证溯病双向遍历与规模统计。 依赖 tcmP 平台接口，离线不可用。"
-version: "0.1.0"
+version: "0.2.0"
 author: qhzytcm
 license: MIT
 platforms: [windows, linux, macos]
@@ -11,6 +11,7 @@ metadata:
     source: agent-tcmedu-skills
     category: "tcm-intelligence"
     domain: "D07"
+    library_code: "6.1.1.2"
     stages: ["本科","硕士"]
     subjects: ["中医智能","知识图谱"]
     abilities: ["图谱查询","双向遍历"]
@@ -28,6 +29,14 @@ metadata:
 # 病证知识图谱查询 Skill
 
 图谱数据在平台里，学习者看不到结构，也难以验证「教材知识如何进入图谱」。本 Skill 把图谱查询变成可练习、可讲解的任务。
+
+## 四级目录定位 / Library Position
+
+**四级编码** `6.1.1.2`（篇·章·节·目，横向读即完整编码）
+
+**定位路径** 06 中医智能 / 01 中医智能 / 01 检索与数据 / 02 病证知识图谱查询 Skill
+
+> 完整目录见 [`docs/05-四级目录（篇·章·节·目）.md`](../../../docs/05-四级目录（篇·章·节·目）.md)。
 
 ## 最适合 / Best For
 

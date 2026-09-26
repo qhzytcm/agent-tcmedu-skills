@@ -1,7 +1,7 @@
 ---
 name: "tcm-mistake-review"
 description: "把错题按「概念型 / 记忆型 / 推理型 / 粗心型」四类归因，并生成复测。"
-version: "0.1.0"
+version: "0.2.0"
 author: qhzytcm
 license: MIT
 platforms: [windows, linux, macos]
@@ -11,6 +11,7 @@ metadata:
     source: agent-tcmedu-skills
     category: "tcm-learning-core"
     domain: "-"
+    library_code: "8.1.1.2"
     stages: ["本科","硕士","规培"]
     subjects: ["学习能力"]
     abilities: ["错题订正","复习计划"]
@@ -27,6 +28,14 @@ metadata:
 # 中医错题复盘 Skill
 
 中医错题常被笼统归为「没背熟」，但真正的失分点是辨证推理错误。本 Skill 强制四类归因，让复习打在最痛处。
+
+## 四级目录定位 / Library Position
+
+**四级编码** `8.1.1.2`（篇·章·节·目，横向读即完整编码）
+
+**定位路径** 08 学习核心 / 01 学习能力 / 01 教学与学习 / 02 中医错题复盘 Skill
+
+> 完整目录见 [`docs/05-四级目录（篇·章·节·目）.md`](../../../docs/05-四级目录（篇·章·节·目）.md)。
 
 ## 最适合 / Best For
 

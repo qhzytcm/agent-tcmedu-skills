@@ -4,7 +4,7 @@
 
 Turn Traditional Chinese Medicine education scenarios into discoverable, callable, installable, and exportable capabilities for Hermes Agent and other AI agent runtimes.
 
-`v0.1.0` · `42 Skills` · `12 Categories` · `17 platform-bound / 25 offline` · MIT
+`v0.2.0` · `72 Skills` · `12 Categories` · `Four-level catalog (part·chapter·section·item)` · `120 subjects aligned` · MIT
 
 [中文说明](README.md)
 
@@ -20,7 +20,7 @@ The platform already provides 120 textbooks across 8 domains, a disease–syndro
 | --- | --- |
 | What is it | An open Agent Skill Pack for TCM education, and a tcmP sub-project. |
 | Why | Generic agents don't understand TCM textbook systems, syndrome-differentiation paradigms, six-role hospital jobs, or the sage growth path. |
-| How | 42 structured `SKILL.md` files encoding textbook sync, syndrome reasoning, platform retrieval, and growth assessment. |
+| How | 72 structured `SKILL.md` files encoding textbook sync, syndrome reasoning, platform retrieval, and growth assessment, organized as a four-level catalog. |
 | Default runtime | Hermes Agent (via `skills.external_dirs`). |
 | Exportable to | Generic flat skill packs (`export generic`). |
 | Relation to platform | Read-only consumption of platform APIs and textbook codes. No data, no secrets in this repo. |
@@ -54,20 +54,43 @@ node scripts/agent-pack.mjs export generic --target ./dist/agent-skills
 
 | Category | Selector | Domain | Skills |
 | --- | --- | :-: | :-: |
-| TCM Foundation & Classics | `tcm-foundation` | D01 | 5 |
-| TCM Clinical | `tcm-clinical` | D01 | 4 |
-| Materia Medica & Formulas | `tcm-materia` | D02 | 3 |
-| Acupuncture & Tuina | `tcm-acupuncture` | D03,D04 | 3 |
-| Orthopedics, ENT & Stomatology | `tcm-orthopedics` | D05,D06 | 2 |
+| TCM Foundation & Classics | `tcm-foundation` | D01 | 8 |
+| TCM Clinical | `tcm-clinical` | D01 | 11 |
+| Materia Medica & Formulas | `tcm-materia` | D02 | 10 |
+| Acupuncture & Tuina | `tcm-acupuncture` | D03,D04 | 7 |
+| Orthopedics, ENT & Stomatology | `tcm-orthopedics` | D05,D06 | 8 |
 | TCM Intelligence | `tcm-intelligence` | D07 | 5 |
-| TCM Management | `tcm-management` | D08 | 2 |
+| TCM Management | `tcm-management` | D08 | 5 |
 | Learning Core | `tcm-learning-core` | - | 5 |
 | Exam Prep | `tcm-exam-prep` | - | 3 |
 | Six-Role Agents | `tcm-role-agents` | platform | 6 |
 | Sage Growth | `tcm-sage-growth` | platform | 2 |
 | Teacher Tools | `tcm-teacher-tools` | - | 2 |
 
-Full skill table: [`docs/01-能力地图.md`](docs/01-能力地图.md) · Machine-readable: [`catalog.json`](catalog.json)
+22 skills are platform-bound; 50 work fully offline.
+
+Full skill list: [`docs/05-四级目录（篇·章·节·目）.md`](docs/05-四级目录（篇·章·节·目）.md) · Machine-readable: [`catalog.json`](catalog.json)
+
+---
+
+## Four-level catalog (篇·章·节·目)
+
+| Level | Name | Value | Scale |
+| :-: | --- | --- | :-: |
+| L1 篇 | Category | the 12 categories | **12** |
+| L2 章 | Discipline | skill's primary subject | **57** |
+| L3 节 | Capability family | 9 derived families | **61** |
+| L4 目 | Skill | one skill = one executable teaching workflow | **72** |
+
+Codes are plain numbers read horizontally, mirroring the tcmP textbook four-level code convention (e.g. `1.2.1.1`).
+
+---
+
+## Subject coverage (tcmP 120 subjects)
+
+**55 / 120 (45.8%)** covered. Per-subject detail and gap list: [`docs/06-学科覆盖矩阵.md`](docs/06-学科覆盖矩阵.md).
+
+Extension principle: **not one skill per subject** — uncovered subjects are first attached to existing skills via parameterization; a new skill is added only when the teaching workflow itself differs.
 
 ---
 

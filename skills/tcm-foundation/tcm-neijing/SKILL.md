@@ -1,7 +1,7 @@
 ---
 name: "tcm-neijing"
 description: "《黄帝内经》原文—注释—译文三层对照研读，并把经文落到现代生理与临床场景。"
-version: "0.1.0"
+version: "0.2.0"
 author: qhzytcm
 license: MIT
 platforms: [windows, linux, macos]
@@ -11,6 +11,7 @@ metadata:
     source: agent-tcmedu-skills
     category: "tcm-foundation"
     domain: "D01"
+    library_code: "1.3.1.1"
     stages: ["本科","硕士"]
     subjects: ["内经选读"]
     abilities: ["经典研读","医古文"]
@@ -28,6 +29,14 @@ metadata:
 # 内经选读 Skill
 
 内经学习常卡在「文言读不懂」与「读懂了不知道有什么用」两端。本 Skill 用三层对照解决前者，用「经文—现代映射—临床场景」解决后者。
+
+## 四级目录定位 / Library Position
+
+**四级编码** `1.3.1.1`（篇·章·节·目，横向读即完整编码）
+
+**定位路径** 01 中医基础与经典 / 03 内经选读 / 01 经典研读 / 01 内经选读 Skill
+
+> 完整目录见 [`docs/05-四级目录（篇·章·节·目）.md`](../../../docs/05-四级目录（篇·章·节·目）.md)。
 
 ## 最适合 / Best For
 

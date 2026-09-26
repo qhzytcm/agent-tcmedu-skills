@@ -1,7 +1,7 @@
 ---
 name: "tcm-herb-processing"
 description: "讲清「炮制减毒增效」的原理，并接入平台饮片溯源做过关式鉴定训练。 依赖 tcmP 平台接口，离线不可用。"
-version: "0.1.0"
+version: "0.2.0"
 author: qhzytcm
 license: MIT
 platforms: [windows, linux, macos]
@@ -11,6 +11,7 @@ metadata:
     source: agent-tcmedu-skills
     category: "tcm-materia"
     domain: "D02"
+    library_code: "3.3.1.1"
     stages: ["本科","继续教育"]
     subjects: ["中药炮制学","中药鉴定学"]
     abilities: ["炮制原理","性状鉴别"]
@@ -30,6 +31,14 @@ metadata:
 # 中药炮制与鉴定 Skill
 
 炮制前后的药性与毒性与临床安全直接相关，但教材多以记忆表呈现。本 Skill 用「原理—变化—临床后果」串起来，并接溯源接口做实操感。
+
+## 四级目录定位 / Library Position
+
+**四级编码** `3.3.1.1`（篇·章·节·目，横向读即完整编码）
+
+**定位路径** 03 中药与方剂 / 03 中药炮制学 / 01 实操与技法 / 01 中药炮制与鉴定 Skill
+
+> 完整目录见 [`docs/05-四级目录（篇·章·节·目）.md`](../../../docs/05-四级目录（篇·章·节·目）.md)。
 
 ## 最适合 / Best For
 

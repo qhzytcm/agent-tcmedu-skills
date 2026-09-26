@@ -1,15 +1,16 @@
 {
   "name": "agent-tcmedu-skills",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "tcmP 中医药网络教育平台 Agent Skill Pack 发现索引（.well-known/skills/index.json）",
   "generatedFrom": "scripts/skills.spec.mjs",
-  "skillCount": 42,
+  "skillCount": 72,
   "skills": [
     {
       "name": "tcm-basic-theory",
       "title": "中医基础理论 Skill",
       "description": "把阴阳五行、藏象、气血津液、经络、病因病机转成可自检的概念网络学习任务。",
       "category": "tcm-foundation",
+      "libraryCode": "1.1.1.1",
       "path": "skills/tcm-foundation/tcm-basic-theory/SKILL.md"
     },
     {
@@ -17,6 +18,7 @@
       "title": "中医诊断学 Skill",
       "description": "把望闻问切四诊信息规范成可复用的采集表单，并训练「四诊合参→辨证要素」的推理链。",
       "category": "tcm-foundation",
+      "libraryCode": "1.2.1.1",
       "path": "skills/tcm-foundation/tcm-diagnostics/SKILL.md"
     },
     {
@@ -24,6 +26,7 @@
       "title": "内经选读 Skill",
       "description": "《黄帝内经》原文—注释—译文三层对照研读，并把经文落到现代生理与临床场景。",
       "category": "tcm-foundation",
+      "libraryCode": "1.3.1.1",
       "path": "skills/tcm-foundation/tcm-neijing/SKILL.md"
     },
     {
@@ -31,6 +34,7 @@
       "title": "伤寒论讲义 Skill",
       "description": "按六经辨证把《伤寒论》条文整理成「方证—脉证—治法—禁忌」四栏可检索卡片。",
       "category": "tcm-foundation",
+      "libraryCode": "1.4.1.1",
       "path": "skills/tcm-foundation/tcm-shanghan/SKILL.md"
     },
     {
@@ -38,6 +42,7 @@
       "title": "温病学 Skill",
       "description": "卫气营血与三焦两条辨证主线并行，配合四大家学说与温病方剂的情境化应用。",
       "category": "tcm-foundation",
+      "libraryCode": "1.5.1.1",
       "path": "skills/tcm-foundation/tcm-wenbing/SKILL.md"
     },
     {
@@ -45,6 +50,7 @@
       "title": "中医内科学 Skill",
       "description": "按「病—证—法—方—药」五级落点，把内科各病种的辨证分型训练成可判分的诊疗路径。",
       "category": "tcm-clinical",
+      "libraryCode": "2.1.1.1",
       "path": "skills/tcm-clinical/tcm-internal-medicine/SKILL.md"
     },
     {
@@ -52,6 +58,7 @@
       "title": "中医妇科学 Skill",
       "description": "以「经带胎产」四期为轴，把妇科病种的周期疗法与调周法落到具体方药与时机。",
       "category": "tcm-clinical",
+      "libraryCode": "2.2.1.1",
       "path": "skills/tcm-clinical/tcm-gynecology/SKILL.md"
     },
     {
@@ -59,6 +66,7 @@
       "title": "中医儿科学 Skill",
       "description": "按小儿生理特点调整问诊重心与用药剂量，把儿科病种转成家长可执行的照护任务。",
       "category": "tcm-clinical",
+      "libraryCode": "2.3.1.1",
       "path": "skills/tcm-clinical/tcm-pediatrics/SKILL.md"
     },
     {
@@ -66,6 +74,7 @@
       "title": "病案辨证实训 Skill",
       "description": "拉取平台病证单位（DSU）真实病案，做「以病索证 / 以证溯病」的双向辨证对抗训练。",
       "category": "tcm-clinical",
+      "libraryCode": "2.4.1.1",
       "path": "skills/tcm-clinical/tcm-case-dialectics/SKILL.md"
     },
     {
@@ -73,6 +82,7 @@
       "title": "中药学 Skill",
       "description": "按「性味归经—功效—主治—用法用量—使用注意」五要素记忆中药，并做同类药横向比较。",
       "category": "tcm-materia",
+      "libraryCode": "3.1.1.1",
       "path": "skills/tcm-materia/tcm-materia-medica/SKILL.md"
     },
     {
@@ -80,6 +90,7 @@
       "title": "方剂学 Skill",
       "description": "从君臣佐使拆方义，把「方—证—法」绑定，并训练加减变化对功效的迁移。",
       "category": "tcm-materia",
+      "libraryCode": "3.2.1.1",
       "path": "skills/tcm-materia/tcm-formulas/SKILL.md"
     },
     {
@@ -87,6 +98,7 @@
       "title": "中药炮制与鉴定 Skill",
       "description": "讲清「炮制减毒增效」的原理，并接入平台饮片溯源做过关式鉴定训练。",
       "category": "tcm-materia",
+      "libraryCode": "3.3.1.1",
       "path": "skills/tcm-materia/tcm-herb-processing/SKILL.md"
     },
     {
@@ -94,6 +106,7 @@
       "title": "经络腧穴学 Skill",
       "description": "按「循行—定位—主治—配伍—禁忌」学习经络腧穴，并用体表标志法做定位自测。",
       "category": "tcm-acupuncture",
+      "libraryCode": "4.1.1.1",
       "path": "skills/tcm-acupuncture/tcm-meridians-acupoints/SKILL.md"
     },
     {
@@ -101,6 +114,7 @@
       "title": "刺法灸法学 Skill",
       "description": "把毫针刺法、灸法、拔罐与电针的操作规范拆成可检查的步骤序列与安全边界。",
       "category": "tcm-acupuncture",
+      "libraryCode": "4.2.1.1",
       "path": "skills/tcm-acupuncture/tcm-acupuncture-technique/SKILL.md"
     },
     {
@@ -108,6 +122,7 @@
       "title": "推拿手法学 Skill",
       "description": "按「力度—频率—着力部位—操作要领」解析推拿手法，并给出可自练的分解动作。",
       "category": "tcm-acupuncture",
+      "libraryCode": "4.3.1.1",
       "path": "skills/tcm-acupuncture/tcm-tuina/SKILL.md"
     },
     {
@@ -115,6 +130,7 @@
       "title": "中医骨伤科学 Skill",
       "description": "把正骨理筋手法的适应证、复位标准与固定康复方案串成完整的骨伤处理链。",
       "category": "tcm-orthopedics",
+      "libraryCode": "5.1.1.1",
       "path": "skills/tcm-orthopedics/tcm-orthopedics-trauma/SKILL.md"
     },
     {
@@ -122,6 +138,7 @@
       "title": "中医五官口腔科学 Skill",
       "description": "按「局部辨证 + 脏腑经络关联」处理眼、耳鼻喉、口腔疾病，避免只见局部不见整体。",
       "category": "tcm-orthopedics",
+      "libraryCode": "5.2.1.1",
       "path": "skills/tcm-orthopedics/tcm-ent-stomatology/SKILL.md"
     },
     {
@@ -129,6 +146,7 @@
       "title": "病证单位检索 Skill（RAG）",
       "description": "用平台的病证单元引擎做检索增强问答：TF-IDF + FTS5 + RRF 融合，内网零 token。",
       "category": "tcm-intelligence",
+      "libraryCode": "6.1.1.1",
       "path": "skills/tcm-intelligence/tcm-dsu-retrieval/SKILL.md"
     },
     {
@@ -136,6 +154,7 @@
       "title": "病证知识图谱查询 Skill",
       "description": "查询病证知识图谱的节点与关系，支持以病索证、以证溯病双向遍历与规模统计。",
       "category": "tcm-intelligence",
+      "libraryCode": "6.1.1.2",
       "path": "skills/tcm-intelligence/tcm-kg-query/SKILL.md"
     },
     {
@@ -143,6 +162,7 @@
       "title": "ICD-11 编码桥接 Skill",
       "description": "把中医病证名称映射到 ICD-11（含传统医学章节）标准编码，走内网镜像零外网依赖。",
       "category": "tcm-intelligence",
+      "libraryCode": "6.1.1.3",
       "path": "skills/tcm-intelligence/tcm-icd11-coding/SKILL.md"
     },
     {
@@ -150,6 +170,7 @@
       "title": "六者 SOUL 智能体锻造 Skill",
       "description": "按六段式 SOUL 规范锻造角色人格，并注册到平台 /agents 端点完成上线。",
       "category": "tcm-intelligence",
+      "libraryCode": "6.1.2.1",
       "path": "skills/tcm-intelligence/tcm-soul-agent-forge/SKILL.md"
     },
     {
@@ -157,6 +178,7 @@
       "title": "中医 AI 课程实验 Skill",
       "description": "D07 中医智能学院的六阶实验线：TF-IDF 检索→倒排索引 RRF→RAG 对话→结构化输出→Agent SOUL→医院编排。",
       "category": "tcm-intelligence",
+      "libraryCode": "6.1.3.1",
       "path": "skills/tcm-intelligence/tcm-ai-course-lab/SKILL.md"
     },
     {
@@ -164,6 +186,7 @@
       "title": "中医医疗质控 Skill",
       "description": "把中医病历质量、辨证规范性与优势病种管理转成可抽查、可量化的质控指标。",
       "category": "tcm-management",
+      "libraryCode": "7.1.1.1",
       "path": "skills/tcm-management/tcm-quality-control/SKILL.md"
     },
     {
@@ -171,6 +194,7 @@
       "title": "中医医保与法规 Skill",
       "description": "查清医保报销口径、药品分类与费用估算，并给出可复核的法规依据。",
       "category": "tcm-management",
+      "libraryCode": "7.1.1.2",
       "path": "skills/tcm-management/tcm-medical-insurance/SKILL.md"
     },
     {
@@ -178,6 +202,7 @@
       "title": "中医学习计划 Skill",
       "description": "把模糊目标拆成今天、本周与下一轮可执行的中医学习安排。",
       "category": "tcm-learning-core",
+      "libraryCode": "8.1.1.1",
       "path": "skills/tcm-learning-core/tcm-study-plan/SKILL.md"
     },
     {
@@ -185,6 +210,7 @@
       "title": "中医错题复盘 Skill",
       "description": "把错题按「概念型 / 记忆型 / 推理型 / 粗心型」四类归因，并生成复测。",
       "category": "tcm-learning-core",
+      "libraryCode": "8.1.1.2",
       "path": "skills/tcm-learning-core/tcm-mistake-review/SKILL.md"
     },
     {
@@ -192,6 +218,7 @@
       "title": "中医拍照答疑 Skill",
       "description": "上传舌象、方剂或教材截图，先识别可见信息再讲解，不臆测不可见内容。",
       "category": "tcm-learning-core",
+      "libraryCode": "8.1.1.3",
       "path": "skills/tcm-learning-core/tcm-photo-question/SKILL.md"
     },
     {
@@ -199,6 +226,7 @@
       "title": "中医预习与每周复盘 Skill",
       "description": "课前用问题清单预习，周末用「掌握了什么—还差什么」做结构化复盘。",
       "category": "tcm-learning-core",
+      "libraryCode": "8.1.1.4",
       "path": "skills/tcm-learning-core/tcm-preview-review/SKILL.md"
     },
     {
@@ -206,6 +234,7 @@
       "title": "中医学情报告 Skill",
       "description": "把学习行为与考核结果汇总成带证据的学情报告，供学生、教师、师承导师共用。",
       "category": "tcm-learning-core",
+      "libraryCode": "8.1.1.5",
       "path": "skills/tcm-learning-core/tcm-learning-report/SKILL.md"
     },
     {
@@ -213,6 +242,7 @@
       "title": "中医执业医师考试 Skill",
       "description": "按实践技能与医学综合两阶段拆解考纲，做诊断、提分优先级与限时训练闭环。",
       "category": "tcm-exam-prep",
+      "libraryCode": "9.1.1.1",
       "path": "skills/tcm-exam-prep/tcm-licensed-physician-exam/SKILL.md"
     },
     {
@@ -220,6 +250,7 @@
       "title": "考研中医综合 Skill",
       "description": "面向考研中医综合（中基 / 中诊 / 中药 / 方剂 / 内科 / 针灸），做长周期分段备考。",
       "category": "tcm-exam-prep",
+      "libraryCode": "9.1.2.1",
       "path": "skills/tcm-exam-prep/tcm-postgraduate-exam/SKILL.md"
     },
     {
@@ -227,6 +258,7 @@
       "title": "住院医师规范化培训 Skill",
       "description": "按轮转科室与出科考核组织规培学习，对接医圣成长的病证数门槛。",
       "category": "tcm-exam-prep",
+      "libraryCode": "9.1.3.1",
       "path": "skills/tcm-exam-prep/tcm-residency-training/SKILL.md"
     },
     {
@@ -234,6 +266,7 @@
       "title": "医者 Agent Skill（含师带徒）",
       "description": "医者临床辅助与带教一体：病证推理、方剂推荐、师带徒教学与医圣成长路径规划。",
       "category": "tcm-role-agents",
+      "libraryCode": "10.1.1.1",
       "path": "skills/tcm-role-agents/role-healer/SKILL.md"
     },
     {
@@ -241,6 +274,7 @@
       "title": "患者 Agent Skill",
       "description": "面向患者的症状自查、导诊建议与用药说明，明确边界、突出就医提示。",
       "category": "tcm-role-agents",
+      "libraryCode": "10.2.1.1",
       "path": "skills/tcm-role-agents/role-patient/SKILL.md"
     },
     {
@@ -248,6 +282,7 @@
       "title": "药者 Agent Skill",
       "description": "处方审核、相互作用核查、替代建议与饮片溯源一体化的药事服务能力。",
       "category": "tcm-role-agents",
+      "libraryCode": "10.3.1.1",
       "path": "skills/tcm-role-agents/role-pharmacist/SKILL.md"
     },
     {
@@ -255,6 +290,7 @@
       "title": "械者 Agent Skill",
       "description": "中医诊疗设备的维护、影像辅助、采购论证与质控追溯，打通设备全生命周期。",
       "category": "tcm-role-agents",
+      "libraryCode": "10.4.1.1",
       "path": "skills/tcm-role-agents/role-device/SKILL.md"
     },
     {
@@ -262,6 +298,7 @@
       "title": "规者 Agent Skill",
       "description": "质控管理、排班优化、资源利用与应急调度：用指标驱动医院运行。",
       "category": "tcm-role-agents",
+      "libraryCode": "10.5.1.1",
       "path": "skills/tcm-role-agents/role-regulator/SKILL.md"
     },
     {
@@ -269,6 +306,7 @@
       "title": "法者 Agent Skill",
       "description": "医疗风险识别、知情同意、法规查询与纠纷预防，并覆盖医保报销合规口径。",
       "category": "tcm-role-agents",
+      "libraryCode": "10.6.1.1",
       "path": "skills/tcm-role-agents/role-legal/SKILL.md"
     },
     {
@@ -276,6 +314,7 @@
       "title": "医圣带教 Skill",
       "description": "调用张仲景 / 孙思邈人格做专题授课与病案点评，按学员层级调整深度。",
       "category": "tcm-sage-growth",
+      "libraryCode": "11.1.1.1",
       "path": "skills/tcm-sage-growth/sage-mentorship/SKILL.md"
     },
     {
@@ -283,6 +322,7 @@
       "title": "医圣成长路径 Skill",
       "description": "把职称阶段映射为病证数门槛与能力清单，给出可追踪、可考核的成长路径。",
       "category": "tcm-sage-growth",
+      "libraryCode": "11.1.1.2",
       "path": "skills/tcm-sage-growth/sage-growth-path/SKILL.md"
     },
     {
@@ -290,6 +330,7 @@
       "title": "中医备课 Skill",
       "description": "按学时与学情生成教案：目标、重点难点、板书结构、课堂活动与作业。",
       "category": "tcm-teacher-tools",
+      "libraryCode": "12.1.1.1",
       "path": "skills/tcm-teacher-tools/tcm-lesson-prep/SKILL.md"
     },
     {
@@ -297,7 +338,248 @@
       "title": "中医命题与组卷 Skill",
       "description": "按知识点与难度分布命题组卷，自动配答案、解析、评分标准与双向细目表。",
       "category": "tcm-teacher-tools",
+      "libraryCode": "12.1.1.2",
       "path": "skills/tcm-teacher-tools/tcm-item-generation/SKILL.md"
+    },
+    {
+      "name": "tcm-jingui",
+      "title": "金匮要略讲义 Skill",
+      "description": "按病脉证治体例拆解《金匮要略》，把杂病条文整理成「病—脉—证—治—方」五栏卡片。",
+      "category": "tcm-foundation",
+      "libraryCode": "1.6.1.1",
+      "path": "skills/tcm-foundation/tcm-jingui/SKILL.md"
+    },
+    {
+      "name": "tcm-medical-history",
+      "title": "中国医学史 Skill",
+      "description": "把医史从年代记忆变成「学术演变脉络」：流派、人物、著作、事件互为因果。",
+      "category": "tcm-foundation",
+      "libraryCode": "1.7.1.1",
+      "path": "skills/tcm-foundation/tcm-medical-history/SKILL.md"
+    },
+    {
+      "name": "tcm-emergency",
+      "title": "中医急诊学 Skill",
+      "description": "按「先辨危重、再辨寒热虚实」的顺序处理急症，并强制给出转诊与西医协同判断。",
+      "category": "tcm-clinical",
+      "libraryCode": "2.5.1.1",
+      "path": "skills/tcm-clinical/tcm-emergency/SKILL.md"
+    },
+    {
+      "name": "tcm-dermatology",
+      "title": "中医皮肤科学 Skill",
+      "description": "皮损形态 → 局部辨证 → 脏腑气血归属，三步把皮肤病转成可判分的辨证路径。",
+      "category": "tcm-clinical",
+      "libraryCode": "2.6.1.1",
+      "path": "skills/tcm-clinical/tcm-dermatology/SKILL.md"
+    },
+    {
+      "name": "tcm-andrology",
+      "title": "中医男科学 Skill",
+      "description": "以肾—肝—脾三脏为主线处理男科病证，兼顾情志因素与生活方式干预。",
+      "category": "tcm-clinical",
+      "libraryCode": "2.7.1.1",
+      "path": "skills/tcm-clinical/tcm-andrology/SKILL.md"
+    },
+    {
+      "name": "tcm-geriatrics",
+      "title": "中医老年病学 Skill",
+      "description": "老年多病共存与虚实夹杂场景下的用药取舍：先定主次，再谈补泻。",
+      "category": "tcm-clinical",
+      "libraryCode": "2.8.1.1",
+      "path": "skills/tcm-clinical/tcm-geriatrics/SKILL.md"
+    },
+    {
+      "name": "tcm-oncology",
+      "title": "中医肿瘤学 Skill",
+      "description": "按治疗阶段（术前 / 化疗中 / 康复期）给出扶正祛邪的差异化中医方案。",
+      "category": "tcm-clinical",
+      "libraryCode": "2.9.1.1",
+      "path": "skills/tcm-clinical/tcm-oncology/SKILL.md"
+    },
+    {
+      "name": "tcm-evidence-based",
+      "title": "中医循证医学 Skill",
+      "description": "把中医临床问题转成可检索的 PICO，评估证据等级并给出推荐强度。",
+      "category": "tcm-clinical",
+      "libraryCode": "2.10.1.1",
+      "path": "skills/tcm-clinical/tcm-evidence-based/SKILL.md"
+    },
+    {
+      "name": "tcm-clinical-reasoning",
+      "title": "中医临床思维与决策 Skill",
+      "description": "显式化中医临床决策过程：假设生成、鉴别、权重分配与动态修正。",
+      "category": "tcm-clinical",
+      "libraryCode": "2.11.1.1",
+      "path": "skills/tcm-clinical/tcm-clinical-reasoning/SKILL.md"
+    },
+    {
+      "name": "tcm-schools",
+      "title": "各家学说 Skill",
+      "description": "把历代学术流派的主张、代表方与分歧点做成可对比的流派矩阵。",
+      "category": "tcm-foundation",
+      "libraryCode": "1.8.1.1",
+      "path": "skills/tcm-foundation/tcm-schools/SKILL.md"
+    },
+    {
+      "name": "tcm-medicinal-botany",
+      "title": "药用植物学 Skill",
+      "description": "从植物形态与分类学到药材基原鉴定，把「认得植物」与「认对药材」串起来。",
+      "category": "tcm-materia",
+      "libraryCode": "3.4.1.1",
+      "path": "skills/tcm-materia/tcm-medicinal-botany/SKILL.md"
+    },
+    {
+      "name": "tcm-phytochemistry",
+      "title": "中药化学 Skill",
+      "description": "按成分类型（生物碱 / 黄酮 / 萜类…）梳理结构—性质—提取分离—活性链条。",
+      "category": "tcm-materia",
+      "libraryCode": "3.5.1.1",
+      "path": "skills/tcm-materia/tcm-phytochemistry/SKILL.md"
+    },
+    {
+      "name": "tcm-pharmacology",
+      "title": "中药药理学 Skill",
+      "description": "把中药功效与现代药理作用双向对照，建立「功效—药理—靶点」的证据链。",
+      "category": "tcm-materia",
+      "libraryCode": "3.6.1.1",
+      "path": "skills/tcm-materia/tcm-pharmacology/SKILL.md"
+    },
+    {
+      "name": "tcm-herb-identification",
+      "title": "中药鉴定学 Skill",
+      "description": "按来源、性状、显微、理化四类鉴定方法，做出可判定的真伪优劣结论。",
+      "category": "tcm-materia",
+      "libraryCode": "3.7.1.1",
+      "path": "skills/tcm-materia/tcm-herb-identification/SKILL.md"
+    },
+    {
+      "name": "tcm-pharmaceutics",
+      "title": "中药药剂学 Skill",
+      "description": "按剂型（汤剂 / 丸散 / 颗粒 / 注射剂…）组织制备工艺、质量标准与生物利用度。",
+      "category": "tcm-materia",
+      "libraryCode": "3.8.1.1",
+      "path": "skills/tcm-materia/tcm-pharmaceutics/SKILL.md"
+    },
+    {
+      "name": "tcm-analysis",
+      "title": "中药分析学 Skill",
+      "description": "按指标成分选择分析方法，设计含量测定与指纹图谱方案并做方法学验证。",
+      "category": "tcm-materia",
+      "libraryCode": "3.9.1.1",
+      "path": "skills/tcm-materia/tcm-analysis/SKILL.md"
+    },
+    {
+      "name": "tcm-toxicology",
+      "title": "中药毒理学 Skill",
+      "description": "按毒性成分、靶器官与剂量—时间关系评估中药安全性，给出减毒策略。",
+      "category": "tcm-materia",
+      "libraryCode": "3.10.1.1",
+      "path": "skills/tcm-materia/tcm-toxicology/SKILL.md"
+    },
+    {
+      "name": "tcm-acupuncture-therapeutics",
+      "title": "针灸治疗学 Skill",
+      "description": "按病种组织「辨证分型 → 治则 → 主穴配穴 → 手法 → 疗程」的针灸处方链。",
+      "category": "tcm-acupuncture",
+      "libraryCode": "4.4.1.1",
+      "path": "skills/tcm-acupuncture/tcm-acupuncture-therapeutics/SKILL.md"
+    },
+    {
+      "name": "tcm-experimental-acupuncture",
+      "title": "实验针灸学 Skill",
+      "description": "把针灸效应转成可验证的实验命题：穴位特异性、量效关系与机制研究设计。",
+      "category": "tcm-acupuncture",
+      "libraryCode": "4.5.1.1",
+      "path": "skills/tcm-acupuncture/tcm-experimental-acupuncture/SKILL.md"
+    },
+    {
+      "name": "tcm-tuina-therapeutics",
+      "title": "推拿治疗学 Skill",
+      "description": "按病种给出推拿治疗方案：手法组合、施术部位、力度层次与疗程节奏。",
+      "category": "tcm-acupuncture",
+      "libraryCode": "4.6.1.1",
+      "path": "skills/tcm-acupuncture/tcm-tuina-therapeutics/SKILL.md"
+    },
+    {
+      "name": "tcm-pediatric-tuina",
+      "title": "小儿推拿学 Skill",
+      "description": "按小儿特定穴与专用手法组织方案，并强制家长可执行的操作与安全提示。",
+      "category": "tcm-acupuncture",
+      "libraryCode": "4.7.1.1",
+      "path": "skills/tcm-acupuncture/tcm-pediatric-tuina/SKILL.md"
+    },
+    {
+      "name": "tcm-orthopedics-basics",
+      "title": "骨伤科基础 Skill",
+      "description": "打牢骨伤解剖、损伤机制与检查法基础，为手法与固定提供判断依据。",
+      "category": "tcm-orthopedics",
+      "libraryCode": "5.3.1.1",
+      "path": "skills/tcm-orthopedics/tcm-orthopedics-basics/SKILL.md"
+    },
+    {
+      "name": "tcm-tendon-injury",
+      "title": "筋伤学 Skill",
+      "description": "围绕软组织损伤的分期（急性 / 亚急性 / 慢性）给出理筋手法与康复节奏。",
+      "category": "tcm-orthopedics",
+      "libraryCode": "5.4.1.1",
+      "path": "skills/tcm-orthopedics/tcm-tendon-injury/SKILL.md"
+    },
+    {
+      "name": "tcm-bone-disease",
+      "title": "骨病学 Skill",
+      "description": "处理骨与关节的慢性病证（骨痹 / 骨蚀 / 骨质疏松），以内治外治结合为主线。",
+      "category": "tcm-orthopedics",
+      "libraryCode": "5.5.1.1",
+      "path": "skills/tcm-orthopedics/tcm-bone-disease/SKILL.md"
+    },
+    {
+      "name": "tcm-ophthalmology",
+      "title": "中医眼科学 Skill",
+      "description": "以「五轮学说」为纲，把眼部局部体征对应到脏腑，并与视力警戒阈值绑定。",
+      "category": "tcm-orthopedics",
+      "libraryCode": "5.2.1.2",
+      "path": "skills/tcm-orthopedics/tcm-ophthalmology/SKILL.md"
+    },
+    {
+      "name": "tcm-otolaryngology",
+      "title": "中医耳鼻喉科学 Skill",
+      "description": "耳鼻喉局部辨证关联肺脾胃肾，兼顾慢性病管理与急性症状的转诊判断。",
+      "category": "tcm-orthopedics",
+      "libraryCode": "5.6.1.1",
+      "path": "skills/tcm-orthopedics/tcm-otolaryngology/SKILL.md"
+    },
+    {
+      "name": "tcm-stomatology",
+      "title": "中医口腔科学 Skill",
+      "description": "口腔黏膜病与牙周病的中医辨证，重视全身病在口腔的表现与筛查。",
+      "category": "tcm-orthopedics",
+      "libraryCode": "5.7.1.1",
+      "path": "skills/tcm-orthopedics/tcm-stomatology/SKILL.md"
+    },
+    {
+      "name": "tcm-hospital-operations",
+      "title": "中医医院运营管理 Skill",
+      "description": "围绕门诊量、病床周转、药占比与人事排班做中医医院的运营指标管理。",
+      "category": "tcm-management",
+      "libraryCode": "7.1.1.3",
+      "path": "skills/tcm-management/tcm-hospital-operations/SKILL.md"
+    },
+    {
+      "name": "tcm-pharmacy-management",
+      "title": "中药药事管理与法规 Skill",
+      "description": "覆盖中药采购、验收、调剂、煎药与不良反应监测的全流程合规管理。",
+      "category": "tcm-management",
+      "libraryCode": "7.2.1.1",
+      "path": "skills/tcm-management/tcm-pharmacy-management/SKILL.md"
+    },
+    {
+      "name": "tcm-health-economics",
+      "title": "卫生经济学与医保政策 Skill",
+      "description": "用成本—效果视角评估中医诊疗方案，并解读医保支付政策对中医的影响。",
+      "category": "tcm-management",
+      "libraryCode": "7.3.1.1",
+      "path": "skills/tcm-management/tcm-health-economics/SKILL.md"
     }
   ]
 }

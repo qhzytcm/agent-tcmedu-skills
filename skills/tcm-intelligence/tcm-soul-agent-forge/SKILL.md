@@ -1,7 +1,7 @@
 ---
 name: "tcm-soul-agent-forge"
 description: "按六段式 SOUL 规范锻造角色人格，并注册到平台 /agents 端点完成上线。 依赖 tcmP 平台接口，离线不可用。"
-version: "0.1.0"
+version: "0.2.0"
 author: qhzytcm
 license: MIT
 platforms: [windows, linux, macos]
@@ -11,6 +11,7 @@ metadata:
     source: agent-tcmedu-skills
     category: "tcm-intelligence"
     domain: "D07"
+    library_code: "6.1.2.1"
     stages: ["本科","硕士","继续教育"]
     subjects: ["中医智能","Agent 工程"]
     abilities: ["人格设计","智能体注册"]
@@ -28,6 +29,14 @@ metadata:
 # 六者 SOUL 智能体锻造 Skill
 
 角色智能体若无统一 SOUL 规范，会退化成换皮 prompt。本 Skill 固化六段式结构与注册流程，保证人格、知识边界、工具集三者一致。
+
+## 四级目录定位 / Library Position
+
+**四级编码** `6.1.2.1`（篇·章·节·目，横向读即完整编码）
+
+**定位路径** 06 中医智能 / 01 中医智能 / 02 平台与角色 / 01 六者 SOUL 智能体锻造 Skill
+
+> 完整目录见 [`docs/05-四级目录（篇·章·节·目）.md`](../../../docs/05-四级目录（篇·章·节·目）.md)。
 
 ## 最适合 / Best For
 

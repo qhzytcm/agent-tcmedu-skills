@@ -1,7 +1,7 @@
 ---
 name: "tcm-pediatrics"
 description: "按小儿生理特点调整问诊重心与用药剂量，把儿科病种转成家长可执行的照护任务。"
-version: "0.1.0"
+version: "0.2.0"
 author: qhzytcm
 license: MIT
 platforms: [windows, linux, macos]
@@ -11,6 +11,7 @@ metadata:
     source: agent-tcmedu-skills
     category: "tcm-clinical"
     domain: "D01"
+    library_code: "2.3.1.1"
     stages: ["本科","规培"]
     subjects: ["中医儿科学"]
     abilities: ["儿科问诊","剂量阶梯"]
@@ -29,6 +30,14 @@ metadata:
 # 中医儿科学 Skill
 
 儿科问诊依赖家长转述、用药剂量随年龄体重变化，通用内科思路直接套用会出错。本 Skill 内置儿科问诊模板与剂量阶梯。
+
+## 四级目录定位 / Library Position
+
+**四级编码** `2.3.1.1`（篇·章·节·目，横向读即完整编码）
+
+**定位路径** 02 中医临床各科 / 03 中医儿科学 / 01 方药应用 / 01 中医儿科学 Skill
+
+> 完整目录见 [`docs/05-四级目录（篇·章·节·目）.md`](../../../docs/05-四级目录（篇·章·节·目）.md)。
 
 ## 最适合 / Best For
 

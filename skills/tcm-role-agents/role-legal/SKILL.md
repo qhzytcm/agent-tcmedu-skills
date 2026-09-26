@@ -1,7 +1,7 @@
 ---
 name: "role-legal"
 description: "医疗风险识别、知情同意、法规查询与纠纷预防，并覆盖医保报销合规口径。 依赖 tcmP 平台接口，离线不可用。"
-version: "0.1.0"
+version: "0.2.0"
 author: qhzytcm
 license: MIT
 platforms: [windows, linux, macos]
@@ -11,6 +11,7 @@ metadata:
     source: agent-tcmedu-skills
     category: "tcm-role-agents"
     domain: "平台"
+    library_code: "10.6.1.1"
     stages: ["继续教育"]
     subjects: ["医事法学"]
     abilities: ["风险防控","法规查询"]
@@ -29,6 +30,14 @@ metadata:
 # 法者 Agent Skill
 
 医疗法务既要在事前预防又要能在事后取证，且中医项目法规依据分散。本 Skill 要求每条结论都定位到具体条款。
+
+## 四级目录定位 / Library Position
+
+**四级编码** `10.6.1.1`（篇·章·节·目，横向读即完整编码）
+
+**定位路径** 10 六者角色 / 06 医事法学 / 01 管理与决策 / 01 法者 Agent Skill
+
+> 完整目录见 [`docs/05-四级目录（篇·章·节·目）.md`](../../../docs/05-四级目录（篇·章·节·目）.md)。
 
 ## 最适合 / Best For
 

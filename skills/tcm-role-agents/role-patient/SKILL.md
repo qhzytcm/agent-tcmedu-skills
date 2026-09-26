@@ -1,7 +1,7 @@
 ---
 name: "role-patient"
 description: "面向患者的症状自查、导诊建议与用药说明，明确边界、突出就医提示。 依赖 tcmP 平台接口，离线不可用。"
-version: "0.1.0"
+version: "0.2.0"
 author: qhzytcm
 license: MIT
 platforms: [windows, linux, macos]
@@ -11,6 +11,7 @@ metadata:
     source: agent-tcmedu-skills
     category: "tcm-role-agents"
     domain: "平台"
+    library_code: "10.2.1.1"
     stages: ["继续教育"]
     subjects: ["健康科普"]
     abilities: ["症状自查","导诊"]
@@ -29,6 +30,14 @@ metadata:
 # 患者 Agent Skill
 
 患者端最大的风险是把辅助信息误当诊断。本 Skill 在所有输出中强制携带边界声明与就医提示，且不输出处方剂量。
+
+## 四级目录定位 / Library Position
+
+**四级编码** `10.2.1.1`（篇·章·节·目，横向读即完整编码）
+
+**定位路径** 10 六者角色 / 02 健康科普 / 01 综合能力 / 01 患者 Agent Skill
+
+> 完整目录见 [`docs/05-四级目录（篇·章·节·目）.md`](../../../docs/05-四级目录（篇·章·节·目）.md)。
 
 ## 最适合 / Best For
 

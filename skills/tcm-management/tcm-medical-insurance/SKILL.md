@@ -1,7 +1,7 @@
 ---
 name: "tcm-medical-insurance"
 description: "查清医保报销口径、药品分类与费用估算，并给出可复核的法规依据。 依赖 tcmP 平台接口，离线不可用。"
-version: "0.1.0"
+version: "0.2.0"
 author: qhzytcm
 license: MIT
 platforms: [windows, linux, macos]
@@ -11,6 +11,7 @@ metadata:
     source: agent-tcmedu-skills
     category: "tcm-management"
     domain: "D08"
+    library_code: "7.1.1.2"
     stages: ["继续教育"]
     subjects: ["中医医院管理","医事法学"]
     abilities: ["医保口径","法规查询"]
@@ -29,6 +30,14 @@ metadata:
 # 中医医保与法规 Skill
 
 医保政策地域性强、更新频繁，且中医项目分类特殊。本 Skill 固化「先查法规、再算口径、最后留痕」的流程。
+
+## 四级目录定位 / Library Position
+
+**四级编码** `7.1.1.2`（篇·章·节·目，横向读即完整编码）
+
+**定位路径** 07 中医管理 / 01 中医医院管理 / 01 管理与决策 / 02 中医医保与法规 Skill
+
+> 完整目录见 [`docs/05-四级目录（篇·章·节·目）.md`](../../../docs/05-四级目录（篇·章·节·目）.md)。
 
 ## 最适合 / Best For
 

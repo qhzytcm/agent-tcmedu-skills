@@ -1,7 +1,7 @@
 ---
 name: "tcm-icd11-coding"
 description: "把中医病证名称映射到 ICD-11（含传统医学章节）标准编码，走内网镜像零外网依赖。 依赖 tcmP 平台接口，离线不可用。"
-version: "0.1.0"
+version: "0.2.0"
 author: qhzytcm
 license: MIT
 platforms: [windows, linux, macos]
@@ -11,6 +11,7 @@ metadata:
     source: agent-tcmedu-skills
     category: "tcm-intelligence"
     domain: "D07"
+    library_code: "6.1.1.3"
     stages: ["本科","硕士"]
     subjects: ["中医智能","病案信息"]
     abilities: ["标准编码","术语映射"]
@@ -29,6 +30,14 @@ metadata:
 # ICD-11 编码桥接 Skill
 
 中医病名与国际疾病分类之间存在多对多映射，人工查编码既慢又易错。本 Skill 固化三 header 调用规范与滑动窗口搜索策略。
+
+## 四级目录定位 / Library Position
+
+**四级编码** `6.1.1.3`（篇·章·节·目，横向读即完整编码）
+
+**定位路径** 06 中医智能 / 01 中医智能 / 01 检索与数据 / 03 ICD-11 编码桥接 Skill
+
+> 完整目录见 [`docs/05-四级目录（篇·章·节·目）.md`](../../../docs/05-四级目录（篇·章·节·目）.md)。
 
 ## 最适合 / Best For
 

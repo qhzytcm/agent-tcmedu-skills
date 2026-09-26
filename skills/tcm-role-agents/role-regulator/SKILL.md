@@ -1,7 +1,7 @@
 ---
 name: "role-regulator"
 description: "质控管理、排班优化、资源利用与应急调度：用指标驱动医院运行。 依赖 tcmP 平台接口，离线不可用。"
-version: "0.1.0"
+version: "0.2.0"
 author: qhzytcm
 license: MIT
 platforms: [windows, linux, macos]
@@ -11,6 +11,7 @@ metadata:
     source: agent-tcmedu-skills
     category: "tcm-role-agents"
     domain: "平台"
+    library_code: "10.5.1.1"
     stages: ["继续教育"]
     subjects: ["中医医院管理"]
     abilities: ["质控管理","排班调度"]
@@ -29,6 +30,14 @@ metadata:
 # 规者 Agent Skill
 
 医院运行管理依赖直觉排班与事后统计。本 Skill 用指标先行的方法，让调度决策先看数据再看经验。
+
+## 四级目录定位 / Library Position
+
+**四级编码** `10.5.1.1`（篇·章·节·目，横向读即完整编码）
+
+**定位路径** 10 六者角色 / 05 中医医院管理 / 01 管理与决策 / 01 规者 Agent Skill
+
+> 完整目录见 [`docs/05-四级目录（篇·章·节·目）.md`](../../../docs/05-四级目录（篇·章·节·目）.md)。
 
 ## 最适合 / Best For
 

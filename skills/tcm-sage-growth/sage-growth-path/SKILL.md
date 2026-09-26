@@ -1,7 +1,7 @@
 ---
 name: "sage-growth-path"
 description: "把职称阶段映射为病证数门槛与能力清单，给出可追踪、可考核的成长路径。 依赖 tcmP 平台接口，离线不可用。"
-version: "0.1.0"
+version: "0.2.0"
 author: qhzytcm
 license: MIT
 platforms: [windows, linux, macos]
@@ -11,6 +11,7 @@ metadata:
     source: agent-tcmedu-skills
     category: "tcm-sage-growth"
     domain: "平台"
+    library_code: "11.1.1.2"
     stages: ["规培","继续教育"]
     subjects: ["中医各家学说"]
     abilities: ["成长规划","能力评估"]
@@ -30,6 +31,14 @@ metadata:
 # 医圣成长路径 Skill
 
 年轻医师常不清楚「到什么阶段该会什么」。本 Skill 把病证覆盖数、能力项与职称阶段绑定，让成长看得见。
+
+## 四级目录定位 / Library Position
+
+**四级编码** `11.1.1.2`（篇·章·节·目，横向读即完整编码）
+
+**定位路径** 11 医圣成长 / 01 中医各家学说 / 01 平台与角色 / 02 医圣成长路径 Skill
+
+> 完整目录见 [`docs/05-四级目录（篇·章·节·目）.md`](../../../docs/05-四级目录（篇·章·节·目）.md)。
 
 ## 最适合 / Best For
 

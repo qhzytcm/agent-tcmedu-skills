@@ -1,7 +1,7 @@
 ---
 name: "tcm-diagnostics"
 description: "把望闻问切四诊信息规范成可复用的采集表单，并训练「四诊合参→辨证要素」的推理链。"
-version: "0.1.0"
+version: "0.2.0"
 author: qhzytcm
 license: MIT
 platforms: [windows, linux, macos]
@@ -11,6 +11,7 @@ metadata:
     source: agent-tcmedu-skills
     category: "tcm-foundation"
     domain: "D01"
+    library_code: "1.2.1.1"
     stages: ["本科"]
     subjects: ["中医诊断学"]
     abilities: ["四诊合参","辨证要素"]
@@ -28,6 +29,14 @@ metadata:
 # 中医诊断学 Skill
 
 诊断学的难点不在记症状，而在把杂乱的四诊信息收敛成证候要素。本 Skill 强制结构化采集，再把信息逐层收敛，避免「一症一证」的跳跃式结论。
+
+## 四级目录定位 / Library Position
+
+**四级编码** `1.2.1.1`（篇·章·节·目，横向读即完整编码）
+
+**定位路径** 01 中医基础与经典 / 02 中医诊断学 / 01 辨证推理 / 01 中医诊断学 Skill
+
+> 完整目录见 [`docs/05-四级目录（篇·章·节·目）.md`](../../../docs/05-四级目录（篇·章·节·目）.md)。
 
 ## 最适合 / Best For
 

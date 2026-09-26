@@ -1,7 +1,7 @@
 ---
 name: "tcm-tuina"
 description: "按「力度—频率—着力部位—操作要领」解析推拿手法，并给出可自练的分解动作。"
-version: "0.1.0"
+version: "0.2.0"
 author: qhzytcm
 license: MIT
 platforms: [windows, linux, macos]
@@ -11,6 +11,7 @@ metadata:
     source: agent-tcmedu-skills
     category: "tcm-acupuncture"
     domain: "D03,D04"
+    library_code: "4.3.1.1"
     stages: ["本科","继续教育"]
     subjects: ["推拿手法学"]
     abilities: ["手法操作","量化参数"]
@@ -29,6 +30,14 @@ metadata:
 # 推拿手法学 Skill
 
 推拿手法的评价依赖触感，自学难以判断是否达标。本 Skill 把手法的量化特征（力度、频率、幅度）显式化，并给出可自练的分级动作。
+
+## 四级目录定位 / Library Position
+
+**四级编码** `4.3.1.1`（篇·章·节·目，横向读即完整编码）
+
+**定位路径** 04 针灸与推拿 / 03 推拿手法学 / 01 实操与技法 / 01 推拿手法学 Skill
+
+> 完整目录见 [`docs/05-四级目录（篇·章·节·目）.md`](../../../docs/05-四级目录（篇·章·节·目）.md)。
 
 ## 最适合 / Best For
 

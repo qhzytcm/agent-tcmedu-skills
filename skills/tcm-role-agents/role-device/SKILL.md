@@ -1,7 +1,7 @@
 ---
 name: "role-device"
 description: "中医诊疗设备的维护、影像辅助、采购论证与质控追溯，打通设备全生命周期。 依赖 tcmP 平台接口，离线不可用。"
-version: "0.1.0"
+version: "0.2.0"
 author: qhzytcm
 license: MIT
 platforms: [windows, linux, macos]
@@ -11,6 +11,7 @@ metadata:
     source: agent-tcmedu-skills
     category: "tcm-role-agents"
     domain: "平台"
+    library_code: "10.4.1.1"
     stages: ["继续教育"]
     subjects: ["医疗设备管理"]
     abilities: ["设备维护","采购论证"]
@@ -29,6 +30,14 @@ metadata:
 # 械者 Agent Skill
 
 中医医院的设备管理常与临床脱节，采购论证缺临床视角。本 Skill 把四个环节串成一条可追溯链。
+
+## 四级目录定位 / Library Position
+
+**四级编码** `10.4.1.1`（篇·章·节·目，横向读即完整编码）
+
+**定位路径** 10 六者角色 / 04 医疗设备管理 / 01 管理与决策 / 01 械者 Agent Skill
+
+> 完整目录见 [`docs/05-四级目录（篇·章·节·目）.md`](../../../docs/05-四级目录（篇·章·节·目）.md)。
 
 ## 最适合 / Best For
 

@@ -1,7 +1,7 @@
 ---
 name: "tcm-orthopedics-trauma"
 description: "把正骨理筋手法的适应证、复位标准与固定康复方案串成完整的骨伤处理链。"
-version: "0.1.0"
+version: "0.2.0"
 author: qhzytcm
 license: MIT
 platforms: [windows, linux, macos]
@@ -11,6 +11,7 @@ metadata:
     source: agent-tcmedu-skills
     category: "tcm-orthopedics"
     domain: "D05,D06"
+    library_code: "5.1.1.1"
     stages: ["本科","硕士"]
     subjects: ["中医骨伤科学"]
     abilities: ["正骨理筋","固定康复"]
@@ -29,6 +30,14 @@ metadata:
 # 中医骨伤科学 Skill
 
 骨伤科易出现「手法选择随意、复位标准模糊」的问题。本 Skill 强制先给适应证与禁忌，再谈手法，最后落固定与康复。
+
+## 四级目录定位 / Library Position
+
+**四级编码** `5.1.1.1`（篇·章·节·目，横向读即完整编码）
+
+**定位路径** 05 骨伤与五官口腔 / 01 中医骨伤科学 / 01 实操与技法 / 01 中医骨伤科学 Skill
+
+> 完整目录见 [`docs/05-四级目录（篇·章·节·目）.md`](../../../docs/05-四级目录（篇·章·节·目）.md)。
 
 ## 最适合 / Best For
 

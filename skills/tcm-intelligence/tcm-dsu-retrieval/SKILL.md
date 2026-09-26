@@ -1,7 +1,7 @@
 ---
 name: "tcm-dsu-retrieval"
 description: "用平台的病证单元引擎做检索增强问答：TF-IDF + FTS5 + RRF 融合，内网零 token。 依赖 tcmP 平台接口，离线不可用。"
-version: "0.1.0"
+version: "0.2.0"
 author: qhzytcm
 license: MIT
 platforms: [windows, linux, macos]
@@ -11,6 +11,7 @@ metadata:
     source: agent-tcmedu-skills
     category: "tcm-intelligence"
     domain: "D07"
+    library_code: "6.1.1.1"
     stages: ["本科","硕士","博士"]
     subjects: ["中医智能","信息检索"]
     abilities: ["检索增强生成","出处溯源"]
@@ -28,6 +29,14 @@ metadata:
 # 病证单位检索 Skill（RAG）
 
 大模型直接答中医问题会编造方剂与剂量。本 Skill 强制「先检索后生成」，所有结论必须落到检索到的病证单位上。
+
+## 四级目录定位 / Library Position
+
+**四级编码** `6.1.1.1`（篇·章·节·目，横向读即完整编码）
+
+**定位路径** 06 中医智能 / 01 中医智能 / 01 检索与数据 / 01 病证单位检索 Skill（RAG）
+
+> 完整目录见 [`docs/05-四级目录（篇·章·节·目）.md`](../../../docs/05-四级目录（篇·章·节·目）.md)。
 
 ## 最适合 / Best For
 

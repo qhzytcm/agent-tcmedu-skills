@@ -66,6 +66,26 @@ npm run verify
 node scripts/agent-pack.mjs info tcm-xxx      # 核对渲染结果
 ```
 
+### 新增技能的额外要求（v0.2.0 起）
+
+- 必须声明 `subjects`（≥1）与 `abilities`（≥1）——四级目录的「章」「节」由它们推导，缺失会被 `build` 直接拦截。
+- 新增技能会自动获得一个四级编码（`篇.章.节.目`）；**不要手写 `library_code`**。
+- 技能的 `SKILL.md` 会自动生成「四级目录定位」章节，`validate` 强校验其存在。
+
+---
+
+## 四之二、主仓学科目录变更
+
+tcmP 主仓 `domain-specs/` 更新后：
+
+```bash
+npm run sync      # 重新抽取 120 学科目录（只读主仓，不改主仓）
+npm run verify
+```
+
+`sync-from-tcmP.mjs` 会自检「名称 / 数量 / 教材号」，出现告警说明主仓表格形态变了，需在
+`extractSubjects` 的三层策略里补一条分支，**不要在 `data/tcmP-subjects.json` 里手工修**（它是生成物）。
+
 ---
 
 ## 四、新增一个平台接口

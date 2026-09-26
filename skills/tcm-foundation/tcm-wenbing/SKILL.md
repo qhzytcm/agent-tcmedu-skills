@@ -1,7 +1,7 @@
 ---
 name: "tcm-wenbing"
 description: "卫气营血与三焦两条辨证主线并行，配合四大家学说与温病方剂的情境化应用。"
-version: "0.1.0"
+version: "0.2.0"
 author: qhzytcm
 license: MIT
 platforms: [windows, linux, macos]
@@ -11,6 +11,7 @@ metadata:
     source: agent-tcmedu-skills
     category: "tcm-foundation"
     domain: "D01"
+    library_code: "1.5.1.1"
     stages: ["本科"]
     subjects: ["温病学"]
     abilities: ["卫气营血辨证","三焦辨证"]
@@ -28,6 +29,14 @@ metadata:
 # 温病学 Skill
 
 温病学的辨证框架（卫气营血 / 三焦）与伤寒的六经框架容易混淆，学习者常在两条线之间来回漂移。本 Skill 强制选定主线并在另一条线上做交叉校验。
+
+## 四级目录定位 / Library Position
+
+**四级编码** `1.5.1.1`（篇·章·节·目，横向读即完整编码）
+
+**定位路径** 01 中医基础与经典 / 05 温病学 / 01 辨证推理 / 01 温病学 Skill
+
+> 完整目录见 [`docs/05-四级目录（篇·章·节·目）.md`](../../../docs/05-四级目录（篇·章·节·目）.md)。
 
 ## 最适合 / Best For
 

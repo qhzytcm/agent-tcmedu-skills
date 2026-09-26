@@ -1,7 +1,7 @@
 ---
 name: "tcm-postgraduate-exam"
 description: "面向考研中医综合（中基 / 中诊 / 中药 / 方剂 / 内科 / 针灸），做长周期分段备考。"
-version: "0.1.0"
+version: "0.2.0"
 author: qhzytcm
 license: MIT
 platforms: [windows, linux, macos]
@@ -11,6 +11,7 @@ metadata:
     source: agent-tcmedu-skills
     category: "tcm-exam-prep"
     domain: "-"
+    library_code: "9.1.2.1"
     stages: ["本科"]
     subjects: ["中医综合"]
     abilities: ["长周期规划","全科模考"]
@@ -27,6 +28,14 @@ metadata:
 # 考研中医综合 Skill
 
 考研中医综合六门课互相牵连，且专业课与公共课抢时间。本 Skill 用前置链分段排期，避免「后期发现基础没打牢」。
+
+## 四级目录定位 / Library Position
+
+**四级编码** `9.1.2.1`（篇·章·节·目，横向读即完整编码）
+
+**定位路径** 09 考试备考 / 01 中医综合 / 02 教学与学习 / 01 考研中医综合 Skill
+
+> 完整目录见 [`docs/05-四级目录（篇·章·节·目）.md`](../../../docs/05-四级目录（篇·章·节·目）.md)。
 
 ## 最适合 / Best For
 

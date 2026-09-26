@@ -1,7 +1,7 @@
 ---
 name: "tcm-shanghan"
 description: "按六经辨证把《伤寒论》条文整理成「方证—脉证—治法—禁忌」四栏可检索卡片。"
-version: "0.1.0"
+version: "0.2.0"
 author: qhzytcm
 license: MIT
 platforms: [windows, linux, macos]
@@ -11,6 +11,7 @@ metadata:
     source: agent-tcmedu-skills
     category: "tcm-foundation"
     domain: "D01"
+    library_code: "1.4.1.1"
     stages: ["本科","硕士"]
     subjects: ["伤寒论讲义"]
     abilities: ["六经辨证","经方方证"]
@@ -28,6 +29,14 @@ metadata:
 # 伤寒论讲义 Skill
 
 伤寒论 398 条条文分散且互文性强，学习者记不住「哪条对哪方、哪方治哪证」。本 Skill 用四栏卡片把条文结构化，并建立方证索引。
+
+## 四级目录定位 / Library Position
+
+**四级编码** `1.4.1.1`（篇·章·节·目，横向读即完整编码）
+
+**定位路径** 01 中医基础与经典 / 04 伤寒论讲义 / 01 方药应用 / 01 伤寒论讲义 Skill
+
+> 完整目录见 [`docs/05-四级目录（篇·章·节·目）.md`](../../../docs/05-四级目录（篇·章·节·目）.md)。
 
 ## 最适合 / Best For
 

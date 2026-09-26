@@ -1,7 +1,7 @@
 ---
 name: "tcm-meridians-acupoints"
 description: "按「循行—定位—主治—配伍—禁忌」学习经络腧穴，并用体表标志法做定位自测。"
-version: "0.1.0"
+version: "0.2.0"
 author: qhzytcm
 license: MIT
 platforms: [windows, linux, macos]
@@ -11,6 +11,7 @@ metadata:
     source: agent-tcmedu-skills
     category: "tcm-acupuncture"
     domain: "D03,D04"
+    library_code: "4.1.1.1"
     stages: ["本科"]
     subjects: ["经络腧穴学"]
     abilities: ["腧穴定位","配穴"]
@@ -29,6 +30,14 @@ metadata:
 # 经络腧穴学 Skill
 
 腧穴定位差之毫厘谬以千里，纯文字描述难以自检。本 Skill 强制用体表标志 + 骨度分寸描述定位，并生成可自测的定位题。
+
+## 四级目录定位 / Library Position
+
+**四级编码** `4.1.1.1`（篇·章·节·目，横向读即完整编码）
+
+**定位路径** 04 针灸与推拿 / 01 经络腧穴学 / 01 实操与技法 / 01 经络腧穴学 Skill
+
+> 完整目录见 [`docs/05-四级目录（篇·章·节·目）.md`](../../../docs/05-四级目录（篇·章·节·目）.md)。
 
 ## 最适合 / Best For
 

@@ -1,7 +1,7 @@
 ---
 name: "tcm-formulas"
 description: "从君臣佐使拆方义，把「方—证—法」绑定，并训练加减变化对功效的迁移。"
-version: "0.1.0"
+version: "0.2.0"
 author: qhzytcm
 license: MIT
 platforms: [windows, linux, macos]
@@ -11,6 +11,7 @@ metadata:
     source: agent-tcmedu-skills
     category: "tcm-materia"
     domain: "D02"
+    library_code: "3.2.1.1"
     stages: ["本科"]
     subjects: ["方剂学"]
     abilities: ["方义配伍","类方比较"]
@@ -28,6 +29,14 @@ metadata:
 # 方剂学 Skill
 
 背方歌能记住组成，但说不清「为什么这么配」。本 Skill 强制拆君臣佐使并做加减推演，把方剂学成可推理的结构。
+
+## 四级目录定位 / Library Position
+
+**四级编码** `3.2.1.1`（篇·章·节·目，横向读即完整编码）
+
+**定位路径** 03 中药与方剂 / 02 方剂学 / 01 方药应用 / 01 方剂学 Skill
+
+> 完整目录见 [`docs/05-四级目录（篇·章·节·目）.md`](../../../docs/05-四级目录（篇·章·节·目）.md)。
 
 ## 最适合 / Best For
 

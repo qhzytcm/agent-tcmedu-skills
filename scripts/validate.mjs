@@ -24,6 +24,7 @@ import { PACK, SKILLS } from './skills.spec.mjs';
 const root = resolve(fileURLToPath(new URL('..', import.meta.url)));
 const catalogPath = join(root, 'catalog.json');
 const indexPath = join(root, '.well-known', 'skills', 'index.json');
+const fourLevelPath = join(root, 'data', 'four-level-index.json');
 const skillsRoot = join(root, 'skills');
 
 let failures = 0;
@@ -65,13 +66,19 @@ const FORBIDDEN = [
 ];
 
 // ── 1. 存在性 ──
-for (const [label, p] of [['catalog.json', catalogPath], ['.well-known/skills/index.json', indexPath], ['skills/', skillsRoot]]) {
+for (const [label, p] of [
+  ['catalog.json', catalogPath],
+  ['.well-known/skills/index.json', indexPath],
+  ['data/four-level-index.json', fourLevelPath],
+  ['skills/', skillsRoot],
+]) {
   if (!existsSync(p)) { fail(`${label} 缺失`); }
 }
 if (failures) { console.error('[agent-tcmedu-skills] 前置文件缺失，终止。'); process.exit(1); }
 
 const catalog = readJson(catalogPath);
 const index = readJson(indexPath);
+const fourLevel = readJson(fourLevelPath);
 const skillFiles = walkSkillFiles(skillsRoot);
 
 // ── 2. 名字 ──
@@ -95,6 +102,7 @@ if (skillFiles.length !== catalog.skills.length) {
 const names = new Set();
 const fileSet = new Set(skillFiles.map((f) => norm(relative(root, f))));
 const indexPathByName = new Map(index.skills.map((s) => [s.name, s]));
+const indexByName_libraryCode = new Map(index.skills.map((s) => [s.name, s.libraryCode]));
 const liveSlugs = new Set(SKILLS.map((s) => s.slug));
 
 for (const skill of catalog.skills) {
@@ -135,6 +143,19 @@ for (const skill of catalog.skills) {
   if (skill.platformApis?.length && !skill.platformApis.every((a) => content.includes(a))) {
     fail(`${skill.path} 的平台接口表与 catalog.platformApis 不一致`);
   }
+
+  // 四级目录（篇·章·节·目）
+  if (!/^## 四级目录定位 \/ Library Position$/m.test(content)) {
+    fail(`${skill.path} 缺少「四级目录定位 / Library Position」章节`);
+  }
+  if (!/^\d+\.\d+\.\d+\.\d+$/.test(skill.libraryCode ?? '')) {
+    fail(`${skill.name} 的 libraryCode 格式非法（应为 篇.章.节.目 纯数字）: ${skill.libraryCode}`);
+  } else if (!content.includes(`\`${skill.libraryCode}\``)) {
+    fail(`${skill.path} 正文未体现 libraryCode ${skill.libraryCode}`);
+  }
+  if (indexByName_libraryCode.get(skill.name) !== skill.libraryCode) {
+    fail(`discovery index 的 libraryCode 与 catalog 不一致: ${skill.name}`);
+  }
 }
 
 for (const pattern of FORBIDDEN) {
@@ -144,6 +165,38 @@ for (const pattern of FORBIDDEN) {
 // 孤儿目录：磁盘有 SKILL.md 但不在 catalog
 for (const rel of fileSet) {
   if (!catalog.skills.some((s) => s.path === rel)) fail(`孤儿 SKILL.md（不在 catalog 中）: ${rel}`);
+}
+
+// ── 8b. 四级目录一致性 ──
+{
+  const flCodes = new Map();
+  for (const skill of catalog.skills) {
+    const c = skill.libraryCode;
+    if (!c) { fail(`catalog 条目缺少 libraryCode: ${skill.name}`); continue; }
+    if (flCodes.has(c)) fail(`四级编码重复: ${c}（${skill.name} 与 ${flCodes.get(c)}）`);
+    flCodes.set(c, skill.name);
+  }
+  if (fourLevel.skillCount !== catalog.skillCount) {
+    fail(`四级目录 skillCount=${fourLevel.skillCount} 与 catalog ${catalog.skillCount} 不一致`);
+  }
+  const leaves = [];
+  for (const p of fourLevel.parts) {
+    for (const ch of p.chapters) {
+      for (const sec of ch.sections) {
+        for (const leaf of sec.skills) leaves.push(leaf);
+      }
+    }
+  }
+  if (leaves.length !== catalog.skillCount) {
+    fail(`四级目录的「目」数 ${leaves.length} 与 catalog ${catalog.skillCount} 不一致`);
+  }
+  for (const leaf of leaves) {
+    const cat = catalog.skills.find((s) => s.name === leaf.slug);
+    if (!cat) { fail(`四级目录出现 catalog 之外的技能: ${leaf.slug}`); continue; }
+    if (cat.libraryCode !== leaf.libraryCode) {
+      fail(`四级目录编码与 catalog 不一致: ${leaf.slug}（${leaf.libraryCode} ≠ ${cat.libraryCode}）`);
+    }
+  }
 }
 
 // ── 9. spec 同步 ──

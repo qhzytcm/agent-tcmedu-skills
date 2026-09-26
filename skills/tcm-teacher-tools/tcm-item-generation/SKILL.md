@@ -1,7 +1,7 @@
 ---
 name: "tcm-item-generation"
 description: "按知识点与难度分布命题组卷，自动配答案、解析、评分标准与双向细目表。"
-version: "0.1.0"
+version: "0.2.0"
 author: qhzytcm
 license: MIT
 platforms: [windows, linux, macos]
@@ -11,6 +11,7 @@ metadata:
     source: agent-tcmedu-skills
     category: "tcm-teacher-tools"
     domain: "-"
+    library_code: "12.1.1.2"
     stages: ["继续教育"]
     subjects: ["教师发展","中医综合"]
     abilities: ["命题","组卷"]
@@ -27,6 +28,14 @@ metadata:
 # 中医命题与组卷 Skill
 
 中医命题既要覆盖知识点又要控制难度分布，手工组卷极易偏斜。本 Skill 用双向细目表约束组卷。
+
+## 四级目录定位 / Library Position
+
+**四级编码** `12.1.1.2`（篇·章·节·目，横向读即完整编码）
+
+**定位路径** 12 教研工具 / 01 教师发展 / 01 教学与学习 / 02 中医命题与组卷 Skill
+
+> 完整目录见 [`docs/05-四级目录（篇·章·节·目）.md`](../../../docs/05-四级目录（篇·章·节·目）.md)。
 
 ## 最适合 / Best For
 

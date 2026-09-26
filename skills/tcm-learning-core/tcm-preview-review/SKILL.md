@@ -1,7 +1,7 @@
 ---
 name: "tcm-preview-review"
 description: "课前用问题清单预习，周末用「掌握了什么—还差什么」做结构化复盘。"
-version: "0.1.0"
+version: "0.2.0"
 author: qhzytcm
 license: MIT
 platforms: [windows, linux, macos]
@@ -11,6 +11,7 @@ metadata:
     source: agent-tcmedu-skills
     category: "tcm-learning-core"
     domain: "-"
+    library_code: "8.1.1.4"
     stages: ["本科","硕士","规培"]
     subjects: ["学习能力"]
     abilities: ["预习","阶段复盘"]
@@ -27,6 +28,14 @@ metadata:
 # 中医预习与每周复盘 Skill
 
 中医课程节奏快，不预习听课效率低；不复盘则学一章丢一章。本 Skill 把预习与复盘固定成两个短流程。
+
+## 四级目录定位 / Library Position
+
+**四级编码** `8.1.1.4`（篇·章·节·目，横向读即完整编码）
+
+**定位路径** 08 学习核心 / 01 学习能力 / 01 教学与学习 / 04 中医预习与每周复盘 Skill
+
+> 完整目录见 [`docs/05-四级目录（篇·章·节·目）.md`](../../../docs/05-四级目录（篇·章·节·目）.md)。
 
 ## 最适合 / Best For
 

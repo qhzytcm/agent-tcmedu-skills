@@ -1,7 +1,7 @@
 ---
 name: "tcm-study-plan"
 description: "把模糊目标拆成今天、本周与下一轮可执行的中医学习安排。"
-version: "0.1.0"
+version: "0.2.0"
 author: qhzytcm
 license: MIT
 platforms: [windows, linux, macos]
@@ -11,6 +11,7 @@ metadata:
     source: agent-tcmedu-skills
     category: "tcm-learning-core"
     domain: "-"
+    library_code: "8.1.1.1"
     stages: ["本科","硕士","规培","继续教育"]
     subjects: ["学习能力"]
     abilities: ["学习计划","目标管理"]
@@ -27,6 +28,14 @@ metadata:
 # 中医学习计划 Skill
 
 中医学习周期长、门类多，目标一模糊就会陷入「今天看点啥都行」。本 Skill 用前置链与轮次编排给出确定性的每日任务。
+
+## 四级目录定位 / Library Position
+
+**四级编码** `8.1.1.1`（篇·章·节·目，横向读即完整编码）
+
+**定位路径** 08 学习核心 / 01 学习能力 / 01 教学与学习 / 01 中医学习计划 Skill
+
+> 完整目录见 [`docs/05-四级目录（篇·章·节·目）.md`](../../../docs/05-四级目录（篇·章·节·目）.md)。
 
 ## 最适合 / Best For
 

@@ -20,6 +20,10 @@ jobs:
         with:
           node-version: 22
 
+      - name: Sync subject catalog from tcmP main repo
+        run: npm run sync
+        continue-on-error: true
+
       - name: Rebuild pack from spec
         run: npm run build
 

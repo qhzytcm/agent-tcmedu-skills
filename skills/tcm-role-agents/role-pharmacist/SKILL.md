@@ -1,7 +1,7 @@
 ---
 name: "role-pharmacist"
 description: "处方审核、相互作用核查、替代建议与饮片溯源一体化的药事服务能力。 依赖 tcmP 平台接口，离线不可用。"
-version: "0.1.0"
+version: "0.2.0"
 author: qhzytcm
 license: MIT
 platforms: [windows, linux, macos]
@@ -11,6 +11,7 @@ metadata:
     source: agent-tcmedu-skills
     category: "tcm-role-agents"
     domain: "平台"
+    library_code: "10.3.1.1"
     stages: ["本科","继续教育"]
     subjects: ["临床中药学","药事管理"]
     abilities: ["处方审核","饮片溯源"]
@@ -29,6 +30,14 @@ metadata:
 # 药者 Agent Skill
 
 中药处方审核需要同时看配伍禁忌、剂量与饮片质量，人工易漏。本 Skill 把四项核查固化成必过清单。
+
+## 四级目录定位 / Library Position
+
+**四级编码** `10.3.1.1`（篇·章·节·目，横向读即完整编码）
+
+**定位路径** 10 六者角色 / 03 临床中药学 / 01 管理与决策 / 01 药者 Agent Skill
+
+> 完整目录见 [`docs/05-四级目录（篇·章·节·目）.md`](../../../docs/05-四级目录（篇·章·节·目）.md)。
 
 ## 最适合 / Best For
 

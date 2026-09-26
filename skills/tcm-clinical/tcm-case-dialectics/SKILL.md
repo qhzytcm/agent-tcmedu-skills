@@ -1,7 +1,7 @@
 ---
 name: "tcm-case-dialectics"
 description: "拉取平台病证单位（DSU）真实病案，做「以病索证 / 以证溯病」的双向辨证对抗训练。 依赖 tcmP 平台接口，离线不可用。"
-version: "0.1.0"
+version: "0.2.0"
 author: qhzytcm
 license: MIT
 platforms: [windows, linux, macos]
@@ -11,6 +11,7 @@ metadata:
     source: agent-tcmedu-skills
     category: "tcm-clinical"
     domain: "D01"
+    library_code: "2.4.1.1"
     stages: ["本科","规培"]
     subjects: ["中医临床综合"]
     abilities: ["双向辨证","病证检索"]
@@ -28,6 +29,14 @@ metadata:
 # 病案辨证实训 Skill
 
 课堂病案经过简化，真实病案信息冗余且干扰项多。本 Skill 直接调用 tcmP 图谱的病证单位，做带评分标准的双向检索训练。
+
+## 四级目录定位 / Library Position
+
+**四级编码** `2.4.1.1`（篇·章·节·目，横向读即完整编码）
+
+**定位路径** 02 中医临床各科 / 04 中医临床综合 / 01 检索与数据 / 01 病案辨证实训 Skill
+
+> 完整目录见 [`docs/05-四级目录（篇·章·节·目）.md`](../../../docs/05-四级目录（篇·章·节·目）.md)。
 
 ## 最适合 / Best For
 

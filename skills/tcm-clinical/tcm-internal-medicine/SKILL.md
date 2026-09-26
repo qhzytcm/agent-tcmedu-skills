@@ -1,7 +1,7 @@
 ---
 name: "tcm-internal-medicine"
 description: "按「病—证—法—方—药」五级落点，把内科各病种的辨证分型训练成可判分的诊疗路径。"
-version: "0.1.0"
+version: "0.2.0"
 author: qhzytcm
 license: MIT
 platforms: [windows, linux, macos]
@@ -11,6 +11,7 @@ metadata:
     source: agent-tcmedu-skills
     category: "tcm-clinical"
     domain: "D01"
+    library_code: "2.1.1.1"
     stages: ["本科","规培"]
     subjects: ["中医内科学"]
     abilities: ["辨证分型","治法方药"]
@@ -29,6 +30,14 @@ metadata:
 # 中医内科学 Skill
 
 内科病种的辨证分型表背下来容易，但遇到真实主诉就选不准证型。本 Skill 用五级落点强制每一步都有依据，暴露「跳步选方」的错误。
+
+## 四级目录定位 / Library Position
+
+**四级编码** `2.1.1.1`（篇·章·节·目，横向读即完整编码）
+
+**定位路径** 02 中医临床各科 / 01 中医内科学 / 01 方药应用 / 01 中医内科学 Skill
+
+> 完整目录见 [`docs/05-四级目录（篇·章·节·目）.md`](../../../docs/05-四级目录（篇·章·节·目）.md)。
 
 ## 最适合 / Best For
 

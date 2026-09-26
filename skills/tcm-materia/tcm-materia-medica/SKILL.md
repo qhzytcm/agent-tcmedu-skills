@@ -1,7 +1,7 @@
 ---
 name: "tcm-materia-medica"
 description: "按「性味归经—功效—主治—用法用量—使用注意」五要素记忆中药，并做同类药横向比较。"
-version: "0.1.0"
+version: "0.2.0"
 author: qhzytcm
 license: MIT
 platforms: [windows, linux, macos]
@@ -11,6 +11,7 @@ metadata:
     source: agent-tcmedu-skills
     category: "tcm-materia"
     domain: "D02"
+    library_code: "3.1.1.1"
     stages: ["本科"]
     subjects: ["中药学"]
     abilities: ["药性功效","同类药辨析"]
@@ -28,6 +29,14 @@ metadata:
 # 中药学 Skill
 
 中药数量多且功效高度相似，单味背记极易混淆。本 Skill 强制五要素结构 + 同类药横向对比表，把「记住」变成「分得清」。
+
+## 四级目录定位 / Library Position
+
+**四级编码** `3.1.1.1`（篇·章·节·目，横向读即完整编码）
+
+**定位路径** 03 中药与方剂 / 01 中药学 / 01 方药应用 / 01 中药学 Skill
+
+> 完整目录见 [`docs/05-四级目录（篇·章·节·目）.md`](../../../docs/05-四级目录（篇·章·节·目）.md)。
 
 ## 最适合 / Best For
 

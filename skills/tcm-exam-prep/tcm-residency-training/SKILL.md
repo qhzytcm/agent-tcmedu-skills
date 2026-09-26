@@ -1,7 +1,7 @@
 ---
 name: "tcm-residency-training"
 description: "按轮转科室与出科考核组织规培学习，对接医圣成长的病证数门槛。 依赖 tcmP 平台接口，离线不可用。"
-version: "0.1.0"
+version: "0.2.0"
 author: qhzytcm
 license: MIT
 platforms: [windows, linux, macos]
@@ -11,6 +11,7 @@ metadata:
     source: agent-tcmedu-skills
     category: "tcm-exam-prep"
     domain: "-"
+    library_code: "9.1.3.1"
     stages: ["规培"]
     subjects: ["中医综合"]
     abilities: ["轮转管理","病证覆盖"]
@@ -29,6 +30,14 @@ metadata:
 # 住院医师规范化培训 Skill
 
 规培的关键不是考试而是「病证覆盖量」与出科能力。本 Skill 把轮转计划与病证数门槛绑定，让进度可见。
+
+## 四级目录定位 / Library Position
+
+**四级编码** `9.1.3.1`（篇·章·节·目，横向读即完整编码）
+
+**定位路径** 09 考试备考 / 01 中医综合 / 03 管理与决策 / 01 住院医师规范化培训 Skill
+
+> 完整目录见 [`docs/05-四级目录（篇·章·节·目）.md`](../../../docs/05-四级目录（篇·章·节·目）.md)。
 
 ## 最适合 / Best For
 
