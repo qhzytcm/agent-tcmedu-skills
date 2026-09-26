@@ -42,10 +42,6 @@ function loadCatalog() {
   return JSON.parse(readFileSync(catalogPath, 'utf8'));
 }
 
-function categoryAlias(c) {
-  return [c.category, c.categoryZh].filter(Boolean);
-}
-
 function resolveCategory(catalog, token) {
   if (!token) return null;
   const hit = catalog.categories.find((c) => c.slug === token || c.zh === token);
