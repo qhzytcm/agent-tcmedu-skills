@@ -17,6 +17,8 @@ import { spawnSync } from 'node:child_process';
 import { dirname, join, resolve } from 'node:path';
 import { fileURLToPath } from 'node:url';
 
+import { rankSkills } from './lib/match.mjs';
+
 const root = resolve(fileURLToPath(new URL('..', import.meta.url)));
 const catalogPath = join(root, 'catalog.json');
 const skillsRoot = join(root, 'skills');
@@ -109,39 +111,8 @@ function cmdInfo() {
 }
 
 // ────────────────────────── match ───────────────────────────
-function score(skill, q) {
-  const text = q.toLowerCase();
-  let sc = 0;
-  const hit = (hay, w) => { if (hay && hay.toLowerCase().includes(text)) sc += w; };
-  hit(skill.title, 8);
-  hit(skill.name.replace(/-/g, ''), 6);
-  for (const t of skill.tags ?? []) hit(t, 5);
-  for (const t of skill.subjects ?? []) hit(t, 4);
-  for (const t of skill.abilities ?? []) hit(t, 3);
-  for (const t of skill.scenarios ?? []) hit(t, 3);
-  for (const t of skill.roles ?? []) hit(t, 4);
-  for (const t of skill.textbookCodes ?? []) hit(t, 3);
-  hit(skill.categoryZh, 2);
-  // 单字 & 二元组回退，提升中文召回
-  const grams = new Set();
-  for (let i = 0; i < text.length; i += 1) {
-    if (/[\u4e00-\u9fa5]/.test(text[i])) {
-      grams.add(text[i]);
-      if (i + 1 < text.length && /[\u4e00-\u9fa5]/.test(text[i + 1])) grams.add(text.slice(i, i + 2));
-    }
-  }
-  const bag = [skill.title, ...(skill.tags ?? []), ...(skill.subjects ?? []), ...(skill.abilities ?? []), ...(skill.scenarios ?? []), skill.description].join('').toLowerCase();
-  for (const g of grams) if (bag.includes(g)) sc += g.length >= 2 ? 1 : 0.2;
-  return sc;
-}
-
 function matchTop(q, top) {
-  const catalog = loadCatalog();
-  const scored = catalog.skills
-    .map((s) => ({ s, sc: score(s, q) }))
-    .filter((x) => x.sc > 1)
-    .sort((a, b) => b.sc - a.sc || a.s.name.localeCompare(b.s.name));
-  return scored.slice(0, top);
+  return rankSkills(loadCatalog().skills, q, top);
 }
 
 function cmdMatch() {

@@ -10,8 +10,10 @@
  * 产出：data/routing-eval.json · docs/08-可利用程度实测.md
  */
 import { existsSync, mkdirSync, readFileSync, writeFileSync } from 'node:fs';
-import { dirname, join, resolve } from 'node:path';
+import { join, resolve } from 'node:path';
 import { fileURLToPath } from 'node:url';
+
+import { rankSkills } from './lib/match.mjs';
 
 const root = resolve(fileURLToPath(new URL('..', import.meta.url)));
 const catalog = JSON.parse(readFileSync(join(root, 'catalog.json'), 'utf8'));
@@ -54,41 +56,12 @@ const CASES = [
   ['出5道中药学选择题并给解析', ['tcm-item-generation', 'tcm-daily-herb-drill']],
 ];
 
-// ── 复用 CLI 的打分逻辑（保持一致）──
-function score(skill, q) {
-  const text = q.toLowerCase();
-  let sc = 0;
-  const hit = (hay, w) => { if (hay && hay.toLowerCase().includes(text)) sc += w; };
-  hit(skill.title, 8);
-  hit(skill.name.replace(/-/g, ''), 6);
-  for (const t of skill.tags ?? []) hit(t, 5);
-  for (const t of skill.subjects ?? []) hit(t, 4);
-  for (const t of skill.abilities ?? []) hit(t, 3);
-  for (const t of skill.scenarios ?? []) hit(t, 3);
-  for (const t of skill.roles ?? []) hit(t, 4);
-  for (const t of skill.textbookCodes ?? []) hit(t, 3);
-  hit(skill.categoryZh, 2);
-  const grams = new Set();
-  for (let i = 0; i < text.length; i += 1) {
-    if (/[\u4e00-\u9fa5]/.test(text[i])) {
-      grams.add(text[i]);
-      if (i + 1 < text.length && /[\u4e00-\u9fa5]/.test(text[i + 1])) grams.add(text.slice(i, i + 2));
-    }
-  }
-  const bag = [skill.title, ...(skill.tags ?? []), ...(skill.subjects ?? []), ...(skill.abilities ?? []), ...(skill.scenarios ?? []), skill.description].join('').toLowerCase();
-  for (const g of grams) if (bag.includes(g)) sc += g.length >= 2 ? 1 : 0.2;
-  return sc;
-}
-
+// ── 路由打分复用共享内核（与 CLI 的 match 同一实现）──
 const results = [];
 let top1 = 0;
 let top3 = 0;
 for (const [q, expected] of CASES) {
-  const ranked = catalog.skills
-    .map((s) => ({ name: s.name, sc: score(s, q) }))
-    .filter((x) => x.sc > 1)
-    .sort((a, b) => b.sc - a.sc || a.name.localeCompare(b.name))
-    .slice(0, 5);
+  const ranked = rankSkills(catalog.skills, q, 5).map((r) => ({ name: r.s.name, sc: r.sc }));
   const names = ranked.map((r) => r.name);
   const is1 = names[0] && expected.includes(names[0]);
   const is3 = names.slice(0, 3).some((n) => expected.includes(n));
