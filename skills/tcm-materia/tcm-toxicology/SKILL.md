@@ -1,7 +1,7 @@
 ---
 name: "tcm-toxicology"
 description: "按毒性成分、靶器官与剂量—时间关系评估中药安全性，给出减毒策略。 依赖 tcmP 平台接口，离线不可用。"
-version: "0.2.0"
+version: "0.3.0"
 author: qhzytcm
 license: MIT
 platforms: [windows, linux, macos]

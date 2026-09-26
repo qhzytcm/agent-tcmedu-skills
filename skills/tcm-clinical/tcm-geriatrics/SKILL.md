@@ -1,7 +1,7 @@
 ---
 name: "tcm-geriatrics"
 description: "老年多病共存与虚实夹杂场景下的用药取舍：先定主次，再谈补泻。 依赖 tcmP 平台接口，离线不可用。"
-version: "0.2.0"
+version: "0.3.0"
 author: qhzytcm
 license: MIT
 platforms: [windows, linux, macos]

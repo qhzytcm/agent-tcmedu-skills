@@ -24,6 +24,14 @@ jobs:
         run: npm run sync
         continue-on-error: true
 
+      - name: Extract upstream skill applicability
+        run: npm run extract
+        continue-on-error: true
+
+      - name: Routing evaluation
+        run: npm run build && npm run eval
+        continue-on-error: true
+
       - name: Rebuild pack from spec
         run: npm run build
 

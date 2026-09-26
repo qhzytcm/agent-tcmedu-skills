@@ -1,7 +1,7 @@
 ---
 name: "tcm-phytochemistry"
 description: "按成分类型（生物碱 / 黄酮 / 萜类…）梳理结构—性质—提取分离—活性链条。"
-version: "0.2.0"
+version: "0.3.0"
 author: qhzytcm
 license: MIT
 platforms: [windows, linux, macos]

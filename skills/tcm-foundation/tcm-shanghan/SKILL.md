@@ -1,7 +1,7 @@
 ---
 name: "tcm-shanghan"
 description: "按六经辨证把《伤寒论》条文整理成「方证—脉证—治法—禁忌」四栏可检索卡片。"
-version: "0.2.0"
+version: "0.3.0"
 author: qhzytcm
 license: MIT
 platforms: [windows, linux, macos]

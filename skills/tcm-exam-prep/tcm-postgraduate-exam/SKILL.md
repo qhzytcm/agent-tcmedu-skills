@@ -1,7 +1,7 @@
 ---
 name: "tcm-postgraduate-exam"
 description: "面向考研中医综合（中基 / 中诊 / 中药 / 方剂 / 内科 / 针灸），做长周期分段备考。"
-version: "0.2.0"
+version: "0.3.0"
 author: qhzytcm
 license: MIT
 platforms: [windows, linux, macos]

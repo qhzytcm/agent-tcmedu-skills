@@ -1,7 +1,7 @@
 ---
 name: "sage-growth-path"
 description: "把职称阶段映射为病证数门槛与能力清单，给出可追踪、可考核的成长路径。 依赖 tcmP 平台接口，离线不可用。"
-version: "0.2.0"
+version: "0.3.0"
 author: qhzytcm
 license: MIT
 platforms: [windows, linux, macos]

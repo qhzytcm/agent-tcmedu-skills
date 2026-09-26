@@ -1,7 +1,7 @@
 ---
 name: "sage-mentorship"
 description: "调用张仲景 / 孙思邈人格做专题授课与病案点评，按学员层级调整深度。 依赖 tcmP 平台接口，离线不可用。"
-version: "0.2.0"
+version: "0.3.0"
 author: qhzytcm
 license: MIT
 platforms: [windows, linux, macos]

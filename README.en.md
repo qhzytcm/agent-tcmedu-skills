@@ -4,7 +4,7 @@
 
 Turn Traditional Chinese Medicine education scenarios into discoverable, callable, installable, and exportable capabilities for Hermes Agent and other AI agent runtimes.
 
-`v0.2.0` · `72 Skills` · `12 Categories` · `Four-level catalog (part·chapter·section·item)` · `120 subjects aligned` · MIT
+`v0.3.0` · `84 Skills` · `13 Categories` · `Four-level catalog (part·chapter·section·item)` · `120 subjects aligned` · `Upstream extraction report` · MIT
 
 [中文说明](README.md)
 
@@ -66,8 +66,9 @@ node scripts/agent-pack.mjs export generic --target ./dist/agent-skills
 | Six-Role Agents | `tcm-role-agents` | platform | 6 |
 | Sage Growth | `tcm-sage-growth` | platform | 2 |
 | Teacher Tools | `tcm-teacher-tools` | - | 2 |
+| Upstream Adaptation | `tcm-upstream` | - | 12 |
 
-22 skills are platform-bound; 50 work fully offline.
+22 skills are platform-bound; 62 work fully offline.
 
 Full skill list: [`docs/05-四级目录（篇·章·节·目）.md`](docs/05-四级目录（篇·章·节·目）.md) · Machine-readable: [`catalog.json`](catalog.json)
 

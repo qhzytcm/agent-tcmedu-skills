@@ -1,7 +1,7 @@
 ---
 name: "tcm-soul-agent-forge"
 description: "按六段式 SOUL 规范锻造角色人格，并注册到平台 /agents 端点完成上线。 依赖 tcmP 平台接口，离线不可用。"
-version: "0.2.0"
+version: "0.3.0"
 author: qhzytcm
 license: MIT
 platforms: [windows, linux, macos]

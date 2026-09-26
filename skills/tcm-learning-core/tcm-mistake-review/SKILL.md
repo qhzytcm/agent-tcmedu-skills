@@ -1,7 +1,7 @@
 ---
 name: "tcm-mistake-review"
 description: "把错题按「概念型 / 记忆型 / 推理型 / 粗心型」四类归因，并生成复测。"
-version: "0.2.0"
+version: "0.3.0"
 author: qhzytcm
 license: MIT
 platforms: [windows, linux, macos]

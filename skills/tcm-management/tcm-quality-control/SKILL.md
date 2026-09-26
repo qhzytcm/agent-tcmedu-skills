@@ -1,7 +1,7 @@
 ---
 name: "tcm-quality-control"
 description: "把中医病历质量、辨证规范性与优势病种管理转成可抽查、可量化的质控指标。 依赖 tcmP 平台接口，离线不可用。"
-version: "0.2.0"
+version: "0.3.0"
 author: qhzytcm
 license: MIT
 platforms: [windows, linux, macos]

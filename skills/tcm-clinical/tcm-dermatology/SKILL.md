@@ -1,7 +1,7 @@
 ---
 name: "tcm-dermatology"
 description: "皮损形态 → 局部辨证 → 脏腑气血归属，三步把皮肤病转成可判分的辨证路径。"
-version: "0.2.0"
+version: "0.3.0"
 author: qhzytcm
 license: MIT
 platforms: [windows, linux, macos]

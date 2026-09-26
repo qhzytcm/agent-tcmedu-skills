@@ -1,7 +1,7 @@
 ---
 name: "role-regulator"
 description: "质控管理、排班优化、资源利用与应急调度：用指标驱动医院运行。 依赖 tcmP 平台接口，离线不可用。"
-version: "0.2.0"
+version: "0.3.0"
 author: qhzytcm
 license: MIT
 platforms: [windows, linux, macos]

@@ -1,7 +1,7 @@
 ---
 name: "tcm-pharmacy-management"
 description: "覆盖中药采购、验收、调剂、煎药与不良反应监测的全流程合规管理。 依赖 tcmP 平台接口，离线不可用。"
-version: "0.2.0"
+version: "0.3.0"
 author: qhzytcm
 license: MIT
 platforms: [windows, linux, macos]

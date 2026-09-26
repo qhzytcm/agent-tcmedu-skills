@@ -1,7 +1,7 @@
 ---
 name: "tcm-preview-review"
 description: "课前用问题清单预习，周末用「掌握了什么—还差什么」做结构化复盘。"
-version: "0.2.0"
+version: "0.3.0"
 author: qhzytcm
 license: MIT
 platforms: [windows, linux, macos]

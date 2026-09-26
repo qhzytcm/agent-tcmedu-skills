@@ -1,7 +1,7 @@
 ---
 name: "tcm-jingui"
 description: "按病脉证治体例拆解《金匮要略》，把杂病条文整理成「病—脉—证—治—方」五栏卡片。"
-version: "0.2.0"
+version: "0.3.0"
 author: qhzytcm
 license: MIT
 platforms: [windows, linux, macos]

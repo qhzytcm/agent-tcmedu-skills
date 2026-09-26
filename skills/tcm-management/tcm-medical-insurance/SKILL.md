@@ -1,7 +1,7 @@
 ---
 name: "tcm-medical-insurance"
 description: "查清医保报销口径、药品分类与费用估算，并给出可复核的法规依据。 依赖 tcmP 平台接口，离线不可用。"
-version: "0.2.0"
+version: "0.3.0"
 author: qhzytcm
 license: MIT
 platforms: [windows, linux, macos]

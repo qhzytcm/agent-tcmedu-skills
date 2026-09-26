@@ -1,7 +1,7 @@
 ---
 name: "tcm-residency-training"
 description: "按轮转科室与出科考核组织规培学习，对接医圣成长的病证数门槛。 依赖 tcmP 平台接口，离线不可用。"
-version: "0.2.0"
+version: "0.3.0"
 author: qhzytcm
 license: MIT
 platforms: [windows, linux, macos]

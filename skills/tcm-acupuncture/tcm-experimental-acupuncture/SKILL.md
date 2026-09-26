@@ -1,7 +1,7 @@
 ---
 name: "tcm-experimental-acupuncture"
 description: "把针灸效应转成可验证的实验命题：穴位特异性、量效关系与机制研究设计。"
-version: "0.2.0"
+version: "0.3.0"
 author: qhzytcm
 license: MIT
 platforms: [windows, linux, macos]

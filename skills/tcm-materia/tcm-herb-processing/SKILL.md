@@ -1,7 +1,7 @@
 ---
 name: "tcm-herb-processing"
 description: "讲清「炮制减毒增效」的原理，并接入平台饮片溯源做过关式鉴定训练。 依赖 tcmP 平台接口，离线不可用。"
-version: "0.2.0"
+version: "0.3.0"
 author: qhzytcm
 license: MIT
 platforms: [windows, linux, macos]

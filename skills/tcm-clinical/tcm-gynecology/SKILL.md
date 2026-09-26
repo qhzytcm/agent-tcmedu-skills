@@ -1,7 +1,7 @@
 ---
 name: "tcm-gynecology"
 description: "以「经带胎产」四期为轴，把妇科病种的周期疗法与调周法落到具体方药与时机。"
-version: "0.2.0"
+version: "0.3.0"
 author: qhzytcm
 license: MIT
 platforms: [windows, linux, macos]

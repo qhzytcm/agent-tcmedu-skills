@@ -1,7 +1,7 @@
 ---
 name: "tcm-acupuncture-technique"
 description: "把毫针刺法、灸法、拔罐与电针的操作规范拆成可检查的步骤序列与安全边界。"
-version: "0.2.0"
+version: "0.3.0"
 author: qhzytcm
 license: MIT
 platforms: [windows, linux, macos]

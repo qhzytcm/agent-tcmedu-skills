@@ -1,7 +1,7 @@
 ---
 name: "role-patient"
 description: "面向患者的症状自查、导诊建议与用药说明，明确边界、突出就医提示。 依赖 tcmP 平台接口，离线不可用。"
-version: "0.2.0"
+version: "0.3.0"
 author: qhzytcm
 license: MIT
 platforms: [windows, linux, macos]

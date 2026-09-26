@@ -1,6 +1,6 @@
 {
   "name": "agent-tcmedu-skills",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "private": false,
   "description": "tcmP 中医药网络教育平台的 Agent Skill Pack 亚项目：把中医基础、经典、临床、中药方剂、针灸推拿、骨伤五官、中医智能、中医管理，以及六者角色与医圣成长，封装成 Hermes Agent 可发现、可调用、可安装的结构化能力库。",
   "license": "MIT",
@@ -32,6 +32,8 @@
   ],
   "scripts": {
     "sync": "node scripts/sync-from-tcmP.mjs",
+    "extract": "node scripts/extract-from-upstream.mjs",
+    "eval": "node scripts/eval-routing.mjs",
     "build": "node scripts/build-pack.mjs",
     "validate": "node scripts/validate.mjs",
     "check:docs": "node scripts/check-docs.mjs",

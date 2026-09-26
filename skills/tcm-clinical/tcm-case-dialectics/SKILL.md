@@ -1,7 +1,7 @@
 ---
 name: "tcm-case-dialectics"
 description: "拉取平台病证单位（DSU）真实病案，做「以病索证 / 以证溯病」的双向辨证对抗训练。 依赖 tcmP 平台接口，离线不可用。"
-version: "0.2.0"
+version: "0.3.0"
 author: qhzytcm
 license: MIT
 platforms: [windows, linux, macos]

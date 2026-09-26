@@ -1,7 +1,7 @@
 ---
 name: "tcm-pharmaceutics"
 description: "按剂型（汤剂 / 丸散 / 颗粒 / 注射剂…）组织制备工艺、质量标准与生物利用度。"
-version: "0.2.0"
+version: "0.3.0"
 author: qhzytcm
 license: MIT
 platforms: [windows, linux, macos]

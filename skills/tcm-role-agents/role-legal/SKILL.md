@@ -1,7 +1,7 @@
 ---
 name: "role-legal"
 description: "医疗风险识别、知情同意、法规查询与纠纷预防，并覆盖医保报销合规口径。 依赖 tcmP 平台接口，离线不可用。"
-version: "0.2.0"
+version: "0.3.0"
 author: qhzytcm
 license: MIT
 platforms: [windows, linux, macos]

@@ -1,7 +1,7 @@
 ---
 name: "tcm-medicinal-botany"
 description: "从植物形态与分类学到药材基原鉴定，把「认得植物」与「认对药材」串起来。"
-version: "0.2.0"
+version: "0.3.0"
 author: qhzytcm
 license: MIT
 platforms: [windows, linux, macos]

@@ -1,7 +1,7 @@
 ---
 name: "tcm-otolaryngology"
 description: "耳鼻喉局部辨证关联肺脾胃肾，兼顾慢性病管理与急性症状的转诊判断。"
-version: "0.2.0"
+version: "0.3.0"
 author: qhzytcm
 license: MIT
 platforms: [windows, linux, macos]

@@ -1,7 +1,7 @@
 ---
 name: "tcm-analysis"
 description: "按指标成分选择分析方法，设计含量测定与指纹图谱方案并做方法学验证。"
-version: "0.2.0"
+version: "0.3.0"
 author: qhzytcm
 license: MIT
 platforms: [windows, linux, macos]

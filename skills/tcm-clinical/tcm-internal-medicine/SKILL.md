@@ -1,7 +1,7 @@
 ---
 name: "tcm-internal-medicine"
 description: "按「病—证—法—方—药」五级落点，把内科各病种的辨证分型训练成可判分的诊疗路径。"
-version: "0.2.0"
+version: "0.3.0"
 author: qhzytcm
 license: MIT
 platforms: [windows, linux, macos]

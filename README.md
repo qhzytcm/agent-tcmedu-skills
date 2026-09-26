@@ -6,7 +6,7 @@
 
 把中医药教育场景封装成 Hermes Agent 可发现、可调用、可安装、可导出的结构化能力库
 
-`v0.2.0` · `72 Skills` · `12 Categories` · `四级目录（篇·章·节·目）` · `120 学科对齐` · MIT
+`v0.3.0` · `84 Skills` · `13 Categories` · `四级目录（篇·章·节·目）` · `120 学科对齐` · `上游提取报告` · MIT
 
 </div>
 
@@ -22,7 +22,7 @@
 | --- | --- |
 | 这是什么 | 面向中医药教育场景的开源 Agent Skill Pack，也是 tcmP 平台的亚项目。 |
 | 为什么需要 | 通用 Agent 不懂中医教材体系、辨证范式、六者岗位与医圣成长路径。 |
-| 怎么实现 | 用 72 个结构化 `SKILL.md`，把「教材学习 → 辨证推理 → 平台检索 → 成长考核」封装成可调用能力。 |
+| 怎么实现 | 用 84 个结构化 `SKILL.md`，把「教材学习 → 辨证推理 → 平台检索 → 成长考核」封装成可调用能力。 |
 | 怎么组织 | **四级目录**：篇（分类）→ 章（学科）→ 节（能力族）→ 目（技能），四级编码纯数字分列。 |
 | 默认平台 | Hermes Agent（`skills.external_dirs` 接入）。 |
 | 可导出平台 | 通用 Agent 扁平技能包（`export generic`）。 |
@@ -70,10 +70,10 @@ npm run export:generic                              # 导出通用扁平技能�
 
 | 级 | 名称 | 取值 | 规模 |
 | :-: | --- | --- | :-: |
-| 篇 L1 | 分类 | 12 个分类 | **12** |
-| 章 L2 | 学科 | 技能的主学科（`subjects[0]`） | **57** |
-| 节 L3 | 能力族 | 由 `abilities`/`tags` 归纳的 9 个能力族 | **61** |
-| 目 L4 | 技能 | 一个技能 = 一种可执行的教学工作流 | **72** |
+| 篇 L1 | 分类 | 13 个分类 | **13** |
+| 章 L2 | 学科 | 技能的主学科（`subjects[0]`） | **62** |
+| 节 L3 | 能力族 | 由 `abilities`/`tags` 归纳的 9 个能力族 | **68** |
+| 目 L4 | 技能 | 一个技能 = 一种可执行的教学工作流 | **84** |
 
 完整目录树见 [`docs/05-四级目录（篇·章·节·目）.md`](docs/05-四级目录（篇·章·节·目）.md)，机器可读见 [`data/four-level-index.json`](data/four-level-index.json)。
 
@@ -97,10 +97,11 @@ npm run export:generic                              # 导出通用扁平技能�
 | 六者角色 | `tcm-role-agents` | 平台 | 6 | 医·患·药·械·规·法 六者端点绑定 |
 | 医圣成长 | `tcm-sage-growth` | 平台 | 2 | 医圣带教、成长路径与病证数门槛 |
 | 教研工具 | `tcm-teacher-tools` | - | 2 | 备课、命题组卷 |
+| 上游技能移植 | `tcm-upstream` | - | 12 | 从上游 hermes-edu-skills 提取并重绑的通用学习/教学工作流外壳 |
 
-**依赖**：22 个平台绑定技能需 tcmP 接口，50 个可离线独立使用。
+**依赖**：22 个平台绑定技能需 tcmP 接口，62 个可离线独立使用。
 
-> 全部 72 个技能的可点击清单见 [`docs/05-四级目录（篇·章·节·目）.md`](docs/05-四级目录（篇·章·节·目）.md)，机器可读索引见 [`catalog.json`](catalog.json)。
+> 全部 84 个技能的可点击清单见 [`docs/05-四级目录（篇·章·节·目）.md`](docs/05-四级目录（篇·章·节·目）.md)，机器可读索引见 [`catalog.json`](catalog.json)。
 
 ---
 
@@ -156,15 +157,17 @@ agent-tcmedu-skills/
 ├── scripts/validate.mjs             校验器
 ├── scripts/check-docs.mjs           文档同步校验器
 ├── scripts/sync-from-tcmP.mjs       主仓 → 学科目录同步器
+├── scripts/extract-from-upstream.mjs 上游技能包 → 提取判定与移植清单
 ├── scripts/agent-pack.mjs           CLI（9 条命令）
-├── skills/<分类>/<技能>/SKILL.md     ← 生成物（72 个）
+├── skills/<分类>/<技能>/SKILL.md     ← 生成物（84 个）
 ├── catalog.json                      ← 生成物
 ├── .well-known/skills/index.json     ← 生成物
 ├── data/tcmP-subjects.json           ← 生成物（120 学科）
 ├── data/four-level-index.json        ← 生成物（四级目录）
 ├── data/subject-coverage.json        ← 生成物（覆盖矩阵）
+├── data/upstream-extraction.json     ← 生成物（上游提取判定）
 ├── docs/  00 架构总览 · 01 能力地图 · 02 平台对接契约 · 03 命名规范
-│          04 路线图 · 05 四级目录 · 06 学科覆盖矩阵
+│          04 路线图 · 05 四级目录 · 06 学科覆盖矩阵 · 07 上游技能提取报告
 ├── .github/workflows/validate.yml    CI
 └── HERMES.md                         ← 生成物：项目级启动 Prompt
 ```
@@ -193,6 +196,7 @@ agent-tcmedu-skills/
 | 命令 | 作用 |
 | --- | --- |
 | `npm run sync` | 从 tcmP 主仓抽取 120 学科目录（只读） |
+| `npm run extract` | 从上游 hermes-edu-skills 提取可用技能判定与移植清单 |
 | `npm run build` | 生成技能、索引、四级目录、覆盖矩阵 |
 | `npm run validate` | 一致性 / frontmatter / 敏感模式 / spec 同步 / 四级编码 |
 | `npm run check:docs` | 文档同步校验 |
@@ -230,6 +234,7 @@ agent-tcmedu-skills/
 | [路线图](docs/04-路线图.md) | M0–M4 里程碑、度量指标、平台侧待办 |
 | [四级目录](docs/05-四级目录（篇·章·节·目）.md) | **生成物**：篇·章·节·目 全树与四级编码 |
 | [学科覆盖矩阵](docs/06-学科覆盖矩阵.md) | **生成物**：120 学科 × 技能覆盖率与缺口清单 |
+| [上游技能提取报告](docs/07-上游技能提取报告.md) | **生成物**：hermes-edu-skills 170 技能 → 可用/改造/不适用 全量判定与移植清单 |
 | [贡献指南](CONTRIBUTING.md) | 新增技能 / 新增接口的完整流程 |
 | [发布说明](RELEASE.md) | 版本规则、发布步骤、离线分发 |
 | [更新日志](CHANGELOG.md) | 版本历史 |
@@ -241,7 +246,8 @@ agent-tcmedu-skills/
 | 里程碑 | 版本 | 目标 | 状态 |
 | :-: | :-: | --- | :-: |
 | M0 | v0.1.0 | 骨架可用、工具链闭环（42 技能） | ✅ |
-| M1 | v0.2.0 | 四级目录体系 + 学科同步 + 学科同步层补全（72 技能，覆盖 45.8%） | ✅ 本次 |
+| M1 | v0.2.0 | 四级目录体系 + 学科同步 + 学科层补全（72 技能，覆盖 45.8%） | ✅ |
+| M1.5 | v0.3.0 | **上游技能提取 + 移植**（84 技能 / 13 分类 / 12 个移植技能） | ✅ 本次 |
 | M2 | v0.5.0 | 学科覆盖 ≥ 80%；技能数 ≥ 90 | 进行中 |
 | M3 | v0.8.0 | 平台双向闭环：调用埋点 + 反馈回流 | 待启动 |
 | M4 | v1.0.0 | 系统支撑 tcmP 网络教育平台 | 待启动 |

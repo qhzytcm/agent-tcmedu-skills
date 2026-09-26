@@ -1,7 +1,7 @@
 ---
 name: "tcm-lesson-prep"
 description: "按学时与学情生成教案：目标、重点难点、板书结构、课堂活动与作业。"
-version: "0.2.0"
+version: "0.3.0"
 author: qhzytcm
 license: MIT
 platforms: [windows, linux, macos]

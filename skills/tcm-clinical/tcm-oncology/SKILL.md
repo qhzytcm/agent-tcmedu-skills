@@ -1,7 +1,7 @@
 ---
 name: "tcm-oncology"
 description: "按治疗阶段（术前 / 化疗中 / 康复期）给出扶正祛邪的差异化中医方案。"
-version: "0.2.0"
+version: "0.3.0"
 author: qhzytcm
 license: MIT
 platforms: [windows, linux, macos]

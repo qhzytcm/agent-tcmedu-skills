@@ -1,7 +1,7 @@
 ---
 name: "tcm-photo-question"
 description: "上传舌象、方剂或教材截图，先识别可见信息再讲解，不臆测不可见内容。"
-version: "0.2.0"
+version: "0.3.0"
 author: qhzytcm
 license: MIT
 platforms: [windows, linux, macos]

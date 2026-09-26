@@ -1,7 +1,7 @@
 ---
 name: "tcm-pharmacology"
 description: "把中药功效与现代药理作用双向对照，建立「功效—药理—靶点」的证据链。"
-version: "0.2.0"
+version: "0.3.0"
 author: qhzytcm
 license: MIT
 platforms: [windows, linux, macos]

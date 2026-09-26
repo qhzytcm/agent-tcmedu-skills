@@ -1,13 +1,13 @@
 ---
 name: "tcm-item-generation"
 description: "按知识点与难度分布命题组卷，自动配答案、解析、评分标准与双向细目表。"
-version: "0.2.0"
+version: "0.3.0"
 author: qhzytcm
 license: MIT
 platforms: [windows, linux, macos]
 metadata:
   hermes:
-    tags: ["命题","组卷","双向细目表","评分标准"]
+    tags: ["命题","组卷","双向细目表","评分标准","选择题","出题","题目","解析","小测"]
     source: agent-tcmedu-skills
     category: "tcm-teacher-tools"
     domain: "-"

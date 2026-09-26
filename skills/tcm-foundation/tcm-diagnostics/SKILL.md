@@ -1,7 +1,7 @@
 ---
 name: "tcm-diagnostics"
 description: "把望闻问切四诊信息规范成可复用的采集表单，并训练「四诊合参→辨证要素」的推理链。"
-version: "0.2.0"
+version: "0.3.0"
 author: qhzytcm
 license: MIT
 platforms: [windows, linux, macos]

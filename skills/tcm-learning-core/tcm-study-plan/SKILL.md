@@ -1,7 +1,7 @@
 ---
 name: "tcm-study-plan"
 description: "把模糊目标拆成今天、本周与下一轮可执行的中医学习安排。"
-version: "0.2.0"
+version: "0.3.0"
 author: qhzytcm
 license: MIT
 platforms: [windows, linux, macos]

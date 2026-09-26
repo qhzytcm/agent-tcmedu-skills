@@ -1,0 +1,4016 @@
+{
+  "source": "上游技能包 hermes-edu-skills v0.15.0",
+  "sourceRoot": "F:/_ref2",
+  "generatedBy": "scripts/extract-from-upstream.mjs",
+  "upstreamSkillCount": 170,
+  "verdicts": {
+    "USE": 8,
+    "ADAPT": 104,
+    "REJECT": 58
+  },
+  "byCategory": {
+    "language-learning": {
+      "USE": 0,
+      "ADAPT": 0,
+      "REJECT": 3,
+      "total": 3
+    },
+    "career-learning": {
+      "USE": 7,
+      "ADAPT": 0,
+      "REJECT": 0,
+      "total": 7
+    },
+    "exam-prep": {
+      "USE": 1,
+      "ADAPT": 22,
+      "REJECT": 4,
+      "total": 27
+    },
+    "reading-writing": {
+      "USE": 0,
+      "ADAPT": 10,
+      "REJECT": 0,
+      "total": 10
+    },
+    "textbook-sync": {
+      "USE": 0,
+      "ADAPT": 0,
+      "REJECT": 41,
+      "total": 41
+    },
+    "daily-practice": {
+      "USE": 0,
+      "ADAPT": 26,
+      "REJECT": 2,
+      "total": 28
+    },
+    "family-education": {
+      "USE": 0,
+      "ADAPT": 0,
+      "REJECT": 8,
+      "total": 8
+    },
+    "learning-core": {
+      "USE": 0,
+      "ADAPT": 15,
+      "REJECT": 0,
+      "total": 15
+    },
+    "teacher-tools": {
+      "USE": 0,
+      "ADAPT": 31,
+      "REJECT": 0,
+      "total": 31
+    }
+  },
+  "portedCount": 12,
+  "skills": [
+    {
+      "upstreamSlug": "adult-language-learning",
+      "upstreamTitle": "成人语言学习 Skill",
+      "upstreamCategory": "language-learning",
+      "subjects": [
+        "语言学习"
+      ],
+      "stages": [
+        "adult"
+      ],
+      "abilities": [
+        "口语",
+        "听力",
+        "词汇"
+      ],
+      "scenarios": [
+        "每日打卡"
+      ],
+      "verdict": "REJECT",
+      "why": "分类 language-learning 为 K12 学科教材同步，知识点与 tcmP 无交集",
+      "portedTo": null
+    },
+    {
+      "upstreamSlug": "adult-vocational-certificate",
+      "upstreamTitle": "职业证书备考 Skill",
+      "upstreamCategory": "career-learning",
+      "subjects": [
+        "职业教育"
+      ],
+      "stages": [
+        "adult"
+      ],
+      "abilities": [
+        "知识记忆",
+        "考试冲刺"
+      ],
+      "scenarios": [
+        "考证"
+      ],
+      "verdict": "USE",
+      "why": "学科无关的通用工作流外壳，可直接沿用并重绑 tcmP 参数",
+      "portedTo": null
+    },
+    {
+      "upstreamSlug": "adult-workplace-writing",
+      "upstreamTitle": "职场写作 Skill",
+      "upstreamCategory": "career-learning",
+      "subjects": [
+        "职业教育"
+      ],
+      "stages": [
+        "adult"
+      ],
+      "abilities": [
+        "写作",
+        "表达"
+      ],
+      "scenarios": [
+        "职业技能"
+      ],
+      "verdict": "USE",
+      "why": "学科无关的通用工作流外壳，可直接沿用并重绑 tcmP 参数",
+      "portedTo": null
+    },
+    {
+      "upstreamSlug": "civil-service-aptitude",
+      "upstreamTitle": "公务员行测 Skill",
+      "upstreamCategory": "exam-prep",
+      "subjects": [
+        "职业教育"
+      ],
+      "stages": [
+        "adult"
+      ],
+      "abilities": [
+        "逻辑",
+        "数据分析"
+      ],
+      "scenarios": [
+        "考证",
+        "专项训练"
+      ],
+      "verdict": "REJECT",
+      "why": "公务员考试，非中医药教育",
+      "portedTo": null
+    },
+    {
+      "upstreamSlug": "civil-service-essay",
+      "upstreamTitle": "公务员申论 Skill",
+      "upstreamCategory": "exam-prep",
+      "subjects": [
+        "职业教育"
+      ],
+      "stages": [
+        "adult"
+      ],
+      "abilities": [
+        "材料阅读",
+        "写作"
+      ],
+      "scenarios": [
+        "考证",
+        "写作提升"
+      ],
+      "verdict": "REJECT",
+      "why": "公务员考试，非中医药教育",
+      "portedTo": null
+    },
+    {
+      "upstreamSlug": "teacher-certification-sprint",
+      "upstreamTitle": "教师资格证备考 Skill",
+      "upstreamCategory": "exam-prep",
+      "subjects": [
+        "职业教育"
+      ],
+      "stages": [
+        "adult"
+      ],
+      "abilities": [
+        "考试冲刺"
+      ],
+      "scenarios": [
+        "考证"
+      ],
+      "verdict": "USE",
+      "why": "学科无关的通用工作流外壳，可直接沿用并重绑 tcmP 参数",
+      "portedTo": null
+    },
+    {
+      "upstreamSlug": "college-academic-writing",
+      "upstreamTitle": "学术写作 Skill",
+      "upstreamCategory": "reading-writing",
+      "subjects": [
+        "通识"
+      ],
+      "stages": [
+        "college"
+      ],
+      "abilities": [
+        "写作"
+      ],
+      "scenarios": [
+        "论文训练"
+      ],
+      "verdict": "ADAPT",
+      "why": "绑定 学科（通识）；工作流外壳可复用，须重绑中医药学科与学段",
+      "portedTo": null
+    },
+    {
+      "upstreamSlug": "college-cet4-sprint",
+      "upstreamTitle": "大学英语四级备考 Skill",
+      "upstreamCategory": "exam-prep",
+      "subjects": [
+        "英语"
+      ],
+      "stages": [
+        "college"
+      ],
+      "abilities": [
+        "词汇",
+        "听力",
+        "阅读理解",
+        "写作"
+      ],
+      "scenarios": [
+        "考前冲刺"
+      ],
+      "verdict": "REJECT",
+      "why": "外语等级考试，非中医药教育",
+      "portedTo": null
+    },
+    {
+      "upstreamSlug": "college-cet6-sprint",
+      "upstreamTitle": "大学英语六级备考 Skill",
+      "upstreamCategory": "exam-prep",
+      "subjects": [
+        "英语"
+      ],
+      "stages": [
+        "college"
+      ],
+      "abilities": [
+        "词汇",
+        "听力",
+        "阅读理解",
+        "写作"
+      ],
+      "scenarios": [
+        "考前冲刺"
+      ],
+      "verdict": "REJECT",
+      "why": "外语等级考试，非中医药教育",
+      "portedTo": null
+    },
+    {
+      "upstreamSlug": "college-cs-data-structure",
+      "upstreamTitle": "数据结构 Skill",
+      "upstreamCategory": "career-learning",
+      "subjects": [
+        "计算机"
+      ],
+      "stages": [
+        "college"
+      ],
+      "abilities": [
+        "算法",
+        "编程"
+      ],
+      "scenarios": [
+        "课程学习"
+      ],
+      "verdict": "USE",
+      "why": "学科无关的通用工作流外壳，可直接沿用并重绑 tcmP 参数",
+      "portedTo": null
+    },
+    {
+      "upstreamSlug": "college-ai-foundation",
+      "upstreamTitle": "AI 基础 Skill",
+      "upstreamCategory": "career-learning",
+      "subjects": [
+        "计算机"
+      ],
+      "stages": [
+        "college",
+        "adult"
+      ],
+      "abilities": [
+        "AI 基础"
+      ],
+      "scenarios": [
+        "兴趣学习"
+      ],
+      "verdict": "USE",
+      "why": "学科无关的通用工作流外壳，可直接沿用并重绑 tcmP 参数",
+      "portedTo": null
+    },
+    {
+      "upstreamSlug": "college-cs-algorithm-interview",
+      "upstreamTitle": "算法面试 Skill",
+      "upstreamCategory": "career-learning",
+      "subjects": [
+        "计算机"
+      ],
+      "stages": [
+        "college",
+        "adult"
+      ],
+      "abilities": [
+        "算法"
+      ],
+      "scenarios": [
+        "面试准备"
+      ],
+      "verdict": "USE",
+      "why": "学科无关的通用工作流外壳，可直接沿用并重绑 tcmP 参数",
+      "portedTo": null
+    },
+    {
+      "upstreamSlug": "college-cs-python",
+      "upstreamTitle": "Python 学习 Skill",
+      "upstreamCategory": "career-learning",
+      "subjects": [
+        "计算机"
+      ],
+      "stages": [
+        "college",
+        "adult"
+      ],
+      "abilities": [
+        "编程"
+      ],
+      "scenarios": [
+        "职业技能"
+      ],
+      "verdict": "USE",
+      "why": "学科无关的通用工作流外壳，可直接沿用并重绑 tcmP 参数",
+      "portedTo": null
+    },
+    {
+      "upstreamSlug": "college-data-analysis",
+      "upstreamTitle": "数据分析 Skill",
+      "upstreamCategory": "career-learning",
+      "subjects": [
+        "计算机"
+      ],
+      "stages": [
+        "college",
+        "adult"
+      ],
+      "abilities": [
+        "数据分析"
+      ],
+      "scenarios": [
+        "职业技能"
+      ],
+      "verdict": "USE",
+      "why": "学科无关的通用工作流外壳，可直接沿用并重绑 tcmP 参数",
+      "portedTo": null
+    },
+    {
+      "upstreamSlug": "ielts-prep",
+      "upstreamTitle": "雅思备考 Skill",
+      "upstreamCategory": "language-learning",
+      "subjects": [
+        "英语"
+      ],
+      "stages": [
+        "college",
+        "adult"
+      ],
+      "abilities": [
+        "听力",
+        "口语",
+        "阅读理解",
+        "写作"
+      ],
+      "scenarios": [
+        "出国考试"
+      ],
+      "verdict": "REJECT",
+      "why": "外语等级考试，非中医药教育",
+      "portedTo": null
+    },
+    {
+      "upstreamSlug": "postgraduate-english-sprint",
+      "upstreamTitle": "考研英语备考 Skill",
+      "upstreamCategory": "exam-prep",
+      "subjects": [
+        "英语"
+      ],
+      "stages": [
+        "college",
+        "adult"
+      ],
+      "abilities": [
+        "阅读理解",
+        "翻译",
+        "写作"
+      ],
+      "scenarios": [
+        "考研复习"
+      ],
+      "verdict": "ADAPT",
+      "why": "绑定 学科（英语）；工作流外壳可复用，须重绑中医药学科与学段",
+      "portedTo": null
+    },
+    {
+      "upstreamSlug": "toefl-prep",
+      "upstreamTitle": "托福备考 Skill",
+      "upstreamCategory": "language-learning",
+      "subjects": [
+        "英语"
+      ],
+      "stages": [
+        "college",
+        "adult"
+      ],
+      "abilities": [
+        "听力",
+        "口语",
+        "阅读理解",
+        "写作"
+      ],
+      "scenarios": [
+        "出国考试"
+      ],
+      "verdict": "REJECT",
+      "why": "外语等级考试，非中医药教育",
+      "portedTo": null
+    },
+    {
+      "upstreamSlug": "junior-biology-bs-textbook-sync",
+      "upstreamTitle": "北师大版初中生物同步 Skill",
+      "upstreamCategory": "textbook-sync",
+      "subjects": [
+        "生物"
+      ],
+      "stages": [
+        "junior"
+      ],
+      "abilities": [
+        "教材同步",
+        "知识记忆"
+      ],
+      "scenarios": [
+        "课前预习",
+        "课后作业",
+        "同步巩固",
+        "单元复习",
+        "错题巩固",
+        "期中期末复习",
+        "中考复习"
+      ],
+      "verdict": "REJECT",
+      "why": "分类 textbook-sync 为 K12 学科教材同步，知识点与 tcmP 无交集",
+      "portedTo": null
+    },
+    {
+      "upstreamSlug": "junior-biology-exam-review",
+      "upstreamTitle": "初中生物考试复习 Skill",
+      "upstreamCategory": "exam-prep",
+      "subjects": [
+        "生物"
+      ],
+      "stages": [
+        "junior"
+      ],
+      "abilities": [
+        "考试复习",
+        "查漏补缺"
+      ],
+      "scenarios": [
+        "中考复习",
+        "考前冲刺"
+      ],
+      "verdict": "ADAPT",
+      "why": "绑定 学科（生物） + K12 学段；工作流外壳可复用，须重绑中医药学科与学段",
+      "portedTo": null
+    },
+    {
+      "upstreamSlug": "junior-biology-quick-practice",
+      "upstreamTitle": "初中生物快速巩固 Skill",
+      "upstreamCategory": "daily-practice",
+      "subjects": [
+        "生物"
+      ],
+      "stages": [
+        "junior"
+      ],
+      "abilities": [
+        "同步巩固",
+        "专项训练"
+      ],
+      "scenarios": [
+        "每日打卡",
+        "同步巩固"
+      ],
+      "verdict": "ADAPT",
+      "why": "绑定 学科（生物） + K12 学段；工作流外壳可复用，须重绑中医药学科与学段",
+      "portedTo": null
+    },
+    {
+      "upstreamSlug": "junior-biology-rj-textbook-sync",
+      "upstreamTitle": "人教版初中生物同步 Skill",
+      "upstreamCategory": "textbook-sync",
+      "subjects": [
+        "生物"
+      ],
+      "stages": [
+        "junior"
+      ],
+      "abilities": [
+        "教材同步",
+        "知识记忆"
+      ],
+      "scenarios": [
+        "课前预习",
+        "课后作业",
+        "同步巩固",
+        "单元复习",
+        "错题巩固",
+        "期中期末复习",
+        "中考复习"
+      ],
+      "verdict": "REJECT",
+      "why": "分类 textbook-sync 为 K12 学科教材同步，知识点与 tcmP 无交集",
+      "portedTo": null
+    },
+    {
+      "upstreamSlug": "junior-chemistry-exam-review",
+      "upstreamTitle": "初中化学考试复习 Skill",
+      "upstreamCategory": "exam-prep",
+      "subjects": [
+        "化学"
+      ],
+      "stages": [
+        "junior"
+      ],
+      "abilities": [
+        "考试复习",
+        "查漏补缺"
+      ],
+      "scenarios": [
+        "中考复习",
+        "考前冲刺"
+      ],
+      "verdict": "ADAPT",
+      "why": "绑定 学科（化学） + K12 学段；工作流外壳可复用，须重绑中医药学科与学段",
+      "portedTo": null
+    },
+    {
+      "upstreamSlug": "junior-chemistry-lk-textbook-sync",
+      "upstreamTitle": "鲁科版初中化学同步 Skill",
+      "upstreamCategory": "textbook-sync",
+      "subjects": [
+        "化学"
+      ],
+      "stages": [
+        "junior"
+      ],
+      "abilities": [
+        "教材同步",
+        "实验理解"
+      ],
+      "scenarios": [
+        "课前预习",
+        "课后作业",
+        "同步巩固",
+        "单元复习",
+        "错题巩固",
+        "期中期末复习",
+        "中考复习"
+      ],
+      "verdict": "REJECT",
+      "why": "分类 textbook-sync 为 K12 学科教材同步，知识点与 tcmP 无交集",
+      "portedTo": null
+    },
+    {
+      "upstreamSlug": "junior-chemistry-quick-practice",
+      "upstreamTitle": "初中化学快速巩固 Skill",
+      "upstreamCategory": "daily-practice",
+      "subjects": [
+        "化学"
+      ],
+      "stages": [
+        "junior"
+      ],
+      "abilities": [
+        "同步巩固",
+        "专项训练"
+      ],
+      "scenarios": [
+        "每日打卡",
+        "同步巩固"
+      ],
+      "verdict": "ADAPT",
+      "why": "绑定 学科（化学） + K12 学段；工作流外壳可复用，须重绑中医药学科与学段",
+      "portedTo": "tcm-daily-herb-drill"
+    },
+    {
+      "upstreamSlug": "junior-chemistry-rj-textbook-sync",
+      "upstreamTitle": "人教版初中化学同步 Skill",
+      "upstreamCategory": "textbook-sync",
+      "subjects": [
+        "化学"
+      ],
+      "stages": [
+        "junior"
+      ],
+      "abilities": [
+        "教材同步",
+        "实验理解"
+      ],
+      "scenarios": [
+        "课前预习",
+        "课后作业",
+        "同步巩固",
+        "单元复习",
+        "错题巩固",
+        "期中期末复习",
+        "中考复习"
+      ],
+      "verdict": "REJECT",
+      "why": "分类 textbook-sync 为 K12 学科教材同步，知识点与 tcmP 无交集",
+      "portedTo": null
+    },
+    {
+      "upstreamSlug": "junior-chinese-composition",
+      "upstreamTitle": "初中作文提升 Skill",
+      "upstreamCategory": "reading-writing",
+      "subjects": [
+        "语文"
+      ],
+      "stages": [
+        "junior"
+      ],
+      "abilities": [
+        "写作"
+      ],
+      "scenarios": [
+        "写作提升"
+      ],
+      "verdict": "ADAPT",
+      "why": "绑定 学科（语文） + K12 学段；工作流外壳可复用，须重绑中医药学科与学段",
+      "portedTo": null
+    },
+    {
+      "upstreamSlug": "junior-chinese-exam-review",
+      "upstreamTitle": "初中语文考试复习 Skill",
+      "upstreamCategory": "exam-prep",
+      "subjects": [
+        "语文"
+      ],
+      "stages": [
+        "junior"
+      ],
+      "abilities": [
+        "考试复习",
+        "查漏补缺"
+      ],
+      "scenarios": [
+        "中考复习",
+        "考前冲刺"
+      ],
+      "verdict": "ADAPT",
+      "why": "绑定 学科（语文） + K12 学段；工作流外壳可复用，须重绑中医药学科与学段",
+      "portedTo": null
+    },
+    {
+      "upstreamSlug": "junior-chinese-modern-reading",
+      "upstreamTitle": "初中现代文阅读 Skill",
+      "upstreamCategory": "reading-writing",
+      "subjects": [
+        "语文"
+      ],
+      "stages": [
+        "junior"
+      ],
+      "abilities": [
+        "阅读理解"
+      ],
+      "scenarios": [
+        "中考复习"
+      ],
+      "verdict": "ADAPT",
+      "why": "绑定 学科（语文） + K12 学段；工作流外壳可复用，须重绑中医药学科与学段",
+      "portedTo": null
+    },
+    {
+      "upstreamSlug": "junior-chinese-quick-practice",
+      "upstreamTitle": "初中语文快速巩固 Skill",
+      "upstreamCategory": "daily-practice",
+      "subjects": [
+        "语文"
+      ],
+      "stages": [
+        "junior"
+      ],
+      "abilities": [
+        "同步巩固",
+        "专项训练"
+      ],
+      "scenarios": [
+        "每日打卡",
+        "同步巩固"
+      ],
+      "verdict": "ADAPT",
+      "why": "绑定 学科（语文） + K12 学段；工作流外壳可复用，须重绑中医药学科与学段",
+      "portedTo": null
+    },
+    {
+      "upstreamSlug": "junior-chinese-tongbian-textbook-sync",
+      "upstreamTitle": "统编版初中语文同步 Skill",
+      "upstreamCategory": "textbook-sync",
+      "subjects": [
+        "语文"
+      ],
+      "stages": [
+        "junior"
+      ],
+      "abilities": [
+        "教材同步",
+        "阅读理解",
+        "写作表达"
+      ],
+      "scenarios": [
+        "课前预习",
+        "课后作业",
+        "同步巩固",
+        "单元复习",
+        "错题巩固",
+        "期中期末复习",
+        "中考复习"
+      ],
+      "verdict": "REJECT",
+      "why": "分类 textbook-sync 为 K12 学科教材同步，知识点与 tcmP 无交集",
+      "portedTo": null
+    },
+    {
+      "upstreamSlug": "junior-english-exam-review",
+      "upstreamTitle": "初中英语考试复习 Skill",
+      "upstreamCategory": "exam-prep",
+      "subjects": [
+        "英语"
+      ],
+      "stages": [
+        "junior"
+      ],
+      "abilities": [
+        "考试复习",
+        "查漏补缺"
+      ],
+      "scenarios": [
+        "中考复习",
+        "考前冲刺"
+      ],
+      "verdict": "ADAPT",
+      "why": "绑定 学科（英语） + K12 学段；工作流外壳可复用，须重绑中医药学科与学段",
+      "portedTo": null
+    },
+    {
+      "upstreamSlug": "junior-english-quick-practice",
+      "upstreamTitle": "初中英语快速巩固 Skill",
+      "upstreamCategory": "daily-practice",
+      "subjects": [
+        "英语"
+      ],
+      "stages": [
+        "junior"
+      ],
+      "abilities": [
+        "同步巩固",
+        "专项训练"
+      ],
+      "scenarios": [
+        "每日打卡",
+        "同步巩固"
+      ],
+      "verdict": "ADAPT",
+      "why": "绑定 学科（英语） + K12 学段；工作流外壳可复用，须重绑中医药学科与学段",
+      "portedTo": null
+    },
+    {
+      "upstreamSlug": "junior-english-rj-textbook-sync",
+      "upstreamTitle": "人教版初中英语同步 Skill",
+      "upstreamCategory": "textbook-sync",
+      "subjects": [
+        "英语"
+      ],
+      "stages": [
+        "junior"
+      ],
+      "abilities": [
+        "教材同步",
+        "词汇",
+        "语法"
+      ],
+      "scenarios": [
+        "课前预习",
+        "课后作业",
+        "同步巩固",
+        "单元复习",
+        "错题巩固",
+        "期中期末复习",
+        "中考复习"
+      ],
+      "verdict": "REJECT",
+      "why": "分类 textbook-sync 为 K12 学科教材同步，知识点与 tcmP 无交集",
+      "portedTo": null
+    },
+    {
+      "upstreamSlug": "junior-english-vocabulary-daily",
+      "upstreamTitle": "初中英语词汇每日练 Skill",
+      "upstreamCategory": "daily-practice",
+      "subjects": [
+        "英语"
+      ],
+      "stages": [
+        "junior"
+      ],
+      "abilities": [
+        "词汇"
+      ],
+      "scenarios": [
+        "每日打卡",
+        "中考复习"
+      ],
+      "verdict": "ADAPT",
+      "why": "绑定 学科（英语） + K12 学段；工作流外壳可复用，须重绑中医药学科与学段",
+      "portedTo": null
+    },
+    {
+      "upstreamSlug": "junior-english-writing",
+      "upstreamTitle": "初中英语写作 Skill",
+      "upstreamCategory": "reading-writing",
+      "subjects": [
+        "英语"
+      ],
+      "stages": [
+        "junior"
+      ],
+      "abilities": [
+        "写作"
+      ],
+      "scenarios": [
+        "中考复习"
+      ],
+      "verdict": "ADAPT",
+      "why": "绑定 学科（英语） + K12 学段；工作流外壳可复用，须重绑中医药学科与学段",
+      "portedTo": null
+    },
+    {
+      "upstreamSlug": "junior-english-wy-textbook-sync",
+      "upstreamTitle": "外研版初中英语同步 Skill",
+      "upstreamCategory": "textbook-sync",
+      "subjects": [
+        "英语"
+      ],
+      "stages": [
+        "junior"
+      ],
+      "abilities": [
+        "教材同步",
+        "词汇",
+        "语法"
+      ],
+      "scenarios": [
+        "课前预习",
+        "课后作业",
+        "同步巩固",
+        "单元复习",
+        "错题巩固",
+        "期中期末复习",
+        "中考复习"
+      ],
+      "verdict": "REJECT",
+      "why": "分类 textbook-sync 为 K12 学科教材同步，知识点与 tcmP 无交集",
+      "portedTo": null
+    },
+    {
+      "upstreamSlug": "junior-english-yl-textbook-sync",
+      "upstreamTitle": "译林版初中英语同步 Skill",
+      "upstreamCategory": "textbook-sync",
+      "subjects": [
+        "英语"
+      ],
+      "stages": [
+        "junior"
+      ],
+      "abilities": [
+        "教材同步",
+        "词汇",
+        "语法"
+      ],
+      "scenarios": [
+        "课前预习",
+        "课后作业",
+        "同步巩固",
+        "单元复习",
+        "错题巩固",
+        "期中期末复习",
+        "中考复习"
+      ],
+      "verdict": "REJECT",
+      "why": "分类 textbook-sync 为 K12 学科教材同步，知识点与 tcmP 无交集",
+      "portedTo": null
+    },
+    {
+      "upstreamSlug": "junior-geography-exam-review",
+      "upstreamTitle": "初中地理考试复习 Skill",
+      "upstreamCategory": "exam-prep",
+      "subjects": [
+        "地理"
+      ],
+      "stages": [
+        "junior"
+      ],
+      "abilities": [
+        "考试复习",
+        "查漏补缺"
+      ],
+      "scenarios": [
+        "中考复习",
+        "考前冲刺"
+      ],
+      "verdict": "ADAPT",
+      "why": "绑定 学科（地理） + K12 学段；工作流外壳可复用，须重绑中医药学科与学段",
+      "portedTo": null
+    },
+    {
+      "upstreamSlug": "junior-geography-quick-practice",
+      "upstreamTitle": "初中地理快速巩固 Skill",
+      "upstreamCategory": "daily-practice",
+      "subjects": [
+        "地理"
+      ],
+      "stages": [
+        "junior"
+      ],
+      "abilities": [
+        "同步巩固",
+        "专项训练"
+      ],
+      "scenarios": [
+        "每日打卡",
+        "同步巩固"
+      ],
+      "verdict": "ADAPT",
+      "why": "绑定 学科（地理） + K12 学段；工作流外壳可复用，须重绑中医药学科与学段",
+      "portedTo": null
+    },
+    {
+      "upstreamSlug": "junior-geography-rj-textbook-sync",
+      "upstreamTitle": "人教版初中地理同步 Skill",
+      "upstreamCategory": "textbook-sync",
+      "subjects": [
+        "地理"
+      ],
+      "stages": [
+        "junior"
+      ],
+      "abilities": [
+        "教材同步",
+        "图表分析"
+      ],
+      "scenarios": [
+        "课前预习",
+        "课后作业",
+        "同步巩固",
+        "单元复习",
+        "错题巩固",
+        "期中期末复习",
+        "中考复习"
+      ],
+      "verdict": "REJECT",
+      "why": "分类 textbook-sync 为 K12 学科教材同步，知识点与 tcmP 无交集",
+      "portedTo": null
+    },
+    {
+      "upstreamSlug": "junior-geography-xj-textbook-sync",
+      "upstreamTitle": "湘教版初中地理同步 Skill",
+      "upstreamCategory": "textbook-sync",
+      "subjects": [
+        "地理"
+      ],
+      "stages": [
+        "junior"
+      ],
+      "abilities": [
+        "教材同步",
+        "图表分析"
+      ],
+      "scenarios": [
+        "课前预习",
+        "课后作业",
+        "同步巩固",
+        "单元复习",
+        "错题巩固",
+        "期中期末复习",
+        "中考复习"
+      ],
+      "verdict": "REJECT",
+      "why": "分类 textbook-sync 为 K12 学科教材同步，知识点与 tcmP 无交集",
+      "portedTo": null
+    },
+    {
+      "upstreamSlug": "junior-history-exam-review",
+      "upstreamTitle": "初中历史考试复习 Skill",
+      "upstreamCategory": "exam-prep",
+      "subjects": [
+        "历史"
+      ],
+      "stages": [
+        "junior"
+      ],
+      "abilities": [
+        "考试复习",
+        "查漏补缺"
+      ],
+      "scenarios": [
+        "中考复习",
+        "考前冲刺"
+      ],
+      "verdict": "ADAPT",
+      "why": "绑定 学科（历史） + K12 学段；工作流外壳可复用，须重绑中医药学科与学段",
+      "portedTo": null
+    },
+    {
+      "upstreamSlug": "junior-history-quick-practice",
+      "upstreamTitle": "初中历史快速巩固 Skill",
+      "upstreamCategory": "daily-practice",
+      "subjects": [
+        "历史"
+      ],
+      "stages": [
+        "junior"
+      ],
+      "abilities": [
+        "同步巩固",
+        "专项训练"
+      ],
+      "scenarios": [
+        "每日打卡",
+        "同步巩固"
+      ],
+      "verdict": "ADAPT",
+      "why": "绑定 学科（历史） + K12 学段；工作流外壳可复用，须重绑中医药学科与学段",
+      "portedTo": null
+    },
+    {
+      "upstreamSlug": "junior-history-tongbian-textbook-sync",
+      "upstreamTitle": "统编版初中历史同步 Skill",
+      "upstreamCategory": "textbook-sync",
+      "subjects": [
+        "历史"
+      ],
+      "stages": [
+        "junior"
+      ],
+      "abilities": [
+        "教材同步",
+        "材料分析"
+      ],
+      "scenarios": [
+        "课前预习",
+        "课后作业",
+        "同步巩固",
+        "单元复习",
+        "错题巩固",
+        "期中期末复习",
+        "中考复习"
+      ],
+      "verdict": "REJECT",
+      "why": "分类 textbook-sync 为 K12 学科教材同步，知识点与 tcmP 无交集",
+      "portedTo": null
+    },
+    {
+      "upstreamSlug": "junior-math-bs-textbook-sync",
+      "upstreamTitle": "北师大版初中数学同步 Skill",
+      "upstreamCategory": "textbook-sync",
+      "subjects": [
+        "数学"
+      ],
+      "stages": [
+        "junior"
+      ],
+      "abilities": [
+        "教材同步",
+        "函数",
+        "几何"
+      ],
+      "scenarios": [
+        "课前预习",
+        "课后作业",
+        "同步巩固",
+        "单元复习",
+        "错题巩固",
+        "期中期末复习",
+        "中考复习"
+      ],
+      "verdict": "REJECT",
+      "why": "分类 textbook-sync 为 K12 学科教材同步，知识点与 tcmP 无交集",
+      "portedTo": null
+    },
+    {
+      "upstreamSlug": "junior-math-daily-practice",
+      "upstreamTitle": "初中数学每日练 Skill",
+      "upstreamCategory": "daily-practice",
+      "subjects": [
+        "数学"
+      ],
+      "stages": [
+        "junior"
+      ],
+      "abilities": [
+        "计算",
+        "函数",
+        "几何"
+      ],
+      "scenarios": [
+        "每日打卡",
+        "专项训练"
+      ],
+      "verdict": "ADAPT",
+      "why": "绑定 学科（数学） + K12 学段；工作流外壳可复用，须重绑中医药学科与学段",
+      "portedTo": null
+    },
+    {
+      "upstreamSlug": "junior-math-exam-review",
+      "upstreamTitle": "初中数学考试复习 Skill",
+      "upstreamCategory": "exam-prep",
+      "subjects": [
+        "数学"
+      ],
+      "stages": [
+        "junior"
+      ],
+      "abilities": [
+        "考试复习",
+        "查漏补缺"
+      ],
+      "scenarios": [
+        "中考复习",
+        "考前冲刺"
+      ],
+      "verdict": "ADAPT",
+      "why": "绑定 学科（数学） + K12 学段；工作流外壳可复用，须重绑中医药学科与学段",
+      "portedTo": null
+    },
+    {
+      "upstreamSlug": "junior-math-quick-practice",
+      "upstreamTitle": "初中数学快速巩固 Skill",
+      "upstreamCategory": "daily-practice",
+      "subjects": [
+        "数学"
+      ],
+      "stages": [
+        "junior"
+      ],
+      "abilities": [
+        "同步巩固",
+        "专项训练"
+      ],
+      "scenarios": [
+        "每日打卡",
+        "同步巩固"
+      ],
+      "verdict": "ADAPT",
+      "why": "绑定 学科（数学） + K12 学段；工作流外壳可复用，须重绑中医药学科与学段",
+      "portedTo": null
+    },
+    {
+      "upstreamSlug": "junior-math-rj-textbook-sync",
+      "upstreamTitle": "人教版初中数学同步 Skill",
+      "upstreamCategory": "textbook-sync",
+      "subjects": [
+        "数学"
+      ],
+      "stages": [
+        "junior"
+      ],
+      "abilities": [
+        "教材同步",
+        "函数",
+        "几何"
+      ],
+      "scenarios": [
+        "课前预习",
+        "课后作业",
+        "同步巩固",
+        "单元复习",
+        "错题巩固",
+        "期中期末复习",
+        "中考复习"
+      ],
+      "verdict": "REJECT",
+      "why": "分类 textbook-sync 为 K12 学科教材同步，知识点与 tcmP 无交集",
+      "portedTo": null
+    },
+    {
+      "upstreamSlug": "junior-math-sj-textbook-sync",
+      "upstreamTitle": "苏教版初中数学同步 Skill",
+      "upstreamCategory": "textbook-sync",
+      "subjects": [
+        "数学"
+      ],
+      "stages": [
+        "junior"
+      ],
+      "abilities": [
+        "教材同步",
+        "函数",
+        "几何"
+      ],
+      "scenarios": [
+        "课前预习",
+        "课后作业",
+        "同步巩固",
+        "单元复习",
+        "错题巩固",
+        "期中期末复习",
+        "中考复习"
+      ],
+      "verdict": "REJECT",
+      "why": "分类 textbook-sync 为 K12 学科教材同步，知识点与 tcmP 无交集",
+      "portedTo": null
+    },
+    {
+      "upstreamSlug": "junior-physics-exam-review",
+      "upstreamTitle": "初中物理考试复习 Skill",
+      "upstreamCategory": "exam-prep",
+      "subjects": [
+        "物理"
+      ],
+      "stages": [
+        "junior"
+      ],
+      "abilities": [
+        "考试复习",
+        "查漏补缺"
+      ],
+      "scenarios": [
+        "中考复习",
+        "考前冲刺"
+      ],
+      "verdict": "ADAPT",
+      "why": "绑定 学科（物理） + K12 学段；工作流外壳可复用，须重绑中医药学科与学段",
+      "portedTo": null
+    },
+    {
+      "upstreamSlug": "junior-physics-lk-textbook-sync",
+      "upstreamTitle": "鲁科版初中物理同步 Skill",
+      "upstreamCategory": "textbook-sync",
+      "subjects": [
+        "物理"
+      ],
+      "stages": [
+        "junior"
+      ],
+      "abilities": [
+        "教材同步",
+        "实验理解"
+      ],
+      "scenarios": [
+        "课前预习",
+        "课后作业",
+        "同步巩固",
+        "单元复习",
+        "错题巩固",
+        "期中期末复习",
+        "中考复习"
+      ],
+      "verdict": "REJECT",
+      "why": "分类 textbook-sync 为 K12 学科教材同步，知识点与 tcmP 无交集",
+      "portedTo": null
+    },
+    {
+      "upstreamSlug": "junior-physics-quick-practice",
+      "upstreamTitle": "初中物理快速巩固 Skill",
+      "upstreamCategory": "daily-practice",
+      "subjects": [
+        "物理"
+      ],
+      "stages": [
+        "junior"
+      ],
+      "abilities": [
+        "同步巩固",
+        "专项训练"
+      ],
+      "scenarios": [
+        "每日打卡",
+        "同步巩固"
+      ],
+      "verdict": "ADAPT",
+      "why": "绑定 学科（物理） + K12 学段；工作流外壳可复用，须重绑中医药学科与学段",
+      "portedTo": null
+    },
+    {
+      "upstreamSlug": "junior-physics-rj-textbook-sync",
+      "upstreamTitle": "人教版初中物理同步 Skill",
+      "upstreamCategory": "textbook-sync",
+      "subjects": [
+        "物理"
+      ],
+      "stages": [
+        "junior"
+      ],
+      "abilities": [
+        "教材同步",
+        "实验理解"
+      ],
+      "scenarios": [
+        "课前预习",
+        "课后作业",
+        "同步巩固",
+        "单元复习",
+        "错题巩固",
+        "期中期末复习",
+        "中考复习"
+      ],
+      "verdict": "REJECT",
+      "why": "分类 textbook-sync 为 K12 学科教材同步，知识点与 tcmP 无交集",
+      "portedTo": null
+    },
+    {
+      "upstreamSlug": "junior-politics-exam-review",
+      "upstreamTitle": "初中政治考试复习 Skill",
+      "upstreamCategory": "exam-prep",
+      "subjects": [
+        "政治"
+      ],
+      "stages": [
+        "junior"
+      ],
+      "abilities": [
+        "考试复习",
+        "查漏补缺"
+      ],
+      "scenarios": [
+        "中考复习",
+        "考前冲刺"
+      ],
+      "verdict": "ADAPT",
+      "why": "绑定 学科（政治） + K12 学段；工作流外壳可复用，须重绑中医药学科与学段",
+      "portedTo": null
+    },
+    {
+      "upstreamSlug": "junior-politics-quick-practice",
+      "upstreamTitle": "初中政治快速巩固 Skill",
+      "upstreamCategory": "daily-practice",
+      "subjects": [
+        "政治"
+      ],
+      "stages": [
+        "junior"
+      ],
+      "abilities": [
+        "同步巩固",
+        "专项训练"
+      ],
+      "scenarios": [
+        "每日打卡",
+        "同步巩固"
+      ],
+      "verdict": "ADAPT",
+      "why": "绑定 学科（政治） + K12 学段；工作流外壳可复用，须重绑中医药学科与学段",
+      "portedTo": null
+    },
+    {
+      "upstreamSlug": "junior-politics-tongbian-textbook-sync",
+      "upstreamTitle": "统编版初中政治同步 Skill",
+      "upstreamCategory": "textbook-sync",
+      "subjects": [
+        "政治"
+      ],
+      "stages": [
+        "junior"
+      ],
+      "abilities": [
+        "教材同步",
+        "材料分析"
+      ],
+      "scenarios": [
+        "课前预习",
+        "课后作业",
+        "同步巩固",
+        "单元复习",
+        "错题巩固",
+        "期中期末复习",
+        "中考复习"
+      ],
+      "verdict": "REJECT",
+      "why": "分类 textbook-sync 为 K12 学科教材同步，知识点与 tcmP 无交集",
+      "portedTo": null
+    },
+    {
+      "upstreamSlug": "junior-zhongkao-sprint",
+      "upstreamTitle": "中考冲刺 Skill",
+      "upstreamCategory": "exam-prep",
+      "subjects": [
+        "综合"
+      ],
+      "stages": [
+        "junior"
+      ],
+      "abilities": [
+        "考试冲刺"
+      ],
+      "scenarios": [
+        "中考复习",
+        "考前冲刺"
+      ],
+      "verdict": "ADAPT",
+      "why": "绑定 K12 学段；工作流外壳可复用，须重绑中医药学科与学段",
+      "portedTo": null
+    },
+    {
+      "upstreamSlug": "preschool-general-readiness-textbook-sync",
+      "upstreamTitle": "幼小衔接通用学前综合同步 Skill",
+      "upstreamCategory": "textbook-sync",
+      "subjects": [
+        "综合"
+      ],
+      "stages": [
+        "preschool"
+      ],
+      "abilities": [
+        "启蒙学习",
+        "习惯培养"
+      ],
+      "scenarios": [
+        "每日启蒙",
+        "亲子共学",
+        "入学准备"
+      ],
+      "verdict": "REJECT",
+      "why": "学前/幼小衔接，tcmP 无对应学段",
+      "portedTo": null
+    },
+    {
+      "upstreamSlug": "preschool-literacy-daily",
+      "upstreamTitle": "学前识字每日练 Skill",
+      "upstreamCategory": "daily-practice",
+      "subjects": [
+        "语文"
+      ],
+      "stages": [
+        "preschool"
+      ],
+      "abilities": [
+        "识字"
+      ],
+      "scenarios": [
+        "每日启蒙",
+        "每日打卡"
+      ],
+      "verdict": "REJECT",
+      "why": "学前/幼小衔接，tcmP 无对应学段",
+      "portedTo": null
+    },
+    {
+      "upstreamSlug": "preschool-number-sense-daily",
+      "upstreamTitle": "学前数感每日练 Skill",
+      "upstreamCategory": "daily-practice",
+      "subjects": [
+        "数学"
+      ],
+      "stages": [
+        "preschool"
+      ],
+      "abilities": [
+        "数感"
+      ],
+      "scenarios": [
+        "数感游戏",
+        "每日打卡"
+      ],
+      "verdict": "REJECT",
+      "why": "学前/幼小衔接，tcmP 无对应学段",
+      "portedTo": null
+    },
+    {
+      "upstreamSlug": "agent-parent-companion",
+      "upstreamTitle": "家长陪学 Skill",
+      "upstreamCategory": "family-education",
+      "subjects": [
+        "家庭教育"
+      ],
+      "stages": [
+        "preschool",
+        "primary",
+        "junior"
+      ],
+      "abilities": [
+        "陪学建议",
+        "目标管理"
+      ],
+      "scenarios": [
+        "家长陪学"
+      ],
+      "verdict": "REJECT",
+      "why": "K12 家庭教育场景，tcmP 无对应需求方",
+      "portedTo": null
+    },
+    {
+      "upstreamSlug": "family-emotion-support",
+      "upstreamTitle": "学习情绪支持 Skill",
+      "upstreamCategory": "family-education",
+      "subjects": [
+        "家庭教育"
+      ],
+      "stages": [
+        "preschool",
+        "primary",
+        "junior"
+      ],
+      "abilities": [
+        "陪学建议"
+      ],
+      "scenarios": [
+        "亲子沟通"
+      ],
+      "verdict": "REJECT",
+      "why": "K12 家庭教育场景，tcmP 无对应需求方",
+      "portedTo": null
+    },
+    {
+      "upstreamSlug": "family-holiday-learning",
+      "upstreamTitle": "假期家庭学习 Skill",
+      "upstreamCategory": "family-education",
+      "subjects": [
+        "家庭教育"
+      ],
+      "stages": [
+        "preschool",
+        "primary",
+        "junior"
+      ],
+      "abilities": [
+        "陪学建议"
+      ],
+      "scenarios": [
+        "寒暑假提升"
+      ],
+      "verdict": "REJECT",
+      "why": "K12 家庭教育场景，tcmP 无对应需求方",
+      "portedTo": null
+    },
+    {
+      "upstreamSlug": "family-homework-routine",
+      "upstreamTitle": "家庭作业习惯 Skill",
+      "upstreamCategory": "family-education",
+      "subjects": [
+        "家庭教育"
+      ],
+      "stages": [
+        "preschool",
+        "primary",
+        "junior"
+      ],
+      "abilities": [
+        "陪学建议"
+      ],
+      "scenarios": [
+        "作业陪伴"
+      ],
+      "verdict": "REJECT",
+      "why": "K12 家庭教育场景，tcmP 无对应需求方",
+      "portedTo": null
+    },
+    {
+      "upstreamSlug": "family-reading-companion",
+      "upstreamTitle": "亲子阅读陪伴 Skill",
+      "upstreamCategory": "family-education",
+      "subjects": [
+        "家庭教育"
+      ],
+      "stages": [
+        "preschool",
+        "primary",
+        "junior"
+      ],
+      "abilities": [
+        "陪学建议"
+      ],
+      "scenarios": [
+        "亲子共读"
+      ],
+      "verdict": "REJECT",
+      "why": "K12 家庭教育场景，tcmP 无对应需求方",
+      "portedTo": null
+    },
+    {
+      "upstreamSlug": "family-school-communication",
+      "upstreamTitle": "家校沟通准备 Skill",
+      "upstreamCategory": "family-education",
+      "subjects": [
+        "家庭教育"
+      ],
+      "stages": [
+        "preschool",
+        "primary",
+        "junior"
+      ],
+      "abilities": [
+        "陪学建议"
+      ],
+      "scenarios": [
+        "家长沟通"
+      ],
+      "verdict": "REJECT",
+      "why": "K12 家庭教育场景，tcmP 无对应需求方",
+      "portedTo": null
+    },
+    {
+      "upstreamSlug": "family-school-readiness",
+      "upstreamTitle": "幼小衔接家庭准备 Skill",
+      "upstreamCategory": "family-education",
+      "subjects": [
+        "家庭教育"
+      ],
+      "stages": [
+        "preschool",
+        "primary",
+        "junior"
+      ],
+      "abilities": [
+        "陪学建议"
+      ],
+      "scenarios": [
+        "入学准备"
+      ],
+      "verdict": "REJECT",
+      "why": "学前/幼小衔接，tcmP 无对应学段",
+      "portedTo": null
+    },
+    {
+      "upstreamSlug": "family-screen-time-balance",
+      "upstreamTitle": "屏幕时间管理 Skill",
+      "upstreamCategory": "family-education",
+      "subjects": [
+        "家庭教育"
+      ],
+      "stages": [
+        "preschool",
+        "primary",
+        "junior"
+      ],
+      "abilities": [
+        "陪学建议"
+      ],
+      "scenarios": [
+        "习惯培养"
+      ],
+      "verdict": "REJECT",
+      "why": "K12 家庭教育场景，tcmP 无对应需求方",
+      "portedTo": null
+    },
+    {
+      "upstreamSlug": "agent-study-plan",
+      "upstreamTitle": "学习计划 Skill",
+      "upstreamCategory": "learning-core",
+      "subjects": [
+        "学习能力"
+      ],
+      "stages": [
+        "preschool",
+        "primary",
+        "junior",
+        "senior",
+        "college",
+        "adult"
+      ],
+      "abilities": [
+        "学习计划",
+        "目标管理"
+      ],
+      "scenarios": [
+        "今日学习",
+        "寒暑假提升",
+        "考前规划"
+      ],
+      "verdict": "ADAPT",
+      "why": "绑定 K12 学段；工作流外壳可复用，须重绑中医药学科与学段",
+      "portedTo": null
+    },
+    {
+      "upstreamSlug": "primary-chinese-dictation-daily",
+      "upstreamTitle": "小学语文字词听写 Skill",
+      "upstreamCategory": "daily-practice",
+      "subjects": [
+        "语文"
+      ],
+      "stages": [
+        "primary"
+      ],
+      "abilities": [
+        "听写",
+        "默写"
+      ],
+      "scenarios": [
+        "听写默写",
+        "每日打卡"
+      ],
+      "verdict": "ADAPT",
+      "why": "绑定 学科（语文） + K12 学段；工作流外壳可复用，须重绑中医药学科与学段",
+      "portedTo": null
+    },
+    {
+      "upstreamSlug": "primary-chinese-reading",
+      "upstreamTitle": "小学语文阅读理解 Skill",
+      "upstreamCategory": "reading-writing",
+      "subjects": [
+        "语文"
+      ],
+      "stages": [
+        "primary"
+      ],
+      "abilities": [
+        "阅读理解"
+      ],
+      "scenarios": [
+        "阅读训练"
+      ],
+      "verdict": "ADAPT",
+      "why": "绑定 学科（语文） + K12 学段；工作流外壳可复用，须重绑中医药学科与学段",
+      "portedTo": null
+    },
+    {
+      "upstreamSlug": "primary-chinese-recitation-daily",
+      "upstreamTitle": "小学课文古诗背诵 Skill",
+      "upstreamCategory": "daily-practice",
+      "subjects": [
+        "语文"
+      ],
+      "stages": [
+        "primary"
+      ],
+      "abilities": [
+        "背诵",
+        "朗读"
+      ],
+      "scenarios": [
+        "背诵记忆",
+        "每日打卡"
+      ],
+      "verdict": "ADAPT",
+      "why": "绑定 学科（语文） + K12 学段；工作流外壳可复用，须重绑中医药学科与学段",
+      "portedTo": "tcm-daily-recitation"
+    },
+    {
+      "upstreamSlug": "primary-chinese-tongbian-textbook-sync",
+      "upstreamTitle": "统编版小学语文同步 Skill",
+      "upstreamCategory": "textbook-sync",
+      "subjects": [
+        "语文"
+      ],
+      "stages": [
+        "primary"
+      ],
+      "abilities": [
+        "教材同步",
+        "阅读理解",
+        "写作表达"
+      ],
+      "scenarios": [
+        "课前预习",
+        "课后作业",
+        "同步巩固",
+        "单元复习",
+        "错题巩固",
+        "期中期末复习"
+      ],
+      "verdict": "REJECT",
+      "why": "分类 textbook-sync 为 K12 学科教材同步，知识点与 tcmP 无交集",
+      "portedTo": null
+    },
+    {
+      "upstreamSlug": "primary-chinese-writing",
+      "upstreamTitle": "小学作文提升 Skill",
+      "upstreamCategory": "reading-writing",
+      "subjects": [
+        "语文"
+      ],
+      "stages": [
+        "primary"
+      ],
+      "abilities": [
+        "写作",
+        "表达"
+      ],
+      "scenarios": [
+        "写作提升"
+      ],
+      "verdict": "ADAPT",
+      "why": "绑定 学科（语文） + K12 学段；工作流外壳可复用，须重绑中医药学科与学段",
+      "portedTo": null
+    },
+    {
+      "upstreamSlug": "primary-english-pep-textbook-sync",
+      "upstreamTitle": "人教PEP版小学英语同步 Skill",
+      "upstreamCategory": "textbook-sync",
+      "subjects": [
+        "英语"
+      ],
+      "stages": [
+        "primary"
+      ],
+      "abilities": [
+        "教材同步",
+        "词汇",
+        "听说读写"
+      ],
+      "scenarios": [
+        "课前预习",
+        "课后作业",
+        "同步巩固",
+        "单元复习",
+        "错题巩固",
+        "期中期末复习"
+      ],
+      "verdict": "REJECT",
+      "why": "分类 textbook-sync 为 K12 学科教材同步，知识点与 tcmP 无交集",
+      "portedTo": null
+    },
+    {
+      "upstreamSlug": "primary-english-reading",
+      "upstreamTitle": "小学英语阅读 Skill",
+      "upstreamCategory": "reading-writing",
+      "subjects": [
+        "英语"
+      ],
+      "stages": [
+        "primary"
+      ],
+      "abilities": [
+        "阅读理解"
+      ],
+      "scenarios": [
+        "阅读训练"
+      ],
+      "verdict": "ADAPT",
+      "why": "绑定 学科（英语） + K12 学段；工作流外壳可复用，须重绑中医药学科与学段",
+      "portedTo": null
+    },
+    {
+      "upstreamSlug": "primary-english-vocabulary-daily",
+      "upstreamTitle": "小学英语单词每日练 Skill",
+      "upstreamCategory": "daily-practice",
+      "subjects": [
+        "英语"
+      ],
+      "stages": [
+        "primary"
+      ],
+      "abilities": [
+        "词汇",
+        "默写"
+      ],
+      "scenarios": [
+        "每日打卡",
+        "听写默写"
+      ],
+      "verdict": "ADAPT",
+      "why": "绑定 学科（英语） + K12 学段；工作流外壳可复用，须重绑中医药学科与学段",
+      "portedTo": null
+    },
+    {
+      "upstreamSlug": "primary-english-wy-textbook-sync",
+      "upstreamTitle": "外研版小学英语同步 Skill",
+      "upstreamCategory": "textbook-sync",
+      "subjects": [
+        "英语"
+      ],
+      "stages": [
+        "primary"
+      ],
+      "abilities": [
+        "教材同步",
+        "词汇",
+        "听说读写"
+      ],
+      "scenarios": [
+        "课前预习",
+        "课后作业",
+        "同步巩固",
+        "单元复习",
+        "错题巩固",
+        "期中期末复习"
+      ],
+      "verdict": "REJECT",
+      "why": "分类 textbook-sync 为 K12 学科教材同步，知识点与 tcmP 无交集",
+      "portedTo": null
+    },
+    {
+      "upstreamSlug": "primary-english-yl-textbook-sync",
+      "upstreamTitle": "译林版小学英语同步 Skill",
+      "upstreamCategory": "textbook-sync",
+      "subjects": [
+        "英语"
+      ],
+      "stages": [
+        "primary"
+      ],
+      "abilities": [
+        "教材同步",
+        "词汇",
+        "听说读写"
+      ],
+      "scenarios": [
+        "课前预习",
+        "课后作业",
+        "同步巩固",
+        "单元复习",
+        "错题巩固",
+        "期中期末复习"
+      ],
+      "verdict": "REJECT",
+      "why": "分类 textbook-sync 为 K12 学科教材同步，知识点与 tcmP 无交集",
+      "portedTo": null
+    },
+    {
+      "upstreamSlug": "primary-final-review",
+      "upstreamTitle": "小学期末复习 Skill",
+      "upstreamCategory": "exam-prep",
+      "subjects": [
+        "综合"
+      ],
+      "stages": [
+        "primary"
+      ],
+      "abilities": [
+        "考试复习"
+      ],
+      "scenarios": [
+        "期中期末复习"
+      ],
+      "verdict": "ADAPT",
+      "why": "绑定 K12 学段；工作流外壳可复用，须重绑中医药学科与学段",
+      "portedTo": null
+    },
+    {
+      "upstreamSlug": "primary-math-bs-textbook-sync",
+      "upstreamTitle": "北师大版小学数学同步 Skill",
+      "upstreamCategory": "textbook-sync",
+      "subjects": [
+        "数学"
+      ],
+      "stages": [
+        "primary"
+      ],
+      "abilities": [
+        "教材同步",
+        "计算",
+        "应用题"
+      ],
+      "scenarios": [
+        "课前预习",
+        "课后作业",
+        "同步巩固",
+        "单元复习",
+        "错题巩固",
+        "期中期末复习",
+        "口算速练"
+      ],
+      "verdict": "REJECT",
+      "why": "分类 textbook-sync 为 K12 学科教材同步，知识点与 tcmP 无交集",
+      "portedTo": null
+    },
+    {
+      "upstreamSlug": "primary-math-mental-arithmetic",
+      "upstreamTitle": "小学口算速练 Skill",
+      "upstreamCategory": "daily-practice",
+      "subjects": [
+        "数学"
+      ],
+      "stages": [
+        "primary"
+      ],
+      "abilities": [
+        "计算",
+        "数感"
+      ],
+      "scenarios": [
+        "口算速练",
+        "每日打卡"
+      ],
+      "verdict": "ADAPT",
+      "why": "绑定 学科（数学） + K12 学段；工作流外壳可复用，须重绑中医药学科与学段",
+      "portedTo": null
+    },
+    {
+      "upstreamSlug": "primary-math-rj-textbook-sync",
+      "upstreamTitle": "人教版小学数学同步 Skill",
+      "upstreamCategory": "textbook-sync",
+      "subjects": [
+        "数学"
+      ],
+      "stages": [
+        "primary"
+      ],
+      "abilities": [
+        "教材同步",
+        "计算",
+        "应用题"
+      ],
+      "scenarios": [
+        "课前预习",
+        "课后作业",
+        "同步巩固",
+        "单元复习",
+        "错题巩固",
+        "期中期末复习",
+        "口算速练"
+      ],
+      "verdict": "REJECT",
+      "why": "分类 textbook-sync 为 K12 学科教材同步，知识点与 tcmP 无交集",
+      "portedTo": null
+    },
+    {
+      "upstreamSlug": "primary-math-sj-textbook-sync",
+      "upstreamTitle": "苏教版小学数学同步 Skill",
+      "upstreamCategory": "textbook-sync",
+      "subjects": [
+        "数学"
+      ],
+      "stages": [
+        "primary"
+      ],
+      "abilities": [
+        "教材同步",
+        "计算",
+        "应用题"
+      ],
+      "scenarios": [
+        "课前预习",
+        "课后作业",
+        "同步巩固",
+        "单元复习",
+        "错题巩固",
+        "期中期末复习",
+        "口算速练"
+      ],
+      "verdict": "REJECT",
+      "why": "分类 textbook-sync 为 K12 学科教材同步，知识点与 tcmP 无交集",
+      "portedTo": null
+    },
+    {
+      "upstreamSlug": "primary-reading-daily",
+      "upstreamTitle": "小学阅读每日练 Skill",
+      "upstreamCategory": "daily-practice",
+      "subjects": [
+        "语文"
+      ],
+      "stages": [
+        "primary"
+      ],
+      "abilities": [
+        "阅读理解"
+      ],
+      "scenarios": [
+        "阅读训练",
+        "每日打卡"
+      ],
+      "verdict": "ADAPT",
+      "why": "绑定 学科（语文） + K12 学段；工作流外壳可复用，须重绑中医药学科与学段",
+      "portedTo": null
+    },
+    {
+      "upstreamSlug": "agent-focus-training",
+      "upstreamTitle": "专注力训练 Skill",
+      "upstreamCategory": "learning-core",
+      "subjects": [
+        "学习能力"
+      ],
+      "stages": [
+        "primary",
+        "junior",
+        "senior"
+      ],
+      "abilities": [
+        "专注"
+      ],
+      "scenarios": [
+        "每日打卡"
+      ],
+      "verdict": "ADAPT",
+      "why": "绑定 K12 学段；工作流外壳可复用，须重绑中医药学科与学段",
+      "portedTo": null
+    },
+    {
+      "upstreamSlug": "agent-holiday-plan",
+      "upstreamTitle": "寒暑假提升 Skill",
+      "upstreamCategory": "learning-core",
+      "subjects": [
+        "学习能力"
+      ],
+      "stages": [
+        "primary",
+        "junior",
+        "senior"
+      ],
+      "abilities": [
+        "假期计划"
+      ],
+      "scenarios": [
+        "寒暑假提升"
+      ],
+      "verdict": "ADAPT",
+      "why": "绑定 K12 学段；工作流外壳可复用，须重绑中医药学科与学段",
+      "portedTo": "tcm-holiday-plan"
+    },
+    {
+      "upstreamSlug": "agent-homework-companion",
+      "upstreamTitle": "作业陪伴 Skill",
+      "upstreamCategory": "learning-core",
+      "subjects": [
+        "学习能力"
+      ],
+      "stages": [
+        "primary",
+        "junior",
+        "senior"
+      ],
+      "abilities": [
+        "作业陪伴"
+      ],
+      "scenarios": [
+        "课后作业"
+      ],
+      "verdict": "ADAPT",
+      "why": "绑定 K12 学段；工作流外壳可复用，须重绑中医药学科与学段",
+      "portedTo": null
+    },
+    {
+      "upstreamSlug": "agent-learning-habit",
+      "upstreamTitle": "学习习惯 Skill",
+      "upstreamCategory": "learning-core",
+      "subjects": [
+        "学习能力"
+      ],
+      "stages": [
+        "primary",
+        "junior",
+        "senior"
+      ],
+      "abilities": [
+        "习惯培养"
+      ],
+      "scenarios": [
+        "每日打卡"
+      ],
+      "verdict": "ADAPT",
+      "why": "绑定 K12 学段；工作流外壳可复用，须重绑中医药学科与学段",
+      "portedTo": "tcm-learning-habit"
+    },
+    {
+      "upstreamSlug": "agent-learning-report",
+      "upstreamTitle": "学情报告 Skill",
+      "upstreamCategory": "learning-core",
+      "subjects": [
+        "学习能力"
+      ],
+      "stages": [
+        "primary",
+        "junior",
+        "senior"
+      ],
+      "abilities": [
+        "学情报告",
+        "学习建议"
+      ],
+      "scenarios": [
+        "学习报告",
+        "家长沟通"
+      ],
+      "verdict": "ADAPT",
+      "why": "绑定 K12 学段；工作流外壳可复用，须重绑中医药学科与学段",
+      "portedTo": null
+    },
+    {
+      "upstreamSlug": "agent-memory-method",
+      "upstreamTitle": "记忆方法 Skill",
+      "upstreamCategory": "learning-core",
+      "subjects": [
+        "学习能力"
+      ],
+      "stages": [
+        "primary",
+        "junior",
+        "senior"
+      ],
+      "abilities": [
+        "记忆"
+      ],
+      "scenarios": [
+        "背诵记忆"
+      ],
+      "verdict": "ADAPT",
+      "why": "绑定 K12 学段；工作流外壳可复用，须重绑中医药学科与学段",
+      "portedTo": "tcm-memory-method"
+    },
+    {
+      "upstreamSlug": "agent-mistake-review",
+      "upstreamTitle": "错题复盘 Skill",
+      "upstreamCategory": "learning-core",
+      "subjects": [
+        "学习能力"
+      ],
+      "stages": [
+        "primary",
+        "junior",
+        "senior"
+      ],
+      "abilities": [
+        "错题订正",
+        "复习计划"
+      ],
+      "scenarios": [
+        "错题订正",
+        "单元复习"
+      ],
+      "verdict": "ADAPT",
+      "why": "绑定 K12 学段；工作流外壳可复用，须重绑中医药学科与学段",
+      "portedTo": null
+    },
+    {
+      "upstreamSlug": "agent-photo-question",
+      "upstreamTitle": "拍照答疑 Skill",
+      "upstreamCategory": "learning-core",
+      "subjects": [
+        "综合"
+      ],
+      "stages": [
+        "primary",
+        "junior",
+        "senior"
+      ],
+      "abilities": [
+        "AI 讲题",
+        "图片识题"
+      ],
+      "scenarios": [
+        "拍照答疑",
+        "课后作业"
+      ],
+      "verdict": "ADAPT",
+      "why": "绑定 K12 学段；工作流外壳可复用，须重绑中医药学科与学段",
+      "portedTo": null
+    },
+    {
+      "upstreamSlug": "agent-preview-assistant",
+      "upstreamTitle": "课前预习 Skill",
+      "upstreamCategory": "learning-core",
+      "subjects": [
+        "学习能力"
+      ],
+      "stages": [
+        "primary",
+        "junior",
+        "senior"
+      ],
+      "abilities": [
+        "预习"
+      ],
+      "scenarios": [
+        "课前预习"
+      ],
+      "verdict": "ADAPT",
+      "why": "绑定 K12 学段；工作流外壳可复用，须重绑中医药学科与学段",
+      "portedTo": null
+    },
+    {
+      "upstreamSlug": "agent-review-assistant",
+      "upstreamTitle": "复习助手 Skill",
+      "upstreamCategory": "learning-core",
+      "subjects": [
+        "学习能力"
+      ],
+      "stages": [
+        "primary",
+        "junior",
+        "senior"
+      ],
+      "abilities": [
+        "复习计划"
+      ],
+      "scenarios": [
+        "单元复习"
+      ],
+      "verdict": "ADAPT",
+      "why": "绑定 K12 学段；工作流外壳可复用，须重绑中医药学科与学段",
+      "portedTo": "tcm-review-assistant"
+    },
+    {
+      "upstreamSlug": "agent-socratic-tutor",
+      "upstreamTitle": "启发式讲解 Skill",
+      "upstreamCategory": "learning-core",
+      "subjects": [
+        "学习能力"
+      ],
+      "stages": [
+        "primary",
+        "junior",
+        "senior"
+      ],
+      "abilities": [
+        "启发提问"
+      ],
+      "scenarios": [
+        "AI 讲题"
+      ],
+      "verdict": "ADAPT",
+      "why": "绑定 K12 学段；工作流外壳可复用，须重绑中医药学科与学段",
+      "portedTo": "tcm-socratic-tutor"
+    },
+    {
+      "upstreamSlug": "agent-weakness-boost",
+      "upstreamTitle": "薄弱项提升 Skill",
+      "upstreamCategory": "learning-core",
+      "subjects": [
+        "学习能力"
+      ],
+      "stages": [
+        "primary",
+        "junior",
+        "senior"
+      ],
+      "abilities": [
+        "查漏补缺"
+      ],
+      "scenarios": [
+        "专项训练"
+      ],
+      "verdict": "ADAPT",
+      "why": "绑定 K12 学段；工作流外壳可复用，须重绑中医药学科与学段",
+      "portedTo": "tcm-weakness-boost"
+    },
+    {
+      "upstreamSlug": "agent-weekly-review",
+      "upstreamTitle": "每周复盘 Skill",
+      "upstreamCategory": "learning-core",
+      "subjects": [
+        "学习能力"
+      ],
+      "stages": [
+        "primary",
+        "junior",
+        "senior"
+      ],
+      "abilities": [
+        "阶段复盘"
+      ],
+      "scenarios": [
+        "学习报告"
+      ],
+      "verdict": "ADAPT",
+      "why": "绑定 K12 学段；工作流外壳可复用，须重绑中医药学科与学段",
+      "portedTo": null
+    },
+    {
+      "upstreamSlug": "teacher-biology-homework-generation",
+      "upstreamTitle": "生物作业生成 Skill",
+      "upstreamCategory": "teacher-tools",
+      "subjects": [
+        "生物"
+      ],
+      "stages": [
+        "primary",
+        "junior",
+        "senior"
+      ],
+      "abilities": [
+        "作业生成"
+      ],
+      "scenarios": [
+        "班级作业"
+      ],
+      "verdict": "ADAPT",
+      "why": "绑定 学科（生物） + K12 学段；工作流外壳可复用，须重绑中医药学科与学段",
+      "portedTo": null
+    },
+    {
+      "upstreamSlug": "teacher-biology-lesson-planning",
+      "upstreamTitle": "生物备课 Skill",
+      "upstreamCategory": "teacher-tools",
+      "subjects": [
+        "生物"
+      ],
+      "stages": [
+        "primary",
+        "junior",
+        "senior"
+      ],
+      "abilities": [
+        "教学设计"
+      ],
+      "scenarios": [
+        "老师备课"
+      ],
+      "verdict": "ADAPT",
+      "why": "绑定 学科（生物） + K12 学段；工作流外壳可复用，须重绑中医药学科与学段",
+      "portedTo": null
+    },
+    {
+      "upstreamSlug": "teacher-biology-unit-review",
+      "upstreamTitle": "生物单元复习 Skill",
+      "upstreamCategory": "teacher-tools",
+      "subjects": [
+        "生物"
+      ],
+      "stages": [
+        "primary",
+        "junior",
+        "senior"
+      ],
+      "abilities": [
+        "复习计划"
+      ],
+      "scenarios": [
+        "单元复习"
+      ],
+      "verdict": "ADAPT",
+      "why": "绑定 学科（生物） + K12 学段；工作流外壳可复用，须重绑中医药学科与学段",
+      "portedTo": null
+    },
+    {
+      "upstreamSlug": "teacher-chemistry-homework-generation",
+      "upstreamTitle": "化学作业生成 Skill",
+      "upstreamCategory": "teacher-tools",
+      "subjects": [
+        "化学"
+      ],
+      "stages": [
+        "primary",
+        "junior",
+        "senior"
+      ],
+      "abilities": [
+        "作业生成"
+      ],
+      "scenarios": [
+        "班级作业"
+      ],
+      "verdict": "ADAPT",
+      "why": "绑定 学科（化学） + K12 学段；工作流外壳可复用，须重绑中医药学科与学段",
+      "portedTo": null
+    },
+    {
+      "upstreamSlug": "teacher-chemistry-lesson-planning",
+      "upstreamTitle": "化学备课 Skill",
+      "upstreamCategory": "teacher-tools",
+      "subjects": [
+        "化学"
+      ],
+      "stages": [
+        "primary",
+        "junior",
+        "senior"
+      ],
+      "abilities": [
+        "教学设计"
+      ],
+      "scenarios": [
+        "老师备课"
+      ],
+      "verdict": "ADAPT",
+      "why": "绑定 学科（化学） + K12 学段；工作流外壳可复用，须重绑中医药学科与学段",
+      "portedTo": null
+    },
+    {
+      "upstreamSlug": "teacher-chemistry-unit-review",
+      "upstreamTitle": "化学单元复习 Skill",
+      "upstreamCategory": "teacher-tools",
+      "subjects": [
+        "化学"
+      ],
+      "stages": [
+        "primary",
+        "junior",
+        "senior"
+      ],
+      "abilities": [
+        "复习计划"
+      ],
+      "scenarios": [
+        "单元复习"
+      ],
+      "verdict": "ADAPT",
+      "why": "绑定 学科（化学） + K12 学段；工作流外壳可复用，须重绑中医药学科与学段",
+      "portedTo": null
+    },
+    {
+      "upstreamSlug": "teacher-chinese-homework-generation",
+      "upstreamTitle": "语文作业生成 Skill",
+      "upstreamCategory": "teacher-tools",
+      "subjects": [
+        "语文"
+      ],
+      "stages": [
+        "primary",
+        "junior",
+        "senior"
+      ],
+      "abilities": [
+        "作业生成"
+      ],
+      "scenarios": [
+        "班级作业"
+      ],
+      "verdict": "ADAPT",
+      "why": "绑定 学科（语文） + K12 学段；工作流外壳可复用，须重绑中医药学科与学段",
+      "portedTo": null
+    },
+    {
+      "upstreamSlug": "teacher-chinese-lesson-planning",
+      "upstreamTitle": "语文备课 Skill",
+      "upstreamCategory": "teacher-tools",
+      "subjects": [
+        "语文"
+      ],
+      "stages": [
+        "primary",
+        "junior",
+        "senior"
+      ],
+      "abilities": [
+        "教学设计"
+      ],
+      "scenarios": [
+        "老师备课"
+      ],
+      "verdict": "ADAPT",
+      "why": "绑定 学科（语文） + K12 学段；工作流外壳可复用，须重绑中医药学科与学段",
+      "portedTo": null
+    },
+    {
+      "upstreamSlug": "teacher-chinese-unit-review",
+      "upstreamTitle": "语文单元复习 Skill",
+      "upstreamCategory": "teacher-tools",
+      "subjects": [
+        "语文"
+      ],
+      "stages": [
+        "primary",
+        "junior",
+        "senior"
+      ],
+      "abilities": [
+        "复习计划"
+      ],
+      "scenarios": [
+        "单元复习"
+      ],
+      "verdict": "ADAPT",
+      "why": "绑定 学科（语文） + K12 学段；工作流外壳可复用，须重绑中医药学科与学段",
+      "portedTo": null
+    },
+    {
+      "upstreamSlug": "teacher-class-analysis-lite",
+      "upstreamTitle": "班级学情分析 Lite Skill",
+      "upstreamCategory": "teacher-tools",
+      "subjects": [
+        "教学管理"
+      ],
+      "stages": [
+        "primary",
+        "junior",
+        "senior"
+      ],
+      "abilities": [
+        "学情分析"
+      ],
+      "scenarios": [
+        "学情分析"
+      ],
+      "verdict": "ADAPT",
+      "why": "绑定 K12 学段；工作流外壳可复用，须重绑中医药学科与学段",
+      "portedTo": "tcm-class-analysis"
+    },
+    {
+      "upstreamSlug": "teacher-english-homework-generation",
+      "upstreamTitle": "英语作业生成 Skill",
+      "upstreamCategory": "teacher-tools",
+      "subjects": [
+        "英语"
+      ],
+      "stages": [
+        "primary",
+        "junior",
+        "senior"
+      ],
+      "abilities": [
+        "作业生成"
+      ],
+      "scenarios": [
+        "班级作业"
+      ],
+      "verdict": "ADAPT",
+      "why": "绑定 学科（英语） + K12 学段；工作流外壳可复用，须重绑中医药学科与学段",
+      "portedTo": null
+    },
+    {
+      "upstreamSlug": "teacher-english-lesson-planning",
+      "upstreamTitle": "英语备课 Skill",
+      "upstreamCategory": "teacher-tools",
+      "subjects": [
+        "英语"
+      ],
+      "stages": [
+        "primary",
+        "junior",
+        "senior"
+      ],
+      "abilities": [
+        "教学设计"
+      ],
+      "scenarios": [
+        "老师备课"
+      ],
+      "verdict": "ADAPT",
+      "why": "绑定 学科（英语） + K12 学段；工作流外壳可复用，须重绑中医药学科与学段",
+      "portedTo": null
+    },
+    {
+      "upstreamSlug": "teacher-english-unit-review",
+      "upstreamTitle": "英语单元复习 Skill",
+      "upstreamCategory": "teacher-tools",
+      "subjects": [
+        "英语"
+      ],
+      "stages": [
+        "primary",
+        "junior",
+        "senior"
+      ],
+      "abilities": [
+        "复习计划"
+      ],
+      "scenarios": [
+        "单元复习"
+      ],
+      "verdict": "ADAPT",
+      "why": "绑定 学科（英语） + K12 学段；工作流外壳可复用，须重绑中医药学科与学段",
+      "portedTo": null
+    },
+    {
+      "upstreamSlug": "teacher-geography-homework-generation",
+      "upstreamTitle": "地理作业生成 Skill",
+      "upstreamCategory": "teacher-tools",
+      "subjects": [
+        "地理"
+      ],
+      "stages": [
+        "primary",
+        "junior",
+        "senior"
+      ],
+      "abilities": [
+        "作业生成"
+      ],
+      "scenarios": [
+        "班级作业"
+      ],
+      "verdict": "ADAPT",
+      "why": "绑定 学科（地理） + K12 学段；工作流外壳可复用，须重绑中医药学科与学段",
+      "portedTo": "tcm-homework-generation"
+    },
+    {
+      "upstreamSlug": "teacher-geography-lesson-planning",
+      "upstreamTitle": "地理备课 Skill",
+      "upstreamCategory": "teacher-tools",
+      "subjects": [
+        "地理"
+      ],
+      "stages": [
+        "primary",
+        "junior",
+        "senior"
+      ],
+      "abilities": [
+        "教学设计"
+      ],
+      "scenarios": [
+        "老师备课"
+      ],
+      "verdict": "ADAPT",
+      "why": "绑定 学科（地理） + K12 学段；工作流外壳可复用，须重绑中医药学科与学段",
+      "portedTo": null
+    },
+    {
+      "upstreamSlug": "teacher-geography-unit-review",
+      "upstreamTitle": "地理单元复习 Skill",
+      "upstreamCategory": "teacher-tools",
+      "subjects": [
+        "地理"
+      ],
+      "stages": [
+        "primary",
+        "junior",
+        "senior"
+      ],
+      "abilities": [
+        "复习计划"
+      ],
+      "scenarios": [
+        "单元复习"
+      ],
+      "verdict": "ADAPT",
+      "why": "绑定 学科（地理） + K12 学段；工作流外壳可复用，须重绑中医药学科与学段",
+      "portedTo": "tcm-unit-review"
+    },
+    {
+      "upstreamSlug": "teacher-history-homework-generation",
+      "upstreamTitle": "历史作业生成 Skill",
+      "upstreamCategory": "teacher-tools",
+      "subjects": [
+        "历史"
+      ],
+      "stages": [
+        "primary",
+        "junior",
+        "senior"
+      ],
+      "abilities": [
+        "作业生成"
+      ],
+      "scenarios": [
+        "班级作业"
+      ],
+      "verdict": "ADAPT",
+      "why": "绑定 学科（历史） + K12 学段；工作流外壳可复用，须重绑中医药学科与学段",
+      "portedTo": null
+    },
+    {
+      "upstreamSlug": "teacher-history-lesson-planning",
+      "upstreamTitle": "历史备课 Skill",
+      "upstreamCategory": "teacher-tools",
+      "subjects": [
+        "历史"
+      ],
+      "stages": [
+        "primary",
+        "junior",
+        "senior"
+      ],
+      "abilities": [
+        "教学设计"
+      ],
+      "scenarios": [
+        "老师备课"
+      ],
+      "verdict": "ADAPT",
+      "why": "绑定 学科（历史） + K12 学段；工作流外壳可复用，须重绑中医药学科与学段",
+      "portedTo": null
+    },
+    {
+      "upstreamSlug": "teacher-history-unit-review",
+      "upstreamTitle": "历史单元复习 Skill",
+      "upstreamCategory": "teacher-tools",
+      "subjects": [
+        "历史"
+      ],
+      "stages": [
+        "primary",
+        "junior",
+        "senior"
+      ],
+      "abilities": [
+        "复习计划"
+      ],
+      "scenarios": [
+        "单元复习"
+      ],
+      "verdict": "ADAPT",
+      "why": "绑定 学科（历史） + K12 学段；工作流外壳可复用，须重绑中医药学科与学段",
+      "portedTo": null
+    },
+    {
+      "upstreamSlug": "teacher-homework-generation",
+      "upstreamTitle": "作业生成 Skill",
+      "upstreamCategory": "teacher-tools",
+      "subjects": [
+        "教学管理"
+      ],
+      "stages": [
+        "primary",
+        "junior",
+        "senior"
+      ],
+      "abilities": [
+        "作业生成",
+        "分层练习"
+      ],
+      "scenarios": [
+        "班级作业"
+      ],
+      "verdict": "ADAPT",
+      "why": "绑定 K12 学段；工作流外壳可复用，须重绑中医药学科与学段",
+      "portedTo": null
+    },
+    {
+      "upstreamSlug": "teacher-lesson-planning",
+      "upstreamTitle": "老师备课 Skill",
+      "upstreamCategory": "teacher-tools",
+      "subjects": [
+        "教学管理"
+      ],
+      "stages": [
+        "primary",
+        "junior",
+        "senior"
+      ],
+      "abilities": [
+        "教学设计",
+        "学情分析"
+      ],
+      "scenarios": [
+        "老师备课"
+      ],
+      "verdict": "ADAPT",
+      "why": "绑定 K12 学段；工作流外壳可复用，须重绑中医药学科与学段",
+      "portedTo": null
+    },
+    {
+      "upstreamSlug": "teacher-math-homework-generation",
+      "upstreamTitle": "数学作业生成 Skill",
+      "upstreamCategory": "teacher-tools",
+      "subjects": [
+        "数学"
+      ],
+      "stages": [
+        "primary",
+        "junior",
+        "senior"
+      ],
+      "abilities": [
+        "作业生成"
+      ],
+      "scenarios": [
+        "班级作业"
+      ],
+      "verdict": "ADAPT",
+      "why": "绑定 学科（数学） + K12 学段；工作流外壳可复用，须重绑中医药学科与学段",
+      "portedTo": null
+    },
+    {
+      "upstreamSlug": "teacher-math-lesson-planning",
+      "upstreamTitle": "数学备课 Skill",
+      "upstreamCategory": "teacher-tools",
+      "subjects": [
+        "数学"
+      ],
+      "stages": [
+        "primary",
+        "junior",
+        "senior"
+      ],
+      "abilities": [
+        "教学设计"
+      ],
+      "scenarios": [
+        "老师备课"
+      ],
+      "verdict": "ADAPT",
+      "why": "绑定 学科（数学） + K12 学段；工作流外壳可复用，须重绑中医药学科与学段",
+      "portedTo": null
+    },
+    {
+      "upstreamSlug": "teacher-math-unit-review",
+      "upstreamTitle": "数学单元复习 Skill",
+      "upstreamCategory": "teacher-tools",
+      "subjects": [
+        "数学"
+      ],
+      "stages": [
+        "primary",
+        "junior",
+        "senior"
+      ],
+      "abilities": [
+        "复习计划"
+      ],
+      "scenarios": [
+        "单元复习"
+      ],
+      "verdict": "ADAPT",
+      "why": "绑定 学科（数学） + K12 学段；工作流外壳可复用，须重绑中医药学科与学段",
+      "portedTo": null
+    },
+    {
+      "upstreamSlug": "teacher-parent-report-lite",
+      "upstreamTitle": "家长反馈报告 Lite Skill",
+      "upstreamCategory": "teacher-tools",
+      "subjects": [
+        "教学管理"
+      ],
+      "stages": [
+        "primary",
+        "junior",
+        "senior"
+      ],
+      "abilities": [
+        "报告生成"
+      ],
+      "scenarios": [
+        "家长沟通"
+      ],
+      "verdict": "ADAPT",
+      "why": "绑定 K12 学段；工作流外壳可复用，须重绑中医药学科与学段",
+      "portedTo": null
+    },
+    {
+      "upstreamSlug": "teacher-physics-homework-generation",
+      "upstreamTitle": "物理作业生成 Skill",
+      "upstreamCategory": "teacher-tools",
+      "subjects": [
+        "物理"
+      ],
+      "stages": [
+        "primary",
+        "junior",
+        "senior"
+      ],
+      "abilities": [
+        "作业生成"
+      ],
+      "scenarios": [
+        "班级作业"
+      ],
+      "verdict": "ADAPT",
+      "why": "绑定 学科（物理） + K12 学段；工作流外壳可复用，须重绑中医药学科与学段",
+      "portedTo": null
+    },
+    {
+      "upstreamSlug": "teacher-physics-lesson-planning",
+      "upstreamTitle": "物理备课 Skill",
+      "upstreamCategory": "teacher-tools",
+      "subjects": [
+        "物理"
+      ],
+      "stages": [
+        "primary",
+        "junior",
+        "senior"
+      ],
+      "abilities": [
+        "教学设计"
+      ],
+      "scenarios": [
+        "老师备课"
+      ],
+      "verdict": "ADAPT",
+      "why": "绑定 学科（物理） + K12 学段；工作流外壳可复用，须重绑中医药学科与学段",
+      "portedTo": null
+    },
+    {
+      "upstreamSlug": "teacher-physics-unit-review",
+      "upstreamTitle": "物理单元复习 Skill",
+      "upstreamCategory": "teacher-tools",
+      "subjects": [
+        "物理"
+      ],
+      "stages": [
+        "primary",
+        "junior",
+        "senior"
+      ],
+      "abilities": [
+        "复习计划"
+      ],
+      "scenarios": [
+        "单元复习"
+      ],
+      "verdict": "ADAPT",
+      "why": "绑定 学科（物理） + K12 学段；工作流外壳可复用，须重绑中医药学科与学段",
+      "portedTo": null
+    },
+    {
+      "upstreamSlug": "teacher-politics-homework-generation",
+      "upstreamTitle": "政治作业生成 Skill",
+      "upstreamCategory": "teacher-tools",
+      "subjects": [
+        "政治"
+      ],
+      "stages": [
+        "primary",
+        "junior",
+        "senior"
+      ],
+      "abilities": [
+        "作业生成"
+      ],
+      "scenarios": [
+        "班级作业"
+      ],
+      "verdict": "ADAPT",
+      "why": "绑定 学科（政治） + K12 学段；工作流外壳可复用，须重绑中医药学科与学段",
+      "portedTo": null
+    },
+    {
+      "upstreamSlug": "teacher-politics-lesson-planning",
+      "upstreamTitle": "政治备课 Skill",
+      "upstreamCategory": "teacher-tools",
+      "subjects": [
+        "政治"
+      ],
+      "stages": [
+        "primary",
+        "junior",
+        "senior"
+      ],
+      "abilities": [
+        "教学设计"
+      ],
+      "scenarios": [
+        "老师备课"
+      ],
+      "verdict": "ADAPT",
+      "why": "绑定 学科（政治） + K12 学段；工作流外壳可复用，须重绑中医药学科与学段",
+      "portedTo": null
+    },
+    {
+      "upstreamSlug": "teacher-politics-unit-review",
+      "upstreamTitle": "政治单元复习 Skill",
+      "upstreamCategory": "teacher-tools",
+      "subjects": [
+        "政治"
+      ],
+      "stages": [
+        "primary",
+        "junior",
+        "senior"
+      ],
+      "abilities": [
+        "复习计划"
+      ],
+      "scenarios": [
+        "单元复习"
+      ],
+      "verdict": "ADAPT",
+      "why": "绑定 学科（政治） + K12 学段；工作流外壳可复用，须重绑中医药学科与学段",
+      "portedTo": null
+    },
+    {
+      "upstreamSlug": "agent-question-explanation",
+      "upstreamTitle": "AI 讲题 Skill",
+      "upstreamCategory": "learning-core",
+      "subjects": [
+        "学习能力"
+      ],
+      "stages": [
+        "primary",
+        "junior",
+        "senior",
+        "college"
+      ],
+      "abilities": [
+        "AI 讲题",
+        "举一反三"
+      ],
+      "scenarios": [
+        "课后作业",
+        "同步巩固"
+      ],
+      "verdict": "ADAPT",
+      "why": "绑定 K12 学段；工作流外壳可复用，须重绑中医药学科与学段",
+      "portedTo": null
+    },
+    {
+      "upstreamSlug": "senior-biology-bs-textbook-sync",
+      "upstreamTitle": "北师大版高中生物同步 Skill",
+      "upstreamCategory": "textbook-sync",
+      "subjects": [
+        "生物"
+      ],
+      "stages": [
+        "senior"
+      ],
+      "abilities": [
+        "教材同步",
+        "知识记忆"
+      ],
+      "scenarios": [
+        "课前预习",
+        "课后作业",
+        "同步巩固",
+        "单元复习",
+        "错题巩固",
+        "期中期末复习",
+        "高考复习"
+      ],
+      "verdict": "REJECT",
+      "why": "分类 textbook-sync 为 K12 学科教材同步，知识点与 tcmP 无交集",
+      "portedTo": null
+    },
+    {
+      "upstreamSlug": "senior-biology-exam-review",
+      "upstreamTitle": "高中生物考试复习 Skill",
+      "upstreamCategory": "exam-prep",
+      "subjects": [
+        "生物"
+      ],
+      "stages": [
+        "senior"
+      ],
+      "abilities": [
+        "考试复习",
+        "查漏补缺"
+      ],
+      "scenarios": [
+        "高考复习",
+        "考前冲刺"
+      ],
+      "verdict": "ADAPT",
+      "why": "绑定 学科（生物） + K12 学段；工作流外壳可复用，须重绑中医药学科与学段",
+      "portedTo": null
+    },
+    {
+      "upstreamSlug": "senior-biology-quick-practice",
+      "upstreamTitle": "高中生物快速巩固 Skill",
+      "upstreamCategory": "daily-practice",
+      "subjects": [
+        "生物"
+      ],
+      "stages": [
+        "senior"
+      ],
+      "abilities": [
+        "同步巩固",
+        "专项训练"
+      ],
+      "scenarios": [
+        "每日打卡",
+        "同步巩固"
+      ],
+      "verdict": "ADAPT",
+      "why": "绑定 学科（生物） + K12 学段；工作流外壳可复用，须重绑中医药学科与学段",
+      "portedTo": "tcm-daily-acupoint-drill"
+    },
+    {
+      "upstreamSlug": "senior-biology-rj-textbook-sync",
+      "upstreamTitle": "人教版高中生物同步 Skill",
+      "upstreamCategory": "textbook-sync",
+      "subjects": [
+        "生物"
+      ],
+      "stages": [
+        "senior"
+      ],
+      "abilities": [
+        "教材同步",
+        "知识记忆"
+      ],
+      "scenarios": [
+        "课前预习",
+        "课后作业",
+        "同步巩固",
+        "单元复习",
+        "错题巩固",
+        "期中期末复习",
+        "高考复习"
+      ],
+      "verdict": "REJECT",
+      "why": "分类 textbook-sync 为 K12 学科教材同步，知识点与 tcmP 无交集",
+      "portedTo": null
+    },
+    {
+      "upstreamSlug": "senior-chemistry-exam-review",
+      "upstreamTitle": "高中化学考试复习 Skill",
+      "upstreamCategory": "exam-prep",
+      "subjects": [
+        "化学"
+      ],
+      "stages": [
+        "senior"
+      ],
+      "abilities": [
+        "考试复习",
+        "查漏补缺"
+      ],
+      "scenarios": [
+        "高考复习",
+        "考前冲刺"
+      ],
+      "verdict": "ADAPT",
+      "why": "绑定 学科（化学） + K12 学段；工作流外壳可复用，须重绑中医药学科与学段",
+      "portedTo": null
+    },
+    {
+      "upstreamSlug": "senior-chemistry-lk-textbook-sync",
+      "upstreamTitle": "鲁科版高中化学同步 Skill",
+      "upstreamCategory": "textbook-sync",
+      "subjects": [
+        "化学"
+      ],
+      "stages": [
+        "senior"
+      ],
+      "abilities": [
+        "教材同步",
+        "实验理解"
+      ],
+      "scenarios": [
+        "课前预习",
+        "课后作业",
+        "同步巩固",
+        "单元复习",
+        "错题巩固",
+        "期中期末复习",
+        "高考复习"
+      ],
+      "verdict": "REJECT",
+      "why": "分类 textbook-sync 为 K12 学科教材同步，知识点与 tcmP 无交集",
+      "portedTo": null
+    },
+    {
+      "upstreamSlug": "senior-chemistry-quick-practice",
+      "upstreamTitle": "高中化学快速巩固 Skill",
+      "upstreamCategory": "daily-practice",
+      "subjects": [
+        "化学"
+      ],
+      "stages": [
+        "senior"
+      ],
+      "abilities": [
+        "同步巩固",
+        "专项训练"
+      ],
+      "scenarios": [
+        "每日打卡",
+        "同步巩固"
+      ],
+      "verdict": "ADAPT",
+      "why": "绑定 学科（化学） + K12 学段；工作流外壳可复用，须重绑中医药学科与学段",
+      "portedTo": null
+    },
+    {
+      "upstreamSlug": "senior-chemistry-rj-textbook-sync",
+      "upstreamTitle": "人教版高中化学同步 Skill",
+      "upstreamCategory": "textbook-sync",
+      "subjects": [
+        "化学"
+      ],
+      "stages": [
+        "senior"
+      ],
+      "abilities": [
+        "教材同步",
+        "实验理解"
+      ],
+      "scenarios": [
+        "课前预习",
+        "课后作业",
+        "同步巩固",
+        "单元复习",
+        "错题巩固",
+        "期中期末复习",
+        "高考复习"
+      ],
+      "verdict": "REJECT",
+      "why": "分类 textbook-sync 为 K12 学科教材同步，知识点与 tcmP 无交集",
+      "portedTo": null
+    },
+    {
+      "upstreamSlug": "senior-chinese-essay",
+      "upstreamTitle": "高中作文提升 Skill",
+      "upstreamCategory": "reading-writing",
+      "subjects": [
+        "语文"
+      ],
+      "stages": [
+        "senior"
+      ],
+      "abilities": [
+        "写作"
+      ],
+      "scenarios": [
+        "写作提升"
+      ],
+      "verdict": "ADAPT",
+      "why": "绑定 学科（语文） + K12 学段；工作流外壳可复用，须重绑中医药学科与学段",
+      "portedTo": null
+    },
+    {
+      "upstreamSlug": "senior-chinese-exam-review",
+      "upstreamTitle": "高中语文考试复习 Skill",
+      "upstreamCategory": "exam-prep",
+      "subjects": [
+        "语文"
+      ],
+      "stages": [
+        "senior"
+      ],
+      "abilities": [
+        "考试复习",
+        "查漏补缺"
+      ],
+      "scenarios": [
+        "高考复习",
+        "考前冲刺"
+      ],
+      "verdict": "ADAPT",
+      "why": "绑定 学科（语文） + K12 学段；工作流外壳可复用，须重绑中医药学科与学段",
+      "portedTo": null
+    },
+    {
+      "upstreamSlug": "senior-chinese-quick-practice",
+      "upstreamTitle": "高中语文快速巩固 Skill",
+      "upstreamCategory": "daily-practice",
+      "subjects": [
+        "语文"
+      ],
+      "stages": [
+        "senior"
+      ],
+      "abilities": [
+        "同步巩固",
+        "专项训练"
+      ],
+      "scenarios": [
+        "每日打卡",
+        "同步巩固"
+      ],
+      "verdict": "ADAPT",
+      "why": "绑定 学科（语文） + K12 学段；工作流外壳可复用，须重绑中医药学科与学段",
+      "portedTo": null
+    },
+    {
+      "upstreamSlug": "senior-chinese-reading",
+      "upstreamTitle": "高中语文阅读 Skill",
+      "upstreamCategory": "reading-writing",
+      "subjects": [
+        "语文"
+      ],
+      "stages": [
+        "senior"
+      ],
+      "abilities": [
+        "阅读理解"
+      ],
+      "scenarios": [
+        "高考复习"
+      ],
+      "verdict": "ADAPT",
+      "why": "绑定 学科（语文） + K12 学段；工作流外壳可复用，须重绑中医药学科与学段",
+      "portedTo": null
+    },
+    {
+      "upstreamSlug": "senior-chinese-tongbian-textbook-sync",
+      "upstreamTitle": "统编版高中语文同步 Skill",
+      "upstreamCategory": "textbook-sync",
+      "subjects": [
+        "语文"
+      ],
+      "stages": [
+        "senior"
+      ],
+      "abilities": [
+        "教材同步",
+        "文言文",
+        "写作"
+      ],
+      "scenarios": [
+        "课前预习",
+        "课后作业",
+        "同步巩固",
+        "单元复习",
+        "错题巩固",
+        "期中期末复习",
+        "高考复习"
+      ],
+      "verdict": "REJECT",
+      "why": "分类 textbook-sync 为 K12 学科教材同步，知识点与 tcmP 无交集",
+      "portedTo": null
+    },
+    {
+      "upstreamSlug": "senior-english-exam-review",
+      "upstreamTitle": "高中英语考试复习 Skill",
+      "upstreamCategory": "exam-prep",
+      "subjects": [
+        "英语"
+      ],
+      "stages": [
+        "senior"
+      ],
+      "abilities": [
+        "考试复习",
+        "查漏补缺"
+      ],
+      "scenarios": [
+        "高考复习",
+        "考前冲刺"
+      ],
+      "verdict": "ADAPT",
+      "why": "绑定 学科（英语） + K12 学段；工作流外壳可复用，须重绑中医药学科与学段",
+      "portedTo": null
+    },
+    {
+      "upstreamSlug": "senior-english-quick-practice",
+      "upstreamTitle": "高中英语快速巩固 Skill",
+      "upstreamCategory": "daily-practice",
+      "subjects": [
+        "英语"
+      ],
+      "stages": [
+        "senior"
+      ],
+      "abilities": [
+        "同步巩固",
+        "专项训练"
+      ],
+      "scenarios": [
+        "每日打卡",
+        "同步巩固"
+      ],
+      "verdict": "ADAPT",
+      "why": "绑定 学科（英语） + K12 学段；工作流外壳可复用，须重绑中医药学科与学段",
+      "portedTo": null
+    },
+    {
+      "upstreamSlug": "senior-english-rj-textbook-sync",
+      "upstreamTitle": "人教版高中英语同步 Skill",
+      "upstreamCategory": "textbook-sync",
+      "subjects": [
+        "英语"
+      ],
+      "stages": [
+        "senior"
+      ],
+      "abilities": [
+        "教材同步",
+        "阅读理解",
+        "写作"
+      ],
+      "scenarios": [
+        "课前预习",
+        "课后作业",
+        "同步巩固",
+        "单元复习",
+        "错题巩固",
+        "期中期末复习",
+        "高考复习"
+      ],
+      "verdict": "REJECT",
+      "why": "分类 textbook-sync 为 K12 学科教材同步，知识点与 tcmP 无交集",
+      "portedTo": null
+    },
+    {
+      "upstreamSlug": "senior-english-vocabulary-daily",
+      "upstreamTitle": "高中英语词汇每日练 Skill",
+      "upstreamCategory": "daily-practice",
+      "subjects": [
+        "英语"
+      ],
+      "stages": [
+        "senior"
+      ],
+      "abilities": [
+        "词汇"
+      ],
+      "scenarios": [
+        "每日打卡",
+        "高考复习"
+      ],
+      "verdict": "ADAPT",
+      "why": "绑定 学科（英语） + K12 学段；工作流外壳可复用，须重绑中医药学科与学段",
+      "portedTo": null
+    },
+    {
+      "upstreamSlug": "senior-english-writing",
+      "upstreamTitle": "高中英语写作 Skill",
+      "upstreamCategory": "reading-writing",
+      "subjects": [
+        "英语"
+      ],
+      "stages": [
+        "senior"
+      ],
+      "abilities": [
+        "写作"
+      ],
+      "scenarios": [
+        "高考复习"
+      ],
+      "verdict": "ADAPT",
+      "why": "绑定 学科（英语） + K12 学段；工作流外壳可复用，须重绑中医药学科与学段",
+      "portedTo": null
+    },
+    {
+      "upstreamSlug": "senior-english-wy-textbook-sync",
+      "upstreamTitle": "外研版高中英语同步 Skill",
+      "upstreamCategory": "textbook-sync",
+      "subjects": [
+        "英语"
+      ],
+      "stages": [
+        "senior"
+      ],
+      "abilities": [
+        "教材同步",
+        "阅读理解",
+        "写作"
+      ],
+      "scenarios": [
+        "课前预习",
+        "课后作业",
+        "同步巩固",
+        "单元复习",
+        "错题巩固",
+        "期中期末复习",
+        "高考复习"
+      ],
+      "verdict": "REJECT",
+      "why": "分类 textbook-sync 为 K12 学科教材同步，知识点与 tcmP 无交集",
+      "portedTo": null
+    },
+    {
+      "upstreamSlug": "senior-gaokao-sprint",
+      "upstreamTitle": "高考冲刺 Skill",
+      "upstreamCategory": "exam-prep",
+      "subjects": [
+        "综合"
+      ],
+      "stages": [
+        "senior"
+      ],
+      "abilities": [
+        "考试冲刺"
+      ],
+      "scenarios": [
+        "高考复习",
+        "考前冲刺"
+      ],
+      "verdict": "ADAPT",
+      "why": "绑定 K12 学段；工作流外壳可复用，须重绑中医药学科与学段",
+      "portedTo": null
+    },
+    {
+      "upstreamSlug": "senior-geography-exam-review",
+      "upstreamTitle": "高中地理考试复习 Skill",
+      "upstreamCategory": "exam-prep",
+      "subjects": [
+        "地理"
+      ],
+      "stages": [
+        "senior"
+      ],
+      "abilities": [
+        "考试复习",
+        "查漏补缺"
+      ],
+      "scenarios": [
+        "高考复习",
+        "考前冲刺"
+      ],
+      "verdict": "ADAPT",
+      "why": "绑定 学科（地理） + K12 学段；工作流外壳可复用，须重绑中医药学科与学段",
+      "portedTo": null
+    },
+    {
+      "upstreamSlug": "senior-geography-quick-practice",
+      "upstreamTitle": "高中地理快速巩固 Skill",
+      "upstreamCategory": "daily-practice",
+      "subjects": [
+        "地理"
+      ],
+      "stages": [
+        "senior"
+      ],
+      "abilities": [
+        "同步巩固",
+        "专项训练"
+      ],
+      "scenarios": [
+        "每日打卡",
+        "同步巩固"
+      ],
+      "verdict": "ADAPT",
+      "why": "绑定 学科（地理） + K12 学段；工作流外壳可复用，须重绑中医药学科与学段",
+      "portedTo": null
+    },
+    {
+      "upstreamSlug": "senior-geography-rj-textbook-sync",
+      "upstreamTitle": "人教版高中地理同步 Skill",
+      "upstreamCategory": "textbook-sync",
+      "subjects": [
+        "地理"
+      ],
+      "stages": [
+        "senior"
+      ],
+      "abilities": [
+        "教材同步",
+        "图表分析"
+      ],
+      "scenarios": [
+        "课前预习",
+        "课后作业",
+        "同步巩固",
+        "单元复习",
+        "错题巩固",
+        "期中期末复习",
+        "高考复习"
+      ],
+      "verdict": "REJECT",
+      "why": "分类 textbook-sync 为 K12 学科教材同步，知识点与 tcmP 无交集",
+      "portedTo": null
+    },
+    {
+      "upstreamSlug": "senior-geography-xj-textbook-sync",
+      "upstreamTitle": "湘教版高中地理同步 Skill",
+      "upstreamCategory": "textbook-sync",
+      "subjects": [
+        "地理"
+      ],
+      "stages": [
+        "senior"
+      ],
+      "abilities": [
+        "教材同步",
+        "图表分析"
+      ],
+      "scenarios": [
+        "课前预习",
+        "课后作业",
+        "同步巩固",
+        "单元复习",
+        "错题巩固",
+        "期中期末复习",
+        "高考复习"
+      ],
+      "verdict": "REJECT",
+      "why": "分类 textbook-sync 为 K12 学科教材同步，知识点与 tcmP 无交集",
+      "portedTo": null
+    },
+    {
+      "upstreamSlug": "senior-history-exam-review",
+      "upstreamTitle": "高中历史考试复习 Skill",
+      "upstreamCategory": "exam-prep",
+      "subjects": [
+        "历史"
+      ],
+      "stages": [
+        "senior"
+      ],
+      "abilities": [
+        "考试复习",
+        "查漏补缺"
+      ],
+      "scenarios": [
+        "高考复习",
+        "考前冲刺"
+      ],
+      "verdict": "ADAPT",
+      "why": "绑定 学科（历史） + K12 学段；工作流外壳可复用，须重绑中医药学科与学段",
+      "portedTo": null
+    },
+    {
+      "upstreamSlug": "senior-history-quick-practice",
+      "upstreamTitle": "高中历史快速巩固 Skill",
+      "upstreamCategory": "daily-practice",
+      "subjects": [
+        "历史"
+      ],
+      "stages": [
+        "senior"
+      ],
+      "abilities": [
+        "同步巩固",
+        "专项训练"
+      ],
+      "scenarios": [
+        "每日打卡",
+        "同步巩固"
+      ],
+      "verdict": "ADAPT",
+      "why": "绑定 学科（历史） + K12 学段；工作流外壳可复用，须重绑中医药学科与学段",
+      "portedTo": null
+    },
+    {
+      "upstreamSlug": "senior-history-tongbian-textbook-sync",
+      "upstreamTitle": "统编版高中历史同步 Skill",
+      "upstreamCategory": "textbook-sync",
+      "subjects": [
+        "历史"
+      ],
+      "stages": [
+        "senior"
+      ],
+      "abilities": [
+        "教材同步",
+        "材料分析"
+      ],
+      "scenarios": [
+        "课前预习",
+        "课后作业",
+        "同步巩固",
+        "单元复习",
+        "错题巩固",
+        "期中期末复习",
+        "高考复习"
+      ],
+      "verdict": "REJECT",
+      "why": "分类 textbook-sync 为 K12 学科教材同步，知识点与 tcmP 无交集",
+      "portedTo": null
+    },
+    {
+      "upstreamSlug": "senior-math-bs-textbook-sync",
+      "upstreamTitle": "北师大版高中数学同步 Skill",
+      "upstreamCategory": "textbook-sync",
+      "subjects": [
+        "数学"
+      ],
+      "stages": [
+        "senior"
+      ],
+      "abilities": [
+        "教材同步",
+        "函数",
+        "建模"
+      ],
+      "scenarios": [
+        "课前预习",
+        "课后作业",
+        "同步巩固",
+        "单元复习",
+        "错题巩固",
+        "期中期末复习",
+        "高考复习"
+      ],
+      "verdict": "REJECT",
+      "why": "分类 textbook-sync 为 K12 学科教材同步，知识点与 tcmP 无交集",
+      "portedTo": null
+    },
+    {
+      "upstreamSlug": "senior-math-exam-review",
+      "upstreamTitle": "高中数学考试复习 Skill",
+      "upstreamCategory": "exam-prep",
+      "subjects": [
+        "数学"
+      ],
+      "stages": [
+        "senior"
+      ],
+      "abilities": [
+        "考试复习",
+        "查漏补缺"
+      ],
+      "scenarios": [
+        "高考复习",
+        "考前冲刺"
+      ],
+      "verdict": "ADAPT",
+      "why": "绑定 学科（数学） + K12 学段；工作流外壳可复用，须重绑中医药学科与学段",
+      "portedTo": null
+    },
+    {
+      "upstreamSlug": "senior-math-quick-practice",
+      "upstreamTitle": "高中数学快速巩固 Skill",
+      "upstreamCategory": "daily-practice",
+      "subjects": [
+        "数学"
+      ],
+      "stages": [
+        "senior"
+      ],
+      "abilities": [
+        "同步巩固",
+        "专项训练"
+      ],
+      "scenarios": [
+        "每日打卡",
+        "同步巩固"
+      ],
+      "verdict": "ADAPT",
+      "why": "绑定 学科（数学） + K12 学段；工作流外壳可复用，须重绑中医药学科与学段",
+      "portedTo": null
+    },
+    {
+      "upstreamSlug": "senior-math-rja-textbook-sync",
+      "upstreamTitle": "人教A版高中数学同步 Skill",
+      "upstreamCategory": "textbook-sync",
+      "subjects": [
+        "数学"
+      ],
+      "stages": [
+        "senior"
+      ],
+      "abilities": [
+        "教材同步",
+        "函数",
+        "建模"
+      ],
+      "scenarios": [
+        "课前预习",
+        "课后作业",
+        "同步巩固",
+        "单元复习",
+        "错题巩固",
+        "期中期末复习",
+        "高考复习"
+      ],
+      "verdict": "REJECT",
+      "why": "分类 textbook-sync 为 K12 学科教材同步，知识点与 tcmP 无交集",
+      "portedTo": null
+    },
+    {
+      "upstreamSlug": "senior-math-rjb-textbook-sync",
+      "upstreamTitle": "人教B版高中数学同步 Skill",
+      "upstreamCategory": "textbook-sync",
+      "subjects": [
+        "数学"
+      ],
+      "stages": [
+        "senior"
+      ],
+      "abilities": [
+        "教材同步",
+        "函数",
+        "建模"
+      ],
+      "scenarios": [
+        "课前预习",
+        "课后作业",
+        "同步巩固",
+        "单元复习",
+        "错题巩固",
+        "期中期末复习",
+        "高考复习"
+      ],
+      "verdict": "REJECT",
+      "why": "分类 textbook-sync 为 K12 学科教材同步，知识点与 tcmP 无交集",
+      "portedTo": null
+    },
+    {
+      "upstreamSlug": "senior-physics-exam-review",
+      "upstreamTitle": "高中物理考试复习 Skill",
+      "upstreamCategory": "exam-prep",
+      "subjects": [
+        "物理"
+      ],
+      "stages": [
+        "senior"
+      ],
+      "abilities": [
+        "考试复习",
+        "查漏补缺"
+      ],
+      "scenarios": [
+        "高考复习",
+        "考前冲刺"
+      ],
+      "verdict": "ADAPT",
+      "why": "绑定 学科（物理） + K12 学段；工作流外壳可复用，须重绑中医药学科与学段",
+      "portedTo": null
+    },
+    {
+      "upstreamSlug": "senior-physics-lk-textbook-sync",
+      "upstreamTitle": "鲁科版高中物理同步 Skill",
+      "upstreamCategory": "textbook-sync",
+      "subjects": [
+        "物理"
+      ],
+      "stages": [
+        "senior"
+      ],
+      "abilities": [
+        "教材同步",
+        "实验理解"
+      ],
+      "scenarios": [
+        "课前预习",
+        "课后作业",
+        "同步巩固",
+        "单元复习",
+        "错题巩固",
+        "期中期末复习",
+        "高考复习"
+      ],
+      "verdict": "REJECT",
+      "why": "分类 textbook-sync 为 K12 学科教材同步，知识点与 tcmP 无交集",
+      "portedTo": null
+    },
+    {
+      "upstreamSlug": "senior-physics-quick-practice",
+      "upstreamTitle": "高中物理快速巩固 Skill",
+      "upstreamCategory": "daily-practice",
+      "subjects": [
+        "物理"
+      ],
+      "stages": [
+        "senior"
+      ],
+      "abilities": [
+        "同步巩固",
+        "专项训练"
+      ],
+      "scenarios": [
+        "每日打卡",
+        "同步巩固"
+      ],
+      "verdict": "ADAPT",
+      "why": "绑定 学科（物理） + K12 学段；工作流外壳可复用，须重绑中医药学科与学段",
+      "portedTo": null
+    },
+    {
+      "upstreamSlug": "senior-physics-rj-textbook-sync",
+      "upstreamTitle": "人教版高中物理同步 Skill",
+      "upstreamCategory": "textbook-sync",
+      "subjects": [
+        "物理"
+      ],
+      "stages": [
+        "senior"
+      ],
+      "abilities": [
+        "教材同步",
+        "实验理解"
+      ],
+      "scenarios": [
+        "课前预习",
+        "课后作业",
+        "同步巩固",
+        "单元复习",
+        "错题巩固",
+        "期中期末复习",
+        "高考复习"
+      ],
+      "verdict": "REJECT",
+      "why": "分类 textbook-sync 为 K12 学科教材同步，知识点与 tcmP 无交集",
+      "portedTo": null
+    },
+    {
+      "upstreamSlug": "senior-politics-exam-review",
+      "upstreamTitle": "高中政治考试复习 Skill",
+      "upstreamCategory": "exam-prep",
+      "subjects": [
+        "政治"
+      ],
+      "stages": [
+        "senior"
+      ],
+      "abilities": [
+        "考试复习",
+        "查漏补缺"
+      ],
+      "scenarios": [
+        "高考复习",
+        "考前冲刺"
+      ],
+      "verdict": "ADAPT",
+      "why": "绑定 学科（政治） + K12 学段；工作流外壳可复用，须重绑中医药学科与学段",
+      "portedTo": null
+    },
+    {
+      "upstreamSlug": "senior-politics-quick-practice",
+      "upstreamTitle": "高中政治快速巩固 Skill",
+      "upstreamCategory": "daily-practice",
+      "subjects": [
+        "政治"
+      ],
+      "stages": [
+        "senior"
+      ],
+      "abilities": [
+        "同步巩固",
+        "专项训练"
+      ],
+      "scenarios": [
+        "每日打卡",
+        "同步巩固"
+      ],
+      "verdict": "ADAPT",
+      "why": "绑定 学科（政治） + K12 学段；工作流外壳可复用，须重绑中医药学科与学段",
+      "portedTo": null
+    },
+    {
+      "upstreamSlug": "senior-politics-tongbian-textbook-sync",
+      "upstreamTitle": "统编版高中政治同步 Skill",
+      "upstreamCategory": "textbook-sync",
+      "subjects": [
+        "政治"
+      ],
+      "stages": [
+        "senior"
+      ],
+      "abilities": [
+        "教材同步",
+        "材料分析"
+      ],
+      "scenarios": [
+        "课前预习",
+        "课后作业",
+        "同步巩固",
+        "单元复习",
+        "错题巩固",
+        "期中期末复习",
+        "高考复习"
+      ],
+      "verdict": "REJECT",
+      "why": "分类 textbook-sync 为 K12 学科教材同步，知识点与 tcmP 无交集",
+      "portedTo": null
+    }
+  ]
+}

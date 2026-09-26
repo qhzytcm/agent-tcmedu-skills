@@ -1,7 +1,7 @@
 ---
 name: "tcm-andrology"
 description: "以肾—肝—脾三脏为主线处理男科病证，兼顾情志因素与生活方式干预。"
-version: "0.2.0"
+version: "0.3.0"
 author: qhzytcm
 license: MIT
 platforms: [windows, linux, macos]

@@ -1,7 +1,7 @@
 ---
 name: "tcm-ai-course-lab"
 description: "D07 中医智能学院的六阶实验线：TF-IDF 检索→倒排索引 RRF→RAG 对话→结构化输出→Agent SOUL→医院编排。"
-version: "0.2.0"
+version: "0.3.0"
 author: qhzytcm
 license: MIT
 platforms: [windows, linux, macos]

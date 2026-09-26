@@ -1,7 +1,7 @@
 ---
 name: "tcm-meridians-acupoints"
 description: "按「循行—定位—主治—配伍—禁忌」学习经络腧穴，并用体表标志法做定位自测。"
-version: "0.2.0"
+version: "0.3.0"
 author: qhzytcm
 license: MIT
 platforms: [windows, linux, macos]

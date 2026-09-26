@@ -1,7 +1,7 @@
 ---
 name: "tcm-pediatric-tuina"
 description: "按小儿特定穴与专用手法组织方案，并强制家长可执行的操作与安全提示。"
-version: "0.2.0"
+version: "0.3.0"
 author: qhzytcm
 license: MIT
 platforms: [windows, linux, macos]

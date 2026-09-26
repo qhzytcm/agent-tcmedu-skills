@@ -1,7 +1,7 @@
 ---
 name: "tcm-medical-history"
 description: "把医史从年代记忆变成「学术演变脉络」：流派、人物、著作、事件互为因果。"
-version: "0.2.0"
+version: "0.3.0"
 author: qhzytcm
 license: MIT
 platforms: [windows, linux, macos]

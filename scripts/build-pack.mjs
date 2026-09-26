@@ -306,6 +306,7 @@ function normalize(skill) {
     scenarios: skill.scenarios ?? [],
     tags: skill.tags ?? [],
     levelGate: skill.levelGate ?? '',
+    upstream: skill.upstream ?? '',
     standaloneSupport: skill.standaloneSupport ?? 'supported',
     requiresTools: skill.requiresTools ?? (apis.length
       ? ['context.load', 'entitlement.check', 'platform.api_call', 'workflow.create', 'memory.write']
@@ -363,6 +364,7 @@ function renderSkill(s) {
   if (s.roles.length) fm.push(`    roles: ${JSON.stringify(s.roles)}`);
   if (s.textbookCodes.length) fm.push(`    textbook_codes: ${JSON.stringify(s.textbookCodes)}`);
   if (s.levelGate) fm.push(`    level_gate: "${s.levelGate}"`);
+  if (s.upstream) fm.push(`    upstream_source: "${s.upstream}"`);
   if (s.apis.length) fm.push(`    platform_apis: ${JSON.stringify(s.apis)}`);
   fm.push('    quality_tier: "curated"');
   fm.push(`    standalone_support: "${s.standaloneSupport}"`);
@@ -419,6 +421,7 @@ function renderSkill(s) {
   body.push('');
   if (s.textbookCodes.length) body.push(`- **关联教材**：${s.textbookCodes.join('、')}（见 tcmP \`domain-specs/\`）`);
   if (s.domain && s.domain !== '-') body.push(`- **所属领域**：${s.domain}（${s.categoryZh}）`);
+  if (s.upstream) body.push(`- **上游来源**：\`${s.upstream}\`（提取与改造依据见 [docs/07-上游技能提取报告.md](../../../docs/07-上游技能提取报告.md)）`);
   if (s.roles.length) body.push(`- **六者角色**：${s.roles.join('、')}`);
   if (s.levelGate) body.push(`- **成长阶段门禁**：${s.levelGate}`);
   body.push(`- **离线可用性**：${s.standaloneSupport === 'needs_platform' ? '否（必须平台可达）' : s.standaloneSupport === 'needs_user_input' ? '部分（需用户提供输入）' : '是'}`);
@@ -487,6 +490,7 @@ function buildCatalog(fourLevel) {
       scenarios: s.scenarios,
       textbookCodes: s.textbookCodes,
       levelGate: s.levelGate,
+      upstreamSource: s.upstream,
       platformApis: s.apis,
       tags: s.tags,
       qualityTier: 'curated',

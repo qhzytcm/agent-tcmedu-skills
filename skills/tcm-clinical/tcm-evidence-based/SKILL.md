@@ -1,7 +1,7 @@
 ---
 name: "tcm-evidence-based"
 description: "把中医临床问题转成可检索的 PICO，评估证据等级并给出推荐强度。"
-version: "0.2.0"
+version: "0.3.0"
 author: qhzytcm
 license: MIT
 platforms: [windows, linux, macos]

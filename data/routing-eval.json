@@ -1,0 +1,504 @@
+{
+  "generatedBy": "scripts/eval-routing.mjs",
+  "caseCount": 34,
+  "top1": 33,
+  "top1Rate": 0.9705882352941176,
+  "top3": 34,
+  "top3Rate": 1,
+  "cases": [
+    {
+      "question": "帮我背一下《伤寒论》桂枝汤的条文和方证",
+      "expected": [
+        "tcm-shanghan"
+      ],
+      "top5": [
+        "tcm-shanghan(5.6)",
+        "tcm-jingui(3.0)",
+        "tcm-daily-recitation(2.0)",
+        "tcm-memory-method(2.0)",
+        "tcm-formulas(1.8)"
+      ],
+      "top1": true,
+      "top3": true
+    },
+    {
+      "question": "阴阳五行的概念我总是串不起来，怎么学",
+      "expected": [
+        "tcm-basic-theory"
+      ],
+      "top5": [
+        "tcm-basic-theory(6.6)",
+        "tcm-medicinal-botany(1.8)",
+        "tcm-mistake-review(1.6)",
+        "tcm-pediatric-tuina(1.6)",
+        "tcm-pediatrics(1.6)"
+      ],
+      "top1": true,
+      "top3": true
+    },
+    {
+      "question": "望闻问切四诊信息怎么整理成证候要素",
+      "expected": [
+        "tcm-diagnostics"
+      ],
+      "top5": [
+        "tcm-diagnostics(10.6)",
+        "tcm-jingui(3.0)",
+        "tcm-shanghan(3.0)",
+        "tcm-dsu-retrieval(2.0)",
+        "tcm-icd11-coding(1.6)"
+      ],
+      "top1": true,
+      "top3": true
+    },
+    {
+      "question": "《金匮要略》的胸痹病脉证治怎么拆",
+      "expected": [
+        "tcm-jingui"
+      ],
+      "top5": [
+        "tcm-jingui(7.8)",
+        "tcm-shanghan(1.6)"
+      ],
+      "top1": true,
+      "top3": true
+    },
+    {
+      "question": "金元四大家的学术分歧在哪",
+      "expected": [
+        "tcm-schools",
+        "tcm-medical-history"
+      ],
+      "top5": [
+        "tcm-schools(8.0)",
+        "tcm-medical-history(6.4)",
+        "tcm-wenbing(3.0)",
+        "tcm-learning-report(1.8)"
+      ],
+      "top1": true,
+      "top3": true
+    },
+    {
+      "question": "老年人多病共存，中药方子怎么取舍",
+      "expected": [
+        "tcm-geriatrics"
+      ],
+      "top5": [
+        "tcm-geriatrics(7.0)",
+        "role-pharmacist(1.6)",
+        "tcm-analysis(1.6)",
+        "tcm-daily-herb-drill(1.6)",
+        "tcm-herb-identification(1.6)"
+      ],
+      "top1": true,
+      "top3": true
+    },
+    {
+      "question": "湿疹皮损怎么辨证，内外治怎么结合",
+      "expected": [
+        "tcm-dermatology"
+      ],
+      "top5": [
+        "tcm-dermatology(4.2)",
+        "tcm-bone-disease(3.2)",
+        "tcm-ent-stomatology(3.2)",
+        "role-healer(1.8)",
+        "tcm-internal-medicine(1.8)"
+      ],
+      "top1": true,
+      "top3": true
+    },
+    {
+      "question": "肿瘤化疗期间中医怎么扶正祛邪",
+      "expected": [
+        "tcm-oncology"
+      ],
+      "top5": [
+        "tcm-oncology(8.2)",
+        "role-device(1.8)",
+        "tcm-gynecology(1.8)",
+        "tcm-holiday-plan(1.8)",
+        "tcm-quality-control(1.8)"
+      ],
+      "top1": true,
+      "top3": true
+    },
+    {
+      "question": "中医临床思维怎么显式化训练",
+      "expected": [
+        "tcm-clinical-reasoning"
+      ],
+      "top5": [
+        "tcm-clinical-reasoning(8.8)",
+        "tcm-case-dialectics(5.2)",
+        "tcm-evidence-based(5.2)",
+        "role-healer(3.8)",
+        "tcm-socratic-tutor(3.0)"
+      ],
+      "top1": true,
+      "top3": true
+    },
+    {
+      "question": "帮我横向比较一下清热药这一类的性味功效",
+      "expected": [
+        "tcm-materia-medica"
+      ],
+      "top5": [
+        "tcm-materia-medica(7.0)",
+        "tcm-formulas(3.2)",
+        "tcm-daily-herb-drill(2.0)",
+        "tcm-pharmacology(2.0)"
+      ],
+      "top1": true,
+      "top3": true
+    },
+    {
+      "question": "四君子汤的君臣佐使怎么拆",
+      "expected": [
+        "tcm-formulas"
+      ],
+      "top5": [
+        "tcm-formulas(4.2)"
+      ],
+      "top1": true,
+      "top3": true
+    },
+    {
+      "question": "半夏炮制前后毒性和药性差在哪",
+      "expected": [
+        "tcm-herb-processing",
+        "tcm-toxicology"
+      ],
+      "top5": [
+        "tcm-herb-processing(2.0)",
+        "tcm-materia-medica(1.6)",
+        "tcm-memory-method(1.6)",
+        "tcm-toxicology(1.6)",
+        "tcm-daily-herb-drill(1.4)"
+      ],
+      "top1": true,
+      "top3": true
+    },
+    {
+      "question": "中药含量测定怎么选指标成分",
+      "expected": [
+        "tcm-analysis"
+      ],
+      "top5": [
+        "tcm-analysis(9.2)",
+        "tcm-toxicology(3.0)",
+        "tcm-phytochemistry(2.8)",
+        "tcm-hospital-operations(2.0)",
+        "tcm-quality-control(2.0)"
+      ],
+      "top1": true,
+      "top3": true
+    },
+    {
+      "question": "足三里怎么用体表标志定位",
+      "expected": [
+        "tcm-meridians-acupoints"
+      ],
+      "top5": [
+        "tcm-meridians-acupoints(6.4)",
+        "tcm-class-analysis(1.6)",
+        "tcm-daily-acupoint-drill(1.4)",
+        "tcm-weakness-boost(1.4)"
+      ],
+      "top1": true,
+      "top3": true
+    },
+    {
+      "question": "针刺得气怎么判断，晕针怎么处理",
+      "expected": [
+        "tcm-acupuncture-technique"
+      ],
+      "top5": [
+        "tcm-acupuncture-technique(4.2)",
+        "tcm-emergency(2.8)",
+        "tcm-otolaryngology(1.6)",
+        "tcm-andrology(1.4)",
+        "tcm-bone-disease(1.4)"
+      ],
+      "top1": true,
+      "top3": true
+    },
+    {
+      "question": "小儿食积家庭推拿怎么做",
+      "expected": [
+        "tcm-pediatric-tuina"
+      ],
+      "top5": [
+        "tcm-pediatric-tuina(4.2)",
+        "tcm-tuina(2.8)",
+        "tcm-pediatrics(1.6)",
+        "tcm-tuina-therapeutics(1.4)"
+      ],
+      "top1": true,
+      "top3": true
+    },
+    {
+      "question": "颈椎病推拿疗程怎么排",
+      "expected": [
+        "tcm-tuina-therapeutics"
+      ],
+      "top5": [
+        "tcm-tuina-therapeutics(3.0)",
+        "tcm-acupuncture-therapeutics(1.6)",
+        "tcm-pediatric-tuina(1.4)",
+        "tcm-tuina(1.4)"
+      ],
+      "top1": true,
+      "top3": true
+    },
+    {
+      "question": "踝关节扭伤急性期能不能用手法",
+      "expected": [
+        "tcm-tendon-injury"
+      ],
+      "top5": [
+        "tcm-tendon-injury(3.4)",
+        "tcm-pediatric-tuina(2.6)",
+        "tcm-bone-disease(1.8)",
+        "tcm-orthopedics-basics(1.6)",
+        "tcm-orthopedics-trauma(1.6)"
+      ],
+      "top1": true,
+      "top3": true
+    },
+    {
+      "question": "急性闭角型青光眼的中医辨证和转诊",
+      "expected": [
+        "tcm-ophthalmology"
+      ],
+      "top5": [
+        "tcm-ophthalmology(7.0)",
+        "tcm-otolaryngology(5.8)",
+        "tcm-stomatology(5.0)",
+        "tcm-emergency(4.6)",
+        "tcm-internal-medicine(3.4)"
+      ],
+      "top1": true,
+      "top3": true
+    },
+    {
+      "question": "复发性口疮反复不好怎么辨",
+      "expected": [
+        "tcm-stomatology"
+      ],
+      "top5": [
+        "tcm-stomatology(1.6)"
+      ],
+      "top1": true,
+      "top3": true
+    },
+    {
+      "question": "帮我查少阳病相关的病证单位并给出来处",
+      "expected": [
+        "tcm-dsu-retrieval",
+        "tcm-kg-query"
+      ],
+      "top5": [
+        "tcm-dsu-retrieval(5.4)",
+        "tcm-case-dialectics(4.0)",
+        "sage-growth-path(3.2)",
+        "tcm-evidence-based(3.0)",
+        "tcm-medical-insurance(3.0)"
+      ],
+      "top1": true,
+      "top3": true
+    },
+    {
+      "question": "把中医病名映射到ICD-11编码",
+      "expected": [
+        "tcm-icd11-coding"
+      ],
+      "top5": [
+        "tcm-icd11-coding(8.0)",
+        "tcm-quality-control(3.8)",
+        "sage-growth-path(3.2)",
+        "tcm-memory-method(2.8)",
+        "tcm-evidence-based(2.6)"
+      ],
+      "top1": true,
+      "top3": true
+    },
+    {
+      "question": "怎么给医圣人格写SOUL并注册到平台",
+      "expected": [
+        "tcm-soul-agent-forge"
+      ],
+      "top5": [
+        "tcm-soul-agent-forge(7.8)",
+        "sage-mentorship(2.8)",
+        "sage-growth-path(1.6)",
+        "tcm-case-dialectics(1.6)",
+        "tcm-dsu-retrieval(1.6)"
+      ],
+      "top1": true,
+      "top3": true
+    },
+    {
+      "question": "测算一下这个中医诊疗项目的成本效果",
+      "expected": [
+        "tcm-health-economics"
+      ],
+      "top5": [
+        "tcm-health-economics(7.8)",
+        "role-device(4.0)",
+        "tcm-internal-medicine(3.2)",
+        "tcm-diagnostics(3.0)",
+        "sage-growth-path(2.8)"
+      ],
+      "top1": true,
+      "top3": true
+    },
+    {
+      "question": "中药房验收调剂环节怎么合规自查",
+      "expected": [
+        "tcm-pharmacy-management"
+      ],
+      "top5": [
+        "tcm-pharmacy-management(5.6)",
+        "tcm-postgraduate-exam(2.0)",
+        "role-patient(1.8)",
+        "tcm-pharmaceutics(1.8)",
+        "tcm-weakness-boost(1.8)"
+      ],
+      "top1": true,
+      "top3": true
+    },
+    {
+      "question": "制定一份考研中医综合的复习计划",
+      "expected": [
+        "tcm-postgraduate-exam",
+        "tcm-study-plan"
+      ],
+      "top5": [
+        "tcm-postgraduate-exam(6.4)",
+        "tcm-review-assistant(5.8)",
+        "tcm-mistake-review(5.2)",
+        "tcm-study-plan(4.6)",
+        "tcm-unit-review(4.6)"
+      ],
+      "top1": true,
+      "top3": true
+    },
+    {
+      "question": "错题总是重复错，怎么复盘",
+      "expected": [
+        "tcm-mistake-review"
+      ],
+      "top5": [
+        "tcm-mistake-review(2.8)",
+        "tcm-preview-review(1.8)",
+        "tcm-clinical-reasoning(1.6)"
+      ],
+      "top1": true,
+      "top3": true
+    },
+    {
+      "question": "我作为药师要审核一张含附子的处方",
+      "expected": [
+        "role-pharmacist"
+      ],
+      "top5": [
+        "role-pharmacist(3.6)",
+        "tcm-acupuncture-therapeutics(1.6)"
+      ],
+      "top1": true,
+      "top3": true
+    },
+    {
+      "question": "帮患者做一下症状自查和导诊",
+      "expected": [
+        "role-patient"
+      ],
+      "top5": [
+        "role-patient(6.6)",
+        "tcm-andrology(1.6)",
+        "tcm-medical-insurance(1.6)",
+        "tcm-otolaryngology(1.6)",
+        "tcm-pediatrics(1.6)"
+      ],
+      "top1": true,
+      "top3": true
+    },
+    {
+      "question": "方歌老是背了忘，有什么记忆方法",
+      "expected": [
+        "tcm-memory-method"
+      ],
+      "top5": [
+        "tcm-memory-method(5.2)",
+        "tcm-daily-recitation(1.8)",
+        "tcm-materia-medica(1.8)",
+        "tcm-preview-review(1.6)",
+        "tcm-analysis(1.4)"
+      ],
+      "top1": true,
+      "top3": true
+    },
+    {
+      "question": "每天十分钟练方药速记",
+      "expected": [
+        "tcm-daily-herb-drill"
+      ],
+      "top5": [
+        "tcm-daily-herb-drill(5.2)",
+        "tcm-daily-recitation(3.0)",
+        "tcm-internal-medicine(1.8)",
+        "tcm-daily-acupoint-drill(1.8)",
+        "tcm-learning-habit(1.6)"
+      ],
+      "top1": true,
+      "top3": true
+    },
+    {
+      "question": "单元复习课怎么设计",
+      "expected": [
+        "tcm-unit-review"
+      ],
+      "top5": [
+        "tcm-unit-review(5.4)",
+        "tcm-basic-theory(4.0)",
+        "tcm-mistake-review(4.0)",
+        "tcm-review-assistant(4.0)",
+        "tcm-neijing(3.8)"
+      ],
+      "top1": true,
+      "top3": true
+    },
+    {
+      "question": "帮我设计一节中医基础理论的教案",
+      "expected": [
+        "tcm-lesson-prep"
+      ],
+      "top5": [
+        "tcm-basic-theory(6.4)",
+        "tcm-lesson-prep(4.2)",
+        "tcm-hospital-operations(3.4)",
+        "tcm-homework-generation(3.2)",
+        "tcm-unit-review(3.0)"
+      ],
+      "top1": false,
+      "top3": true
+    },
+    {
+      "question": "出5道中药学选择题并给解析",
+      "expected": [
+        "tcm-item-generation",
+        "tcm-daily-herb-drill"
+      ],
+      "top5": [
+        "tcm-item-generation(4.4)",
+        "tcm-analysis(3.4)",
+        "tcm-tuina(3.2)",
+        "tcm-materia-medica(3.0)",
+        "tcm-daily-herb-drill(2.8)"
+      ],
+      "top1": true,
+      "top3": true
+    }
+  ]
+}

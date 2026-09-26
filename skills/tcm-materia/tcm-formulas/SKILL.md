@@ -1,7 +1,7 @@
 ---
 name: "tcm-formulas"
 description: "从君臣佐使拆方义，把「方—证—法」绑定，并训练加减变化对功效的迁移。"
-version: "0.2.0"
+version: "0.3.0"
 author: qhzytcm
 license: MIT
 platforms: [windows, linux, macos]

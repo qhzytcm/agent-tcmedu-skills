@@ -1,7 +1,7 @@
 ---
 name: "tcm-materia-medica"
 description: "按「性味归经—功效—主治—用法用量—使用注意」五要素记忆中药，并做同类药横向比较。"
-version: "0.2.0"
+version: "0.3.0"
 author: qhzytcm
 license: MIT
 platforms: [windows, linux, macos]

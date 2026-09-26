@@ -1,7 +1,7 @@
 ---
 name: "role-pharmacist"
 description: "处方审核、相互作用核查、替代建议与饮片溯源一体化的药事服务能力。 依赖 tcmP 平台接口，离线不可用。"
-version: "0.2.0"
+version: "0.3.0"
 author: qhzytcm
 license: MIT
 platforms: [windows, linux, macos]

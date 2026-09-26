@@ -4,10 +4,10 @@
   "l2": "章 = 主学科（subjects[0]）",
   "l3": "节 = 能力族（CAPABILITY_FAMILIES 归纳）",
   "l4": "目 = 技能",
-  "partCount": 12,
-  "chapterCount": 57,
-  "sectionCount": 61,
-  "skillCount": 72,
+  "partCount": 13,
+  "chapterCount": 62,
+  "sectionCount": 68,
+  "skillCount": 84,
   "parts": [
     {
       "n": 1,
@@ -90,6 +90,7 @@
                     "经络"
                   ],
                   "levelGate": "",
+                  "upstream": "",
                   "standaloneSupport": "supported",
                   "requiresTools": [
                     "context.load",
@@ -207,6 +208,7 @@
                     "辨证要素"
                   ],
                   "levelGate": "",
+                  "upstream": "",
                   "standaloneSupport": "supported",
                   "requiresTools": [
                     "context.load",
@@ -325,6 +327,7 @@
                     "原文"
                   ],
                   "levelGate": "",
+                  "upstream": "",
                   "standaloneSupport": "supported",
                   "requiresTools": [
                     "context.load",
@@ -443,6 +446,7 @@
                     "方证对应"
                   ],
                   "levelGate": "",
+                  "upstream": "",
                   "standaloneSupport": "supported",
                   "requiresTools": [
                     "context.load",
@@ -560,6 +564,7 @@
                     "湿热"
                   ],
                   "levelGate": "",
+                  "upstream": "",
                   "standaloneSupport": "supported",
                   "requiresTools": [
                     "context.load",
@@ -678,6 +683,7 @@
                     "经方"
                   ],
                   "levelGate": "",
+                  "upstream": "",
                   "standaloneSupport": "supported",
                   "requiresTools": [
                     "context.load",
@@ -794,6 +800,7 @@
                     "金元四大家"
                   ],
                   "levelGate": "",
+                  "upstream": "",
                   "standaloneSupport": "supported",
                   "requiresTools": [
                     "context.load",
@@ -911,6 +918,7 @@
                     "流派"
                   ],
                   "levelGate": "",
+                  "upstream": "",
                   "standaloneSupport": "supported",
                   "requiresTools": [
                     "context.load",
@@ -1044,6 +1052,7 @@
                     "治法方药"
                   ],
                   "levelGate": "",
+                  "upstream": "",
                   "standaloneSupport": "supported",
                   "requiresTools": [
                     "context.load",
@@ -1166,6 +1175,7 @@
                     "妊娠禁忌"
                   ],
                   "levelGate": "",
+                  "upstream": "",
                   "standaloneSupport": "supported",
                   "requiresTools": [
                     "context.load",
@@ -1289,6 +1299,7 @@
                     "红旗症状"
                   ],
                   "levelGate": "",
+                  "upstream": "",
                   "standaloneSupport": "supported",
                   "requiresTools": [
                     "context.load",
@@ -1411,6 +1422,7 @@
                     "以证溯病"
                   ],
                   "levelGate": "",
+                  "upstream": "",
                   "standaloneSupport": "needs_platform",
                   "requiresTools": [
                     "context.load",
@@ -1533,6 +1545,7 @@
                     "中西医协同"
                   ],
                   "levelGate": "",
+                  "upstream": "",
                   "standaloneSupport": "supported",
                   "requiresTools": [
                     "context.load",
@@ -1654,6 +1667,7 @@
                     "外治"
                   ],
                   "levelGate": "",
+                  "upstream": "",
                   "standaloneSupport": "supported",
                   "requiresTools": [
                     "context.load",
@@ -1776,6 +1790,7 @@
                     "调护"
                   ],
                   "levelGate": "",
+                  "upstream": "",
                   "standaloneSupport": "supported",
                   "requiresTools": [
                     "context.load",
@@ -1900,6 +1915,7 @@
                     "减药"
                   ],
                   "levelGate": "",
+                  "upstream": "",
                   "standaloneSupport": "supported",
                   "requiresTools": [
                     "context.load",
@@ -2023,6 +2039,7 @@
                     "生活质量"
                   ],
                   "levelGate": "",
+                  "upstream": "",
                   "standaloneSupport": "supported",
                   "requiresTools": [
                     "context.load",
@@ -2141,6 +2158,7 @@
                     "推荐强度"
                   ],
                   "levelGate": "",
+                  "upstream": "",
                   "standaloneSupport": "supported",
                   "requiresTools": [
                     "context.load",
@@ -2259,6 +2277,7 @@
                     "决策"
                   ],
                   "levelGate": "",
+                  "upstream": "",
                   "standaloneSupport": "supported",
                   "requiresTools": [
                     "context.load",
@@ -2388,6 +2407,7 @@
                     "使用注意"
                   ],
                   "levelGate": "",
+                  "upstream": "",
                   "standaloneSupport": "supported",
                   "requiresTools": [
                     "context.load",
@@ -2505,6 +2525,7 @@
                     "方证对应"
                   ],
                   "levelGate": "",
+                  "upstream": "",
                   "standaloneSupport": "supported",
                   "requiresTools": [
                     "context.load",
@@ -2629,6 +2650,7 @@
                     "减毒增效"
                   ],
                   "levelGate": "",
+                  "upstream": "",
                   "standaloneSupport": "supported",
                   "requiresTools": [
                     "context.load",
@@ -2747,6 +2769,7 @@
                     "鉴别"
                   ],
                   "levelGate": "",
+                  "upstream": "",
                   "standaloneSupport": "supported",
                   "requiresTools": [
                     "context.load",
@@ -2865,6 +2888,7 @@
                     "黄酮"
                   ],
                   "levelGate": "",
+                  "upstream": "",
                   "standaloneSupport": "supported",
                   "requiresTools": [
                     "context.load",
@@ -2984,6 +3008,7 @@
                     "证据强度"
                   ],
                   "levelGate": "",
+                  "upstream": "",
                   "standaloneSupport": "supported",
                   "requiresTools": [
                     "context.load",
@@ -3105,6 +3130,7 @@
                     "药典"
                   ],
                   "levelGate": "",
+                  "upstream": "",
                   "standaloneSupport": "supported",
                   "requiresTools": [
                     "context.load",
@@ -3225,6 +3251,7 @@
                     "质量标准"
                   ],
                   "levelGate": "",
+                  "upstream": "",
                   "standaloneSupport": "supported",
                   "requiresTools": [
                     "context.load",
@@ -3343,6 +3370,7 @@
                     "方法学验证"
                   ],
                   "levelGate": "",
+                  "upstream": "",
                   "standaloneSupport": "supported",
                   "requiresTools": [
                     "context.load",
@@ -3467,6 +3495,7 @@
                     "减毒"
                   ],
                   "levelGate": "",
+                  "upstream": "",
                   "standaloneSupport": "supported",
                   "requiresTools": [
                     "context.load",
@@ -3601,6 +3630,7 @@
                     "危险穴位"
                   ],
                   "levelGate": "",
+                  "upstream": "",
                   "standaloneSupport": "supported",
                   "requiresTools": [
                     "context.load",
@@ -3721,6 +3751,7 @@
                     "晕针处置"
                   ],
                   "levelGate": "",
+                  "upstream": "",
                   "standaloneSupport": "supported",
                   "requiresTools": [
                     "context.load",
@@ -3842,6 +3873,7 @@
                     "禁忌症"
                   ],
                   "levelGate": "",
+                  "upstream": "",
                   "standaloneSupport": "supported",
                   "requiresTools": [
                     "context.load",
@@ -3963,6 +3995,7 @@
                     "治则"
                   ],
                   "levelGate": "",
+                  "upstream": "",
                   "standaloneSupport": "supported",
                   "requiresTools": [
                     "context.load",
@@ -4083,6 +4116,7 @@
                     "假针刺"
                   ],
                   "levelGate": "",
+                  "upstream": "",
                   "standaloneSupport": "supported",
                   "requiresTools": [
                     "context.load",
@@ -4205,6 +4239,7 @@
                     "禁忌"
                   ],
                   "levelGate": "",
+                  "upstream": "",
                   "standaloneSupport": "supported",
                   "requiresTools": [
                     "context.load",
@@ -4328,6 +4363,7 @@
                     "禁忌"
                   ],
                   "levelGate": "",
+                  "upstream": "",
                   "standaloneSupport": "supported",
                   "requiresTools": [
                     "context.load",
@@ -4461,6 +4497,7 @@
                     "康复"
                   ],
                   "levelGate": "",
+                  "upstream": "",
                   "standaloneSupport": "supported",
                   "requiresTools": [
                     "context.load",
@@ -4583,6 +4620,7 @@
                     "内外合治"
                   ],
                   "levelGate": "",
+                  "upstream": "",
                   "standaloneSupport": "supported",
                   "requiresTools": [
                     "context.load",
@@ -4687,9 +4725,15 @@
                     "眼科",
                     "五轮学说",
                     "转诊",
-                    "内障外障"
+                    "内障外障",
+                    "青光眼",
+                    "眼压",
+                    "视力下降",
+                    "目痛",
+                    "内障"
                   ],
                   "levelGate": "",
+                  "upstream": "",
                   "standaloneSupport": "supported",
                   "requiresTools": [
                     "context.load",
@@ -4811,6 +4855,7 @@
                     "检查法"
                   ],
                   "levelGate": "",
+                  "upstream": "",
                   "standaloneSupport": "supported",
                   "requiresTools": [
                     "context.load",
@@ -4933,6 +4978,7 @@
                     "康复"
                   ],
                   "levelGate": "",
+                  "upstream": "",
                   "standaloneSupport": "supported",
                   "requiresTools": [
                     "context.load",
@@ -5055,6 +5101,7 @@
                     "慢病管理"
                   ],
                   "levelGate": "",
+                  "upstream": "",
                   "standaloneSupport": "supported",
                   "requiresTools": [
                     "context.load",
@@ -5176,6 +5223,7 @@
                     "转诊"
                   ],
                   "levelGate": "",
+                  "upstream": "",
                   "standaloneSupport": "supported",
                   "requiresTools": [
                     "context.load",
@@ -5297,6 +5345,7 @@
                     "全身关联"
                   ],
                   "levelGate": "",
+                  "upstream": "",
                   "standaloneSupport": "supported",
                   "requiresTools": [
                     "context.load",
@@ -5435,6 +5484,7 @@
                     "病证单元"
                   ],
                   "levelGate": "",
+                  "upstream": "",
                   "standaloneSupport": "needs_platform",
                   "requiresTools": [
                     "context.load",
@@ -5542,6 +5592,7 @@
                     "以证溯病"
                   ],
                   "levelGate": "",
+                  "upstream": "",
                   "standaloneSupport": "needs_platform",
                   "requiresTools": [
                     "context.load",
@@ -5650,6 +5701,7 @@
                     "内网镜像"
                   ],
                   "levelGate": "",
+                  "upstream": "",
                   "standaloneSupport": "needs_platform",
                   "requiresTools": [
                     "context.load",
@@ -5764,6 +5816,7 @@
                     "人格"
                   ],
                   "levelGate": "",
+                  "upstream": "",
                   "standaloneSupport": "needs_platform",
                   "requiresTools": [
                     "context.load",
@@ -5876,6 +5929,7 @@
                     "D07"
                   ],
                   "levelGate": "",
+                  "upstream": "",
                   "standaloneSupport": "needs_user_input",
                   "requiresTools": [
                     "context.load",
@@ -6008,6 +6062,7 @@
                     "优势病种"
                   ],
                   "levelGate": "",
+                  "upstream": "",
                   "standaloneSupport": "supported",
                   "requiresTools": [
                     "context.load",
@@ -6118,6 +6173,7 @@
                     "法规"
                   ],
                   "levelGate": "",
+                  "upstream": "",
                   "standaloneSupport": "supported",
                   "requiresTools": [
                     "context.load",
@@ -6225,6 +6281,7 @@
                     "排班"
                   ],
                   "levelGate": "",
+                  "upstream": "",
                   "standaloneSupport": "supported",
                   "requiresTools": [
                     "context.load",
@@ -6347,6 +6404,7 @@
                     "ADR"
                   ],
                   "levelGate": "",
+                  "upstream": "",
                   "standaloneSupport": "supported",
                   "requiresTools": [
                     "context.load",
@@ -6471,6 +6529,7 @@
                     "政策"
                   ],
                   "levelGate": "",
+                  "upstream": "",
                   "standaloneSupport": "supported",
                   "requiresTools": [
                     "context.load",
@@ -6603,6 +6662,7 @@
                     "核心链"
                   ],
                   "levelGate": "",
+                  "upstream": "",
                   "standaloneSupport": "supported",
                   "requiresTools": [
                     "context.load",
@@ -6706,6 +6766,7 @@
                     "复测"
                   ],
                   "levelGate": "",
+                  "upstream": "",
                   "standaloneSupport": "supported",
                   "requiresTools": [
                     "context.load",
@@ -6807,6 +6868,7 @@
                     "方剂识别"
                   ],
                   "levelGate": "",
+                  "upstream": "",
                   "standaloneSupport": "supported",
                   "requiresTools": [
                     "context.load",
@@ -6909,6 +6971,7 @@
                     "掌握度自评"
                   ],
                   "levelGate": "",
+                  "upstream": "",
                   "standaloneSupport": "supported",
                   "requiresTools": [
                     "context.load",
@@ -7014,6 +7077,7 @@
                     "师承评估"
                   ],
                   "levelGate": "",
+                  "upstream": "",
                   "standaloneSupport": "supported",
                   "requiresTools": [
                     "context.load",
@@ -7144,6 +7208,7 @@
                     "提分优先级"
                   ],
                   "levelGate": "",
+                  "upstream": "",
                   "standaloneSupport": "supported",
                   "requiresTools": [
                     "context.load",
@@ -7253,6 +7318,7 @@
                     "分段备考"
                   ],
                   "levelGate": "",
+                  "upstream": "",
                   "standaloneSupport": "supported",
                   "requiresTools": [
                     "context.load",
@@ -7368,6 +7434,7 @@
                     "病证数"
                   ],
                   "levelGate": "",
+                  "upstream": "",
                   "standaloneSupport": "supported",
                   "requiresTools": [
                     "context.load",
@@ -7509,6 +7576,7 @@
                     "医圣成长"
                   ],
                   "levelGate": "住院医-1 起，随病证覆盖数解锁",
+                  "upstream": "",
                   "standaloneSupport": "needs_platform",
                   "requiresTools": [
                     "context.load",
@@ -7631,6 +7699,7 @@
                     "就医提示"
                   ],
                   "levelGate": "",
+                  "upstream": "",
                   "standaloneSupport": "needs_platform",
                   "requiresTools": [
                     "context.load",
@@ -7756,6 +7825,7 @@
                     "溯源"
                   ],
                   "levelGate": "",
+                  "upstream": "",
                   "standaloneSupport": "needs_platform",
                   "requiresTools": [
                     "context.load",
@@ -7881,6 +7951,7 @@
                     "采购论证"
                   ],
                   "levelGate": "",
+                  "upstream": "",
                   "standaloneSupport": "needs_platform",
                   "requiresTools": [
                     "context.load",
@@ -8005,6 +8076,7 @@
                     "应急调度"
                   ],
                   "levelGate": "",
+                  "upstream": "",
                   "standaloneSupport": "needs_platform",
                   "requiresTools": [
                     "context.load",
@@ -8129,6 +8201,7 @@
                     "纠纷预防"
                   ],
                   "levelGate": "",
+                  "upstream": "",
                   "standaloneSupport": "needs_platform",
                   "requiresTools": [
                     "context.load",
@@ -8267,6 +8340,7 @@
                     "SOUL"
                   ],
                   "levelGate": "住院医-1 起",
+                  "upstream": "",
                   "standaloneSupport": "needs_platform",
                   "requiresTools": [
                     "context.load",
@@ -8377,6 +8451,7 @@
                     "梯度"
                   ],
                   "levelGate": "住院医-1 → 学科带头人（六阶）",
+                  "upstream": "",
                   "standaloneSupport": "needs_platform",
                   "requiresTools": [
                     "context.load",
@@ -8505,6 +8580,7 @@
                     "课堂活动"
                   ],
                   "levelGate": "",
+                  "upstream": "",
                   "standaloneSupport": "supported",
                   "requiresTools": [
                     "context.load",
@@ -8605,9 +8681,15 @@
                     "命题",
                     "组卷",
                     "双向细目表",
-                    "评分标准"
+                    "评分标准",
+                    "选择题",
+                    "出题",
+                    "题目",
+                    "解析",
+                    "小测"
                   ],
                   "levelGate": "",
+                  "upstream": "",
                   "standaloneSupport": "supported",
                   "requiresTools": [
                     "context.load",
@@ -8656,8 +8738,1345 @@
           ]
         }
       ]
+    },
+    {
+      "n": 13,
+      "code": "13",
+      "category": "tcm-upstream",
+      "name": "上游技能移植",
+      "domain": "-",
+      "skillCount": 12,
+      "chapterCount": 5,
+      "sectionCount": 7,
+      "chapters": [
+        {
+          "n": 1,
+          "code": "13.1",
+          "name": "学习能力",
+          "sections": [
+            {
+              "n": 1,
+              "code": "13.1.1",
+              "name": "综合能力",
+              "skills": [
+                {
+                  "slug": "tcm-review-assistant",
+                  "title": "中医复习助手 Skill",
+                  "category": "tcm-upstream",
+                  "categoryZh": "上游技能移植",
+                  "domain": "-",
+                  "summary": "把「复习」从重读一遍变成按遗忘曲线与考点权重的排程任务。",
+                  "problem": "中医课程背诵量大、学科间互为依据，复习若不排程就会「哪科急看哪科」。本 Skill 按遗忘曲线与考点权重排出复习日程，并指定每次复习的产出。",
+                  "bestFor": [
+                    "期中期末的课程复习排程",
+                    "执业医师多科并行的复习统筹",
+                    "经典条文与方药的长期抗遗忘"
+                  ],
+                  "notFor": [
+                    "替代系统性的首轮学习",
+                    "在无课程范围信息时的空泛排程"
+                  ],
+                  "inputs": [
+                    "待复习的学科与章节范围",
+                    "各科考试或考核时间",
+                    "每天可用时间",
+                    "已掌握程度自评"
+                  ],
+                  "workflow": [
+                    "列出待复习清单并标注考点权重",
+                    "按遗忘曲线排 1 / 3 / 7 / 21 天节点",
+                    "把每次复习指定为「回忆—核对—补漏」三段",
+                    "为每次复习设可验收产出（默写 / 口述 / 做题）",
+                    "每周按实际完成率重排"
+                  ],
+                  "outputs": [
+                    "复习排程表",
+                    "每次复习的产出要求",
+                    "每周重排建议"
+                  ],
+                  "apis": [],
+                  "textbookCodes": [],
+                  "subjects": [
+                    "学习能力"
+                  ],
+                  "abilities": [
+                    "复习计划",
+                    "抗遗忘"
+                  ],
+                  "roles": [],
+                  "stages": [
+                    "本科",
+                    "硕士",
+                    "规培",
+                    "继续教育"
+                  ],
+                  "scenarios": [
+                    "单元复习",
+                    "考前规划"
+                  ],
+                  "tags": [
+                    "复习",
+                    "遗忘曲线",
+                    "排程"
+                  ],
+                  "levelGate": "",
+                  "upstream": "hermes-edu-skills/agent-review-assistant@0.15.0",
+                  "standaloneSupport": "supported",
+                  "requiresTools": [
+                    "context.load",
+                    "entitlement.check",
+                    "workflow.create",
+                    "memory.write"
+                  ],
+                  "requiresData": [
+                    "待复习的学科与章节范围",
+                    "各科考试或考核时间",
+                    "每天可用时间",
+                    "已掌握程度自评"
+                  ],
+                  "parameterizedDimensions": [
+                    "domain",
+                    "discipline",
+                    "textbookCode",
+                    "chapter",
+                    "knowledgePoint",
+                    "scenario",
+                    "difficulty"
+                  ],
+                  "interactionPolicy": {
+                    "requiredDimensions": [
+                      "学习目标或任务目标",
+                      "使用场景",
+                      "难度",
+                      "可用时间",
+                      "是否需要答案解析"
+                    ],
+                    "defaultAssumptions": [
+                      "学科与教材未指定：默认按本 Skill 绑定教材 （无绑定，按通用课程目标处理） 处理，并提醒用户可补充。",
+                      "章节与知识点未指定：默认选取该场景下的高频基础病证或核心能力，不假装知道用户学校 / 医院的进度。",
+                      "难度未指定：默认标准难度（基础 50% + 提高 40% + 综合 10%）。",
+                      "角色未指定：默认面向学习者本人；出现「患者 / 家属」切换到患者视角，出现「处方 / 审方 / 药品」切换到药者视角，出现「科室 / 排班 / 质控」切换到规者视角。",
+                      "未指定题量时默认 8–12 道或一个 30 分钟任务；未指定时间时默认 30 分钟。",
+                      "答案未指定：练习题默认提供答案与解析；概念型给要点，推理型给步骤，临床型给辨证依据与方药出处。",
+                      "平台不可达时：凡依赖平台 API 的结论一律标注「未能核实」，不得凭记忆补齐。"
+                    ]
+                  },
+                  "libraryCode": "13.1.1.1",
+                  "libraryPath": "13 上游技能移植 / 01 学习能力 / 01 综合能力 / 01 中医复习助手 Skill",
+                  "path": "skills/tcm-upstream/tcm-review-assistant/SKILL.md"
+                },
+                {
+                  "slug": "tcm-weakness-boost",
+                  "title": "中医薄弱项提升 Skill",
+                  "category": "tcm-upstream",
+                  "categoryZh": "上游技能移植",
+                  "domain": "-",
+                  "summary": "定位薄弱环节的最小知识块，做定点突破而不是整章重学。",
+                  "problem": "「哪科差」是粗粒度判断，真正要补的是某个最小知识块。本 Skill 强制把薄弱项收敛到可一次补完的粒度。",
+                  "bestFor": [
+                    "模考或考试后的定点补强",
+                    "长期卡在某一类题型的突破",
+                    "跨学科知识链断裂的修补"
+                  ],
+                  "notFor": [
+                    "替代完整的课程学习",
+                    "在无错题或考核数据时的凭空定位"
+                  ],
+                  "inputs": [
+                    "薄弱表现（科目 / 题型 / 场景）",
+                    "最近的错题或得分数据",
+                    "可投入的时间"
+                  ],
+                  "workflow": [
+                    "把薄弱表现归因到具体知识块",
+                    "沿前置链向上检查是否基础缺失",
+                    "确定最小可补单元",
+                    "设计 30 分钟内的定点突破任务",
+                    "用同型题验证是否补上"
+                  ],
+                  "outputs": [
+                    "薄弱点的最小知识块定位",
+                    "前置链缺口",
+                    "定点任务与验证题"
+                  ],
+                  "apis": [],
+                  "textbookCodes": [],
+                  "subjects": [
+                    "学习能力"
+                  ],
+                  "abilities": [
+                    "查漏补缺",
+                    "定点突破"
+                  ],
+                  "roles": [],
+                  "stages": [
+                    "本科",
+                    "硕士",
+                    "规培"
+                  ],
+                  "scenarios": [
+                    "专项训练",
+                    "单元复习"
+                  ],
+                  "tags": [
+                    "薄弱项",
+                    "最小知识块",
+                    "前置链"
+                  ],
+                  "levelGate": "",
+                  "upstream": "hermes-edu-skills/agent-weakness-boost@0.15.0",
+                  "standaloneSupport": "supported",
+                  "requiresTools": [
+                    "context.load",
+                    "entitlement.check",
+                    "workflow.create",
+                    "memory.write"
+                  ],
+                  "requiresData": [
+                    "薄弱表现（科目 / 题型 / 场景）",
+                    "最近的错题或得分数据",
+                    "可投入的时间"
+                  ],
+                  "parameterizedDimensions": [
+                    "domain",
+                    "discipline",
+                    "textbookCode",
+                    "chapter",
+                    "knowledgePoint",
+                    "scenario",
+                    "difficulty"
+                  ],
+                  "interactionPolicy": {
+                    "requiredDimensions": [
+                      "学习目标或任务目标",
+                      "使用场景",
+                      "难度",
+                      "可用时间",
+                      "是否需要答案解析"
+                    ],
+                    "defaultAssumptions": [
+                      "学科与教材未指定：默认按本 Skill 绑定教材 （无绑定，按通用课程目标处理） 处理，并提醒用户可补充。",
+                      "章节与知识点未指定：默认选取该场景下的高频基础病证或核心能力，不假装知道用户学校 / 医院的进度。",
+                      "难度未指定：默认标准难度（基础 50% + 提高 40% + 综合 10%）。",
+                      "角色未指定：默认面向学习者本人；出现「患者 / 家属」切换到患者视角，出现「处方 / 审方 / 药品」切换到药者视角，出现「科室 / 排班 / 质控」切换到规者视角。",
+                      "未指定题量时默认 8–12 道或一个 30 分钟任务；未指定时间时默认 30 分钟。",
+                      "答案未指定：练习题默认提供答案与解析；概念型给要点，推理型给步骤，临床型给辨证依据与方药出处。",
+                      "平台不可达时：凡依赖平台 API 的结论一律标注「未能核实」，不得凭记忆补齐。"
+                    ]
+                  },
+                  "libraryCode": "13.1.1.2",
+                  "libraryPath": "13 上游技能移植 / 01 学习能力 / 01 综合能力 / 02 中医薄弱项提升 Skill",
+                  "path": "skills/tcm-upstream/tcm-weakness-boost/SKILL.md"
+                },
+                {
+                  "slug": "tcm-learning-habit",
+                  "title": "中医学习习惯 Skill",
+                  "category": "tcm-upstream",
+                  "categoryZh": "上游技能移植",
+                  "domain": "-",
+                  "summary": "把「每天学一点」变成有触发条件、有打卡判据、有连续记录的固定习惯。",
+                  "problem": "中医学习周期以年计，靠意志力维持必然掉线。本 Skill 用触发条件 + 最小任务 + 连续记录把习惯固定下来。",
+                  "bestFor": [
+                    "长期自主学习者建立日课",
+                    "师承人员的日常积累打卡",
+                    "规培期间的碎片时间利用"
+                  ],
+                  "notFor": [
+                    "替代有明确截止日期的冲刺计划",
+                    "把打卡次数当成学习质量的证明"
+                  ],
+                  "inputs": [
+                    "可固定的时段与触发条件",
+                    "每天可投入的最小时间",
+                    "希望固化的学习内容"
+                  ],
+                  "workflow": [
+                    "选定触发条件（时间 / 场景 / 前置动作）",
+                    "把任务压到「再累也能完成」的最小量",
+                    "定义可勾选的完成判据",
+                    "记录连续天数与中断原因",
+                    "每两周按完成率调整任务量"
+                  ],
+                  "outputs": [
+                    "习惯契约（触发条件 / 最小任务 / 判据）",
+                    "连续记录表",
+                    "两周调整建议"
+                  ],
+                  "apis": [],
+                  "textbookCodes": [],
+                  "subjects": [
+                    "学习能力"
+                  ],
+                  "abilities": [
+                    "习惯培养",
+                    "持续学习"
+                  ],
+                  "roles": [],
+                  "stages": [
+                    "本科",
+                    "规培",
+                    "继续教育"
+                  ],
+                  "scenarios": [
+                    "每日打卡"
+                  ],
+                  "tags": [
+                    "习惯",
+                    "打卡",
+                    "日课"
+                  ],
+                  "levelGate": "",
+                  "upstream": "hermes-edu-skills/agent-learning-habit@0.15.0",
+                  "standaloneSupport": "supported",
+                  "requiresTools": [
+                    "context.load",
+                    "entitlement.check",
+                    "workflow.create",
+                    "memory.write"
+                  ],
+                  "requiresData": [
+                    "可固定的时段与触发条件",
+                    "每天可投入的最小时间",
+                    "希望固化的学习内容"
+                  ],
+                  "parameterizedDimensions": [
+                    "domain",
+                    "discipline",
+                    "textbookCode",
+                    "chapter",
+                    "knowledgePoint",
+                    "scenario",
+                    "difficulty"
+                  ],
+                  "interactionPolicy": {
+                    "requiredDimensions": [
+                      "学习目标或任务目标",
+                      "使用场景",
+                      "难度",
+                      "可用时间",
+                      "是否需要答案解析"
+                    ],
+                    "defaultAssumptions": [
+                      "学科与教材未指定：默认按本 Skill 绑定教材 （无绑定，按通用课程目标处理） 处理，并提醒用户可补充。",
+                      "章节与知识点未指定：默认选取该场景下的高频基础病证或核心能力，不假装知道用户学校 / 医院的进度。",
+                      "难度未指定：默认标准难度（基础 50% + 提高 40% + 综合 10%）。",
+                      "角色未指定：默认面向学习者本人；出现「患者 / 家属」切换到患者视角，出现「处方 / 审方 / 药品」切换到药者视角，出现「科室 / 排班 / 质控」切换到规者视角。",
+                      "未指定题量时默认 8–12 道或一个 30 分钟任务；未指定时间时默认 30 分钟。",
+                      "答案未指定：练习题默认提供答案与解析；概念型给要点，推理型给步骤，临床型给辨证依据与方药出处。",
+                      "平台不可达时：凡依赖平台 API 的结论一律标注「未能核实」，不得凭记忆补齐。"
+                    ]
+                  },
+                  "libraryCode": "13.1.1.3",
+                  "libraryPath": "13 上游技能移植 / 01 学习能力 / 01 综合能力 / 03 中医学习习惯 Skill",
+                  "path": "skills/tcm-upstream/tcm-learning-habit/SKILL.md"
+                },
+                {
+                  "slug": "tcm-holiday-plan",
+                  "title": "中医假期提升 Skill",
+                  "category": "tcm-upstream",
+                  "categoryZh": "上游技能移植",
+                  "domain": "-",
+                  "summary": "把寒暑假的整块时间投到学期内做不了的事：经典通读、跟诊积累、专项补强。",
+                  "problem": "假期最容易「计划满满、执行零碎」。本 Skill 只选 2–3 件学期内做不了的事，并配可验收的阶段产出。",
+                  "bestFor": [
+                    "寒暑假的经典通读计划",
+                    "假期跟诊与病案积累",
+                    "学期遗留下来的薄弱项集中补强"
+                  ],
+                  "notFor": [
+                    "替代学校的正式教学安排",
+                    "在无明确目标时的填满式计划"
+                  ],
+                  "inputs": [
+                    "假期起止时间与可投入天数",
+                    "希望完成的 2–3 件大事",
+                    "当前基础与薄弱项"
+                  ],
+                  "workflow": [
+                    "筛选出「学期内做不了」的 2–3 件事",
+                    "为每件事设阶段产出（非时间投入）",
+                    "排出周节奏并预留机动周",
+                    "设中途检查点与放弃判据",
+                    "假期末做一次成品验收"
+                  ],
+                  "outputs": [
+                    "假期目标与阶段产出",
+                    "周节奏表与检查点",
+                    "期末验收方式"
+                  ],
+                  "apis": [],
+                  "textbookCodes": [],
+                  "subjects": [
+                    "学习能力"
+                  ],
+                  "abilities": [
+                    "假期计划",
+                    "阶段产出"
+                  ],
+                  "roles": [],
+                  "stages": [
+                    "本科",
+                    "硕士"
+                  ],
+                  "scenarios": [
+                    "寒暑假提升"
+                  ],
+                  "tags": [
+                    "假期",
+                    "寒暑假",
+                    "阶段产出"
+                  ],
+                  "levelGate": "",
+                  "upstream": "hermes-edu-skills/agent-holiday-plan@0.15.0",
+                  "standaloneSupport": "supported",
+                  "requiresTools": [
+                    "context.load",
+                    "entitlement.check",
+                    "workflow.create",
+                    "memory.write"
+                  ],
+                  "requiresData": [
+                    "假期起止时间与可投入天数",
+                    "希望完成的 2–3 件大事",
+                    "当前基础与薄弱项"
+                  ],
+                  "parameterizedDimensions": [
+                    "domain",
+                    "discipline",
+                    "textbookCode",
+                    "chapter",
+                    "knowledgePoint",
+                    "scenario",
+                    "difficulty"
+                  ],
+                  "interactionPolicy": {
+                    "requiredDimensions": [
+                      "学习目标或任务目标",
+                      "使用场景",
+                      "难度",
+                      "可用时间",
+                      "是否需要答案解析"
+                    ],
+                    "defaultAssumptions": [
+                      "学科与教材未指定：默认按本 Skill 绑定教材 （无绑定，按通用课程目标处理） 处理，并提醒用户可补充。",
+                      "章节与知识点未指定：默认选取该场景下的高频基础病证或核心能力，不假装知道用户学校 / 医院的进度。",
+                      "难度未指定：默认标准难度（基础 50% + 提高 40% + 综合 10%）。",
+                      "角色未指定：默认面向学习者本人；出现「患者 / 家属」切换到患者视角，出现「处方 / 审方 / 药品」切换到药者视角，出现「科室 / 排班 / 质控」切换到规者视角。",
+                      "未指定题量时默认 8–12 道或一个 30 分钟任务；未指定时间时默认 30 分钟。",
+                      "答案未指定：练习题默认提供答案与解析；概念型给要点，推理型给步骤，临床型给辨证依据与方药出处。",
+                      "平台不可达时：凡依赖平台 API 的结论一律标注「未能核实」，不得凭记忆补齐。"
+                    ]
+                  },
+                  "libraryCode": "13.1.1.4",
+                  "libraryPath": "13 上游技能移植 / 01 学习能力 / 01 综合能力 / 04 中医假期提升 Skill",
+                  "path": "skills/tcm-upstream/tcm-holiday-plan/SKILL.md"
+                }
+              ]
+            },
+            {
+              "n": 2,
+              "code": "13.1.2",
+              "name": "实操与技法",
+              "skills": [
+                {
+                  "slug": "tcm-memory-method",
+                  "title": "中医记忆方法 Skill",
+                  "category": "tcm-upstream",
+                  "categoryZh": "上游技能移植",
+                  "domain": "-",
+                  "summary": "针对方歌、条文、药性、腧穴四类高记忆负荷内容，匹配专门的记忆编码法。",
+                  "problem": "中医记忆负荷集中在方歌、经典条文、药性归经、腧穴定位四类，用同一种方法背会事倍功半。本 Skill 按内容类型匹配编码法。",
+                  "bestFor": [
+                    "方歌与经方组成的记忆",
+                    "经典条文的分层背诵",
+                    "药性与归经的横向辨析记忆",
+                    "腧穴定位的体表标志记忆"
+                  ],
+                  "notFor": [
+                    "替代理解性的理论推演",
+                    "把记忆量当成学习成果的唯一指标"
+                  ],
+                  "inputs": [
+                    "待记忆内容的类型与范围",
+                    "当前记忆方式与困难点",
+                    "可用的记忆时段"
+                  ],
+                  "workflow": [
+                    "判定内容属于方歌 / 条文 / 药性 / 腧穴哪一类",
+                    "匹配对应的编码法（韵律 / 分层 / 对比 / 定位）",
+                    "生成记忆材料（口诀 / 结构图 / 对比表）",
+                    "设计回忆检索练习（不给线索的主动回忆）",
+                    "按间隔排复测"
+                  ],
+                  "outputs": [
+                    "记忆材料（口诀 / 对比表 / 结构图）",
+                    "主动回忆练习",
+                    "复测排程"
+                  ],
+                  "apis": [],
+                  "textbookCodes": [],
+                  "subjects": [
+                    "学习能力"
+                  ],
+                  "abilities": [
+                    "记忆",
+                    "主动回忆"
+                  ],
+                  "roles": [],
+                  "stages": [
+                    "本科",
+                    "继续教育"
+                  ],
+                  "scenarios": [
+                    "背诵记忆",
+                    "考前冲刺"
+                  ],
+                  "tags": [
+                    "记忆",
+                    "方歌",
+                    "条文",
+                    "腧穴"
+                  ],
+                  "levelGate": "",
+                  "upstream": "hermes-edu-skills/agent-memory-method@0.15.0",
+                  "standaloneSupport": "supported",
+                  "requiresTools": [
+                    "context.load",
+                    "entitlement.check",
+                    "workflow.create",
+                    "memory.write"
+                  ],
+                  "requiresData": [
+                    "待记忆内容的类型与范围",
+                    "当前记忆方式与困难点",
+                    "可用的记忆时段"
+                  ],
+                  "parameterizedDimensions": [
+                    "domain",
+                    "discipline",
+                    "textbookCode",
+                    "chapter",
+                    "knowledgePoint",
+                    "scenario",
+                    "difficulty"
+                  ],
+                  "interactionPolicy": {
+                    "requiredDimensions": [
+                      "学习目标或任务目标",
+                      "使用场景",
+                      "难度",
+                      "可用时间",
+                      "是否需要答案解析"
+                    ],
+                    "defaultAssumptions": [
+                      "学科与教材未指定：默认按本 Skill 绑定教材 （无绑定，按通用课程目标处理） 处理，并提醒用户可补充。",
+                      "章节与知识点未指定：默认选取该场景下的高频基础病证或核心能力，不假装知道用户学校 / 医院的进度。",
+                      "难度未指定：默认标准难度（基础 50% + 提高 40% + 综合 10%）。",
+                      "角色未指定：默认面向学习者本人；出现「患者 / 家属」切换到患者视角，出现「处方 / 审方 / 药品」切换到药者视角，出现「科室 / 排班 / 质控」切换到规者视角。",
+                      "未指定题量时默认 8–12 道或一个 30 分钟任务；未指定时间时默认 30 分钟。",
+                      "答案未指定：练习题默认提供答案与解析；概念型给要点，推理型给步骤，临床型给辨证依据与方药出处。",
+                      "平台不可达时：凡依赖平台 API 的结论一律标注「未能核实」，不得凭记忆补齐。"
+                    ]
+                  },
+                  "libraryCode": "13.1.2.1",
+                  "libraryPath": "13 上游技能移植 / 01 学习能力 / 02 实操与技法 / 01 中医记忆方法 Skill",
+                  "path": "skills/tcm-upstream/tcm-memory-method/SKILL.md"
+                }
+              ]
+            },
+            {
+              "n": 3,
+              "code": "13.1.3",
+              "name": "辨证推理",
+              "skills": [
+                {
+                  "slug": "tcm-socratic-tutor",
+                  "title": "中医启发式讲题 Skill",
+                  "category": "tcm-upstream",
+                  "categoryZh": "上游技能移植",
+                  "domain": "-",
+                  "summary": "不给答案先给问题：用苏格拉底式追问把学习者逼到自己找出辨证结论。",
+                  "problem": "直接给答案会让人「看懂了但不会做」。本 Skill 用递进追问替代直接讲解，只在学习者卡死时给最小提示。",
+                  "bestFor": [
+                    "病案辨证的思路训练",
+                    "经方方证对应的辨析训练",
+                    "规培阶段的临床思维打磨"
+                  ],
+                  "notFor": [
+                    "时间紧迫的考前答疑",
+                    "学习者明确要求直接讲解时"
+                  ],
+                  "inputs": [
+                    "题目或病案内容",
+                    "学习者的初步判断（可留空）",
+                    "允许的追问轮次上限"
+                  ],
+                  "workflow": [
+                    "先让学习者给出自己的判断与依据",
+                    "沿其依据追问「凭什么」至最小证据",
+                    "在其依据薄弱处提出反例",
+                    "仅在被卡住 2 轮后给最小提示",
+                    "最后要求用一句话总结判断依据"
+                  ],
+                  "outputs": [
+                    "追问链记录",
+                    "学习者的判断演化",
+                    "一句话依据总结"
+                  ],
+                  "apis": [],
+                  "textbookCodes": [],
+                  "subjects": [
+                    "学习能力"
+                  ],
+                  "abilities": [
+                    "启发提问",
+                    "临床推理"
+                  ],
+                  "roles": [],
+                  "stages": [
+                    "本科",
+                    "规培",
+                    "硕士"
+                  ],
+                  "scenarios": [
+                    "AI 讲题",
+                    "病案讨论"
+                  ],
+                  "tags": [
+                    "启发式",
+                    "讲题",
+                    "苏格拉底",
+                    "追问"
+                  ],
+                  "levelGate": "",
+                  "upstream": "hermes-edu-skills/agent-socratic-tutor@0.15.0",
+                  "standaloneSupport": "supported",
+                  "requiresTools": [
+                    "context.load",
+                    "entitlement.check",
+                    "workflow.create",
+                    "memory.write"
+                  ],
+                  "requiresData": [
+                    "题目或病案内容",
+                    "学习者的初步判断（可留空）",
+                    "允许的追问轮次上限"
+                  ],
+                  "parameterizedDimensions": [
+                    "domain",
+                    "discipline",
+                    "textbookCode",
+                    "chapter",
+                    "knowledgePoint",
+                    "scenario",
+                    "difficulty"
+                  ],
+                  "interactionPolicy": {
+                    "requiredDimensions": [
+                      "学习目标或任务目标",
+                      "使用场景",
+                      "难度",
+                      "可用时间",
+                      "是否需要答案解析"
+                    ],
+                    "defaultAssumptions": [
+                      "学科与教材未指定：默认按本 Skill 绑定教材 （无绑定，按通用课程目标处理） 处理，并提醒用户可补充。",
+                      "章节与知识点未指定：默认选取该场景下的高频基础病证或核心能力，不假装知道用户学校 / 医院的进度。",
+                      "难度未指定：默认标准难度（基础 50% + 提高 40% + 综合 10%）。",
+                      "角色未指定：默认面向学习者本人；出现「患者 / 家属」切换到患者视角，出现「处方 / 审方 / 药品」切换到药者视角，出现「科室 / 排班 / 质控」切换到规者视角。",
+                      "未指定题量时默认 8–12 道或一个 30 分钟任务；未指定时间时默认 30 分钟。",
+                      "答案未指定：练习题默认提供答案与解析；概念型给要点，推理型给步骤，临床型给辨证依据与方药出处。",
+                      "平台不可达时：凡依赖平台 API 的结论一律标注「未能核实」，不得凭记忆补齐。"
+                    ]
+                  },
+                  "libraryCode": "13.1.3.1",
+                  "libraryPath": "13 上游技能移植 / 01 学习能力 / 03 辨证推理 / 01 中医启发式讲题 Skill",
+                  "path": "skills/tcm-upstream/tcm-socratic-tutor/SKILL.md"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "n": 2,
+          "code": "13.2",
+          "name": "经典背诵",
+          "sections": [
+            {
+              "n": 1,
+              "code": "13.2.1",
+              "name": "经典研读",
+              "skills": [
+                {
+                  "slug": "tcm-daily-recitation",
+                  "title": "中医每日背诵 Skill",
+                  "category": "tcm-upstream",
+                  "categoryZh": "上游技能移植",
+                  "domain": "-",
+                  "summary": "每天 10–15 分钟的经典条文与方歌背诵闭环：给线索回忆 → 核对 → 补漏。",
+                  "problem": "背诵若不设「不给线索的回忆」环节，就会变成反复朗读的假学习。本 Skill 固定「线索回忆—核对—补漏」三步。",
+                  "bestFor": [
+                    "《伤寒论》《内经》条文的日常背诵",
+                    "方歌与药性的日积月累",
+                    "执业医师考试条文的长期覆盖"
+                  ],
+                  "notFor": [
+                    "替代对条文义理的理解",
+                    "把背诵量当作学习进度指标"
+                  ],
+                  "inputs": [
+                    "今日背诵范围（条文 / 方歌）",
+                    "可用时间",
+                    "昨日未通过项"
+                  ],
+                  "workflow": [
+                    "先做不给线索的主动回忆并记录",
+                    "对照原文核对，标出错处",
+                    "只补漏处，不重背已通项",
+                    "把未通过项滚入明日队列",
+                    "更新连续通过天数"
+                  ],
+                  "outputs": [
+                    "今日背诵记录（通过 / 未通过）",
+                    "错处清单",
+                    "明日滚动队列"
+                  ],
+                  "apis": [],
+                  "textbookCodes": [
+                    "CM-10"
+                  ],
+                  "subjects": [
+                    "经典背诵"
+                  ],
+                  "abilities": [
+                    "背诵",
+                    "主动回忆"
+                  ],
+                  "roles": [],
+                  "stages": [
+                    "本科",
+                    "继续教育"
+                  ],
+                  "scenarios": [
+                    "每日打卡"
+                  ],
+                  "tags": [
+                    "背诵",
+                    "条文",
+                    "方歌",
+                    "每日"
+                  ],
+                  "levelGate": "",
+                  "upstream": "hermes-edu-skills/primary-chinese-recitation-daily@0.15.0",
+                  "standaloneSupport": "supported",
+                  "requiresTools": [
+                    "context.load",
+                    "entitlement.check",
+                    "workflow.create",
+                    "memory.write"
+                  ],
+                  "requiresData": [
+                    "今日背诵范围（条文 / 方歌）",
+                    "可用时间",
+                    "昨日未通过项"
+                  ],
+                  "parameterizedDimensions": [
+                    "domain",
+                    "discipline",
+                    "textbookCode",
+                    "chapter",
+                    "knowledgePoint",
+                    "scenario",
+                    "difficulty"
+                  ],
+                  "interactionPolicy": {
+                    "requiredDimensions": [
+                      "学习目标或任务目标",
+                      "使用场景",
+                      "难度",
+                      "可用时间",
+                      "是否需要答案解析"
+                    ],
+                    "defaultAssumptions": [
+                      "学科与教材未指定：默认按本 Skill 绑定教材 CM-10 处理，并提醒用户可补充。",
+                      "章节与知识点未指定：默认选取该场景下的高频基础病证或核心能力，不假装知道用户学校 / 医院的进度。",
+                      "难度未指定：默认标准难度（基础 50% + 提高 40% + 综合 10%）。",
+                      "角色未指定：默认面向学习者本人；出现「患者 / 家属」切换到患者视角，出现「处方 / 审方 / 药品」切换到药者视角，出现「科室 / 排班 / 质控」切换到规者视角。",
+                      "未指定题量时默认 8–12 道或一个 30 分钟任务；未指定时间时默认 30 分钟。",
+                      "答案未指定：练习题默认提供答案与解析；概念型给要点，推理型给步骤，临床型给辨证依据与方药出处。",
+                      "平台不可达时：凡依赖平台 API 的结论一律标注「未能核实」，不得凭记忆补齐。"
+                    ]
+                  },
+                  "libraryCode": "13.2.1.1",
+                  "libraryPath": "13 上游技能移植 / 02 经典背诵 / 01 经典研读 / 01 中医每日背诵 Skill",
+                  "path": "skills/tcm-upstream/tcm-daily-recitation/SKILL.md"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "n": 3,
+          "code": "13.3",
+          "name": "中药学",
+          "sections": [
+            {
+              "n": 1,
+              "code": "13.3.1",
+              "name": "方药应用",
+              "skills": [
+                {
+                  "slug": "tcm-daily-herb-drill",
+                  "title": "中医方药速练 Skill",
+                  "category": "tcm-upstream",
+                  "categoryZh": "上游技能移植",
+                  "domain": "-",
+                  "summary": "每天 8–12 道方药速练：药性功效、方剂组成、配伍禁忌的高频短时训练。",
+                  "problem": "方药是「一天不练就手生」的内容。本 Skill 用 10 分钟高频短练维持熟练度，并只补当天错项。",
+                  "bestFor": [
+                    "中药学与方剂学的日常维持训练",
+                    "执业医师方药部分的持续覆盖",
+                    "规培期间的方药手感保持"
+                  ],
+                  "notFor": [
+                    "替代系统的中药方剂课程学习",
+                    "在无错项记录时的盲目刷题"
+                  ],
+                  "inputs": [
+                    "今日训练范围（药性 / 组成 / 配伍）",
+                    "可用时间与题量",
+                    "最近错项"
+                  ],
+                  "workflow": [
+                    "按范围生成 8–12 道速练题",
+                    "限时完成并即时判分",
+                    "错项归因到最小知识块",
+                    "只对错项做一次定点复述",
+                    "把错项滚入次日队列"
+                  ],
+                  "outputs": [
+                    "速练题与判分",
+                    "错项归因",
+                    "次日滚动队列"
+                  ],
+                  "apis": [],
+                  "textbookCodes": [
+                    "MM-01",
+                    "MM-02"
+                  ],
+                  "subjects": [
+                    "中药学",
+                    "方剂学"
+                  ],
+                  "abilities": [
+                    "药性功效",
+                    "方剂组成"
+                  ],
+                  "roles": [],
+                  "stages": [
+                    "本科",
+                    "规培"
+                  ],
+                  "scenarios": [
+                    "每日打卡",
+                    "同步巩固"
+                  ],
+                  "tags": [
+                    "速练",
+                    "方药",
+                    "每日",
+                    "配伍禁忌"
+                  ],
+                  "levelGate": "",
+                  "upstream": "hermes-edu-skills/junior-chemistry-quick-practice@0.15.0",
+                  "standaloneSupport": "supported",
+                  "requiresTools": [
+                    "context.load",
+                    "entitlement.check",
+                    "workflow.create",
+                    "memory.write"
+                  ],
+                  "requiresData": [
+                    "今日训练范围（药性 / 组成 / 配伍）",
+                    "可用时间与题量",
+                    "最近错项"
+                  ],
+                  "parameterizedDimensions": [
+                    "domain",
+                    "discipline",
+                    "textbookCode",
+                    "chapter",
+                    "knowledgePoint",
+                    "scenario",
+                    "difficulty"
+                  ],
+                  "interactionPolicy": {
+                    "requiredDimensions": [
+                      "学习目标或任务目标",
+                      "使用场景",
+                      "难度",
+                      "可用时间",
+                      "是否需要答案解析"
+                    ],
+                    "defaultAssumptions": [
+                      "学科与教材未指定：默认按本 Skill 绑定教材 MM-01、MM-02 处理，并提醒用户可补充。",
+                      "章节与知识点未指定：默认选取该场景下的高频基础病证或核心能力，不假装知道用户学校 / 医院的进度。",
+                      "难度未指定：默认标准难度（基础 50% + 提高 40% + 综合 10%）。",
+                      "角色未指定：默认面向学习者本人；出现「患者 / 家属」切换到患者视角，出现「处方 / 审方 / 药品」切换到药者视角，出现「科室 / 排班 / 质控」切换到规者视角。",
+                      "未指定题量时默认 8–12 道或一个 30 分钟任务；未指定时间时默认 30 分钟。",
+                      "答案未指定：练习题默认提供答案与解析；概念型给要点，推理型给步骤，临床型给辨证依据与方药出处。",
+                      "平台不可达时：凡依赖平台 API 的结论一律标注「未能核实」，不得凭记忆补齐。"
+                    ]
+                  },
+                  "libraryCode": "13.3.1.1",
+                  "libraryPath": "13 上游技能移植 / 03 中药学 / 01 方药应用 / 01 中医方药速练 Skill",
+                  "path": "skills/tcm-upstream/tcm-daily-herb-drill/SKILL.md"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "n": 4,
+          "code": "13.4",
+          "name": "经络腧穴学",
+          "sections": [
+            {
+              "n": 1,
+              "code": "13.4.1",
+              "name": "实操与技法",
+              "skills": [
+                {
+                  "slug": "tcm-daily-acupoint-drill",
+                  "title": "中医腧穴速练 Skill",
+                  "category": "tcm-upstream",
+                  "categoryZh": "上游技能移植",
+                  "domain": "-",
+                  "summary": "每天 8–12 道腧穴速练：定位、归经、主治与危险穴位的短时高频训练。",
+                  "problem": "腧穴定位靠反复提取才牢固，且危险穴位必须形成条件反射式警觉。本 Skill 把安全提示固定进每道题。",
+                  "bestFor": [
+                    "经络腧穴学的日常维持训练",
+                    "针灸科实习前的手感恢复",
+                    "执业医师针灸部分覆盖"
+                  ],
+                  "notFor": [
+                    "替代人体实训标本操作",
+                    "在无图谱辅助时的精确定位判定"
+                  ],
+                  "inputs": [
+                    "今日训练范围（经脉 / 部位）",
+                    "可用时间与题量",
+                    "最近错项"
+                  ],
+                  "workflow": [
+                    "按范围生成定位 / 归经 / 主治题",
+                    "每题附危险穴位与刺灸安全提示",
+                    "限时完成并判分",
+                    "错项回到「体表标志 + 骨度分寸」重述",
+                    "错项滚入次日队列"
+                  ],
+                  "outputs": [
+                    "速练题与判分",
+                    "安全提示清单",
+                    "次日滚动队列"
+                  ],
+                  "apis": [],
+                  "textbookCodes": [
+                    "AT-01"
+                  ],
+                  "subjects": [
+                    "经络腧穴学"
+                  ],
+                  "abilities": [
+                    "腧穴定位",
+                    "归经主治"
+                  ],
+                  "roles": [],
+                  "stages": [
+                    "本科",
+                    "规培"
+                  ],
+                  "scenarios": [
+                    "每日打卡",
+                    "实操训练"
+                  ],
+                  "tags": [
+                    "速练",
+                    "腧穴",
+                    "每日",
+                    "危险穴位"
+                  ],
+                  "levelGate": "",
+                  "upstream": "hermes-edu-skills/senior-biology-quick-practice@0.15.0",
+                  "standaloneSupport": "supported",
+                  "requiresTools": [
+                    "context.load",
+                    "entitlement.check",
+                    "workflow.create",
+                    "memory.write"
+                  ],
+                  "requiresData": [
+                    "今日训练范围（经脉 / 部位）",
+                    "可用时间与题量",
+                    "最近错项"
+                  ],
+                  "parameterizedDimensions": [
+                    "domain",
+                    "discipline",
+                    "textbookCode",
+                    "chapter",
+                    "knowledgePoint",
+                    "scenario",
+                    "difficulty"
+                  ],
+                  "interactionPolicy": {
+                    "requiredDimensions": [
+                      "学习目标或任务目标",
+                      "使用场景",
+                      "难度",
+                      "可用时间",
+                      "是否需要答案解析"
+                    ],
+                    "defaultAssumptions": [
+                      "学科与教材未指定：默认按本 Skill 绑定教材 AT-01 处理，并提醒用户可补充。",
+                      "章节与知识点未指定：默认选取该场景下的高频基础病证或核心能力，不假装知道用户学校 / 医院的进度。",
+                      "难度未指定：默认标准难度（基础 50% + 提高 40% + 综合 10%）。",
+                      "角色未指定：默认面向学习者本人；出现「患者 / 家属」切换到患者视角，出现「处方 / 审方 / 药品」切换到药者视角，出现「科室 / 排班 / 质控」切换到规者视角。",
+                      "未指定题量时默认 8–12 道或一个 30 分钟任务；未指定时间时默认 30 分钟。",
+                      "答案未指定：练习题默认提供答案与解析；概念型给要点，推理型给步骤，临床型给辨证依据与方药出处。",
+                      "平台不可达时：凡依赖平台 API 的结论一律标注「未能核实」，不得凭记忆补齐。"
+                    ]
+                  },
+                  "libraryCode": "13.4.1.1",
+                  "libraryPath": "13 上游技能移植 / 04 经络腧穴学 / 01 实操与技法 / 01 中医腧穴速练 Skill",
+                  "path": "skills/tcm-upstream/tcm-daily-acupoint-drill/SKILL.md"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "n": 5,
+          "code": "13.5",
+          "name": "教师发展",
+          "sections": [
+            {
+              "n": 1,
+              "code": "13.5.1",
+              "name": "教学与学习",
+              "skills": [
+                {
+                  "slug": "tcm-homework-generation",
+                  "title": "中医疗效作业生成 Skill",
+                  "category": "tcm-upstream",
+                  "categoryZh": "上游技能移植",
+                  "domain": "-",
+                  "summary": "按学时与教学目标生成分层作业，配答案、解析与批改要点。",
+                  "problem": "作业若只按题量布置，就会「尖子吃不饱、后进跟不上」。本 Skill 按教学目标分层布置并给教师批改要点。",
+                  "bestFor": [
+                    "课程作业的分层布置",
+                    "师承带教的课后练习设计",
+                    "继续教育培训的结课作业"
+                  ],
+                  "notFor": [
+                    "替代教师对作业难度与量的最终把关",
+                    "生成超纲或因材施教的个性化判定"
+                  ],
+                  "inputs": [
+                    "课程与章节",
+                    "学时与教学目标",
+                    "学员层次分布",
+                    "作业量约束"
+                  ],
+                  "workflow": [
+                    "把教学目标转成可检验的题目目标",
+                    "按基础 / 提高 / 综合三层配比出题",
+                    "为每题附答案、解析与评分标准",
+                    "标注批改时的关注点与常见错误",
+                    "输出预计完成时间"
+                  ],
+                  "outputs": [
+                    "分层作业",
+                    "答案与评分标准",
+                    "批改要点与常见错误"
+                  ],
+                  "apis": [],
+                  "textbookCodes": [],
+                  "subjects": [
+                    "教师发展"
+                  ],
+                  "abilities": [
+                    "作业设计",
+                    "分层教学"
+                  ],
+                  "roles": [],
+                  "stages": [
+                    "继续教育"
+                  ],
+                  "scenarios": [
+                    "作业布置",
+                    "教研"
+                  ],
+                  "tags": [
+                    "作业",
+                    "分层",
+                    "批改要点"
+                  ],
+                  "levelGate": "",
+                  "upstream": "hermes-edu-skills/teacher-geography-homework-generation@0.15.0",
+                  "standaloneSupport": "supported",
+                  "requiresTools": [
+                    "context.load",
+                    "entitlement.check",
+                    "workflow.create",
+                    "memory.write"
+                  ],
+                  "requiresData": [
+                    "课程与章节",
+                    "学时与教学目标",
+                    "学员层次分布",
+                    "作业量约束"
+                  ],
+                  "parameterizedDimensions": [
+                    "domain",
+                    "discipline",
+                    "textbookCode",
+                    "chapter",
+                    "knowledgePoint",
+                    "scenario",
+                    "difficulty"
+                  ],
+                  "interactionPolicy": {
+                    "requiredDimensions": [
+                      "学习目标或任务目标",
+                      "使用场景",
+                      "难度",
+                      "可用时间",
+                      "是否需要答案解析"
+                    ],
+                    "defaultAssumptions": [
+                      "学科与教材未指定：默认按本 Skill 绑定教材 （无绑定，按通用课程目标处理） 处理，并提醒用户可补充。",
+                      "章节与知识点未指定：默认选取该场景下的高频基础病证或核心能力，不假装知道用户学校 / 医院的进度。",
+                      "难度未指定：默认标准难度（基础 50% + 提高 40% + 综合 10%）。",
+                      "角色未指定：默认面向学习者本人；出现「患者 / 家属」切换到患者视角，出现「处方 / 审方 / 药品」切换到药者视角，出现「科室 / 排班 / 质控」切换到规者视角。",
+                      "未指定题量时默认 8–12 道或一个 30 分钟任务；未指定时间时默认 30 分钟。",
+                      "答案未指定：练习题默认提供答案与解析；概念型给要点，推理型给步骤，临床型给辨证依据与方药出处。",
+                      "平台不可达时：凡依赖平台 API 的结论一律标注「未能核实」，不得凭记忆补齐。"
+                    ]
+                  },
+                  "libraryCode": "13.5.1.1",
+                  "libraryPath": "13 上游技能移植 / 05 教师发展 / 01 教学与学习 / 01 中医疗效作业生成 Skill",
+                  "path": "skills/tcm-upstream/tcm-homework-generation/SKILL.md"
+                },
+                {
+                  "slug": "tcm-unit-review",
+                  "title": "中医单元复习设计 Skill",
+                  "category": "tcm-upstream",
+                  "categoryZh": "上游技能移植",
+                  "domain": "-",
+                  "summary": "把单元复习设计成「知识结构重建 → 易错点清扫 → 综合应用」三段课堂。",
+                  "problem": "单元复习常退化成再讲一遍。本 Skill 以「重建结构—清扫易错—综合应用」三段重构课堂。",
+                  "bestFor": [
+                    "课程单元复习课设计",
+                    "考前专题复习课",
+                    "师承阶段小结会"
+                  ],
+                  "notFor": [
+                    "替代新授课",
+                    "在无单元测验数据时的复习重点判定"
+                  ],
+                  "inputs": [
+                    "单元范围与课时",
+                    "本单元测验或作业数据",
+                    "学员易错点"
+                  ],
+                  "workflow": [
+                    "让学员自己重建本单元知识结构",
+                    "按数据定位三大易错点",
+                    "针对易错点设计变式训练",
+                    "设计一道跨节综合应用题",
+                    "输出课堂时间分配与板书要点"
+                  ],
+                  "outputs": [
+                    "复习课三段设计",
+                    "易错点变式训练",
+                    "综合应用题与时间分配"
+                  ],
+                  "apis": [],
+                  "textbookCodes": [],
+                  "subjects": [
+                    "教师发展"
+                  ],
+                  "abilities": [
+                    "单元复习",
+                    "教学设计"
+                  ],
+                  "roles": [],
+                  "stages": [
+                    "继续教育"
+                  ],
+                  "scenarios": [
+                    "教研",
+                    "单元复习"
+                  ],
+                  "tags": [
+                    "单元复习",
+                    "易错点",
+                    "变式训练"
+                  ],
+                  "levelGate": "",
+                  "upstream": "hermes-edu-skills/teacher-geography-unit-review@0.15.0",
+                  "standaloneSupport": "supported",
+                  "requiresTools": [
+                    "context.load",
+                    "entitlement.check",
+                    "workflow.create",
+                    "memory.write"
+                  ],
+                  "requiresData": [
+                    "单元范围与课时",
+                    "本单元测验或作业数据",
+                    "学员易错点"
+                  ],
+                  "parameterizedDimensions": [
+                    "domain",
+                    "discipline",
+                    "textbookCode",
+                    "chapter",
+                    "knowledgePoint",
+                    "scenario",
+                    "difficulty"
+                  ],
+                  "interactionPolicy": {
+                    "requiredDimensions": [
+                      "学习目标或任务目标",
+                      "使用场景",
+                      "难度",
+                      "可用时间",
+                      "是否需要答案解析"
+                    ],
+                    "defaultAssumptions": [
+                      "学科与教材未指定：默认按本 Skill 绑定教材 （无绑定，按通用课程目标处理） 处理，并提醒用户可补充。",
+                      "章节与知识点未指定：默认选取该场景下的高频基础病证或核心能力，不假装知道用户学校 / 医院的进度。",
+                      "难度未指定：默认标准难度（基础 50% + 提高 40% + 综合 10%）。",
+                      "角色未指定：默认面向学习者本人；出现「患者 / 家属」切换到患者视角，出现「处方 / 审方 / 药品」切换到药者视角，出现「科室 / 排班 / 质控」切换到规者视角。",
+                      "未指定题量时默认 8–12 道或一个 30 分钟任务；未指定时间时默认 30 分钟。",
+                      "答案未指定：练习题默认提供答案与解析；概念型给要点，推理型给步骤，临床型给辨证依据与方药出处。",
+                      "平台不可达时：凡依赖平台 API 的结论一律标注「未能核实」，不得凭记忆补齐。"
+                    ]
+                  },
+                  "libraryCode": "13.5.1.2",
+                  "libraryPath": "13 上游技能移植 / 05 教师发展 / 01 教学与学习 / 02 中医单元复习设计 Skill",
+                  "path": "skills/tcm-upstream/tcm-unit-review/SKILL.md"
+                },
+                {
+                  "slug": "tcm-class-analysis",
+                  "title": "中医班级学情分析 Skill",
+                  "category": "tcm-upstream",
+                  "categoryZh": "上游技能移植",
+                  "domain": "-",
+                  "summary": "从成绩与作业数据算出班级的掌握度分布，定位集体性缺口与个别短板。",
+                  "problem": "班级学情常停留在平均分。本 Skill 用掌握度分布区分「集体缺口」与「个别短板」，指导分头补救。",
+                  "bestFor": [
+                    "单元测验后的班级诊断",
+                    "规培基地对学员群体的评估",
+                    "师承导师掌握多个学员的进度"
+                  ],
+                  "notFor": [
+                    "替代个别化的深度学情访谈",
+                    "在样本过少时给出分布结论"
+                  ],
+                  "inputs": [
+                    "测验或作业的逐题得分数据",
+                    "班级 / 学员规模",
+                    "关注的学科模块"
+                  ],
+                  "workflow": [
+                    "按知识点统计正确率",
+                    "区分集体缺口（通过率 < 60%）与个别短板",
+                    "对集体缺口给出统一的再教学方案",
+                    "对个别短板给出名单与定点任务",
+                    "输出下一阶段的教学优先级"
+                  ],
+                  "outputs": [
+                    "知识点掌握度分布",
+                    "集体缺口与个别短板清单",
+                    "再教学方案与优先级"
+                  ],
+                  "apis": [],
+                  "textbookCodes": [],
+                  "subjects": [
+                    "教师发展"
+                  ],
+                  "abilities": [
+                    "学情分析",
+                    "数据诊断"
+                  ],
+                  "roles": [],
+                  "stages": [
+                    "继续教育"
+                  ],
+                  "scenarios": [
+                    "教研",
+                    "学习报告"
+                  ],
+                  "tags": [
+                    "学情",
+                    "掌握度",
+                    "班级分析"
+                  ],
+                  "levelGate": "",
+                  "upstream": "hermes-edu-skills/teacher-class-analysis-lite@0.15.0",
+                  "standaloneSupport": "supported",
+                  "requiresTools": [
+                    "context.load",
+                    "entitlement.check",
+                    "workflow.create",
+                    "memory.write"
+                  ],
+                  "requiresData": [
+                    "测验或作业的逐题得分数据",
+                    "班级 / 学员规模",
+                    "关注的学科模块"
+                  ],
+                  "parameterizedDimensions": [
+                    "domain",
+                    "discipline",
+                    "textbookCode",
+                    "chapter",
+                    "knowledgePoint",
+                    "scenario",
+                    "difficulty"
+                  ],
+                  "interactionPolicy": {
+                    "requiredDimensions": [
+                      "学习目标或任务目标",
+                      "使用场景",
+                      "难度",
+                      "可用时间",
+                      "是否需要答案解析"
+                    ],
+                    "defaultAssumptions": [
+                      "学科与教材未指定：默认按本 Skill 绑定教材 （无绑定，按通用课程目标处理） 处理，并提醒用户可补充。",
+                      "章节与知识点未指定：默认选取该场景下的高频基础病证或核心能力，不假装知道用户学校 / 医院的进度。",
+                      "难度未指定：默认标准难度（基础 50% + 提高 40% + 综合 10%）。",
+                      "角色未指定：默认面向学习者本人；出现「患者 / 家属」切换到患者视角，出现「处方 / 审方 / 药品」切换到药者视角，出现「科室 / 排班 / 质控」切换到规者视角。",
+                      "未指定题量时默认 8–12 道或一个 30 分钟任务；未指定时间时默认 30 分钟。",
+                      "答案未指定：练习题默认提供答案与解析；概念型给要点，推理型给步骤，临床型给辨证依据与方药出处。",
+                      "平台不可达时：凡依赖平台 API 的结论一律标注「未能核实」，不得凭记忆补齐。"
+                    ]
+                  },
+                  "libraryCode": "13.5.1.3",
+                  "libraryPath": "13 上游技能移植 / 05 教师发展 / 01 教学与学习 / 03 中医班级学情分析 Skill",
+                  "path": "skills/tcm-upstream/tcm-class-analysis/SKILL.md"
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
-  "version": "0.2.0",
+  "version": "0.3.0",
   "generatedFrom": "scripts/skills.spec.mjs"
 }

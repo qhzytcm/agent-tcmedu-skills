@@ -1,7 +1,7 @@
 ---
 name: "tcm-stomatology"
 description: "口腔黏膜病与牙周病的中医辨证，重视全身病在口腔的表现与筛查。"
-version: "0.2.0"
+version: "0.3.0"
 author: qhzytcm
 license: MIT
 platforms: [windows, linux, macos]

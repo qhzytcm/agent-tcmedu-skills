@@ -1,7 +1,7 @@
 ---
 name: "tcm-bone-disease"
 description: "处理骨与关节的慢性病证（骨痹 / 骨蚀 / 骨质疏松），以内治外治结合为主线。"
-version: "0.2.0"
+version: "0.3.0"
 author: qhzytcm
 license: MIT
 platforms: [windows, linux, macos]

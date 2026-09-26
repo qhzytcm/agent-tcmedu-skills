@@ -1,7 +1,7 @@
 ---
 name: "tcm-tendon-injury"
 description: "围绕软组织损伤的分期（急性 / 亚急性 / 慢性）给出理筋手法与康复节奏。"
-version: "0.2.0"
+version: "0.3.0"
 author: qhzytcm
 license: MIT
 platforms: [windows, linux, macos]

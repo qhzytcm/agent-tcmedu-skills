@@ -1,7 +1,7 @@
 ---
 name: "tcm-acupuncture-therapeutics"
 description: "按病种组织「辨证分型 → 治则 → 主穴配穴 → 手法 → 疗程」的针灸处方链。"
-version: "0.2.0"
+version: "0.3.0"
 author: qhzytcm
 license: MIT
 platforms: [windows, linux, macos]

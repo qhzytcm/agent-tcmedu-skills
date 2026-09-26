@@ -1,7 +1,7 @@
 ---
 name: "tcm-kg-query"
 description: "查询病证知识图谱的节点与关系，支持以病索证、以证溯病双向遍历与规模统计。 依赖 tcmP 平台接口，离线不可用。"
-version: "0.2.0"
+version: "0.3.0"
 author: qhzytcm
 license: MIT
 platforms: [windows, linux, macos]

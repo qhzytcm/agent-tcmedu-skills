@@ -58,6 +58,44 @@ for (const rel of SKILL_TABLE_DOCS) {
   }
 }
 
+// 上游技能提取报告必须覆盖上游全部技能
+{
+  const rel = 'docs/07-上游技能提取报告.md';
+  const p = join(root, rel);
+  const upPath = join(root, 'data', 'upstream-extraction.json');
+  if (!existsSync(p)) fail(`${rel} 不存在（请先 npm run extract）`);
+  else if (!existsSync(upPath)) fail('data/upstream-extraction.json 不存在（请先 npm run extract）');
+  else {
+    const text = readFileSync(p, 'utf8');
+    const up = JSON.parse(readFileSync(upPath, 'utf8'));
+    const missing = up.skills.map((s) => s.upstreamSlug).filter((slug) => !text.includes(`\`${slug}\``));
+    if (missing.length) fail(`${rel} 缺少 ${missing.length} 个上游技能判定行：${missing.slice(0, 5).join(', ')}…`);
+    else ok(`${rel} 覆盖全部 ${up.skills.length} 个上游技能判定`);
+
+    // 已移植的技能必须真实存在于本包 catalog
+    const ported = up.skills.filter((s) => s.portedTo).map((s) => s.portedTo);
+    const absent = ported.filter((slug) => !catalog.skills.some((c) => c.name === slug));
+    if (absent.length) fail(`提取报告声明已移植但 catalog 中不存在：${absent.join(', ')}`);
+    else ok(`提取报告声明的 ${ported.length} 个移植技能均存在于 catalog`);
+  }
+}
+
+// 可利用程度实测报告必须与评测数据一致
+{
+  const rel = 'docs/08-可利用程度实测.md';
+  const p = join(root, rel);
+  const evPath = join(root, 'data', 'routing-eval.json');
+  if (!existsSync(p)) fail(`${rel} 不存在（请先 npm run eval）`);
+  else if (!existsSync(evPath)) fail('data/routing-eval.json 不存在（请先 npm run eval）');
+  else {
+    const text = readFileSync(p, 'utf8');
+    const ev = JSON.parse(readFileSync(evPath, 'utf8'));
+    const pct = (x) => (x * 100).toFixed(1) + '%';
+    if (!text.includes(pct(ev.top3Rate))) fail(`${rel} 未反映最新 Top-3 命中率 ${pct(ev.top3Rate)}`);
+    else ok(`${rel} 与评测数据一致（Top-1 ${pct(ev.top1Rate)} / Top-3 ${pct(ev.top3Rate)}）`);
+  }
+}
+
 for (const rel of CATEGORY_TABLE_DOCS) {
   const p = join(root, rel);
   if (!existsSync(p)) { fail(`${rel} 不存在`); continue; }

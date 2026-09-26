@@ -1,7 +1,7 @@
 ---
 name: "role-healer"
 description: "医者临床辅助与带教一体：病证推理、方剂推荐、师带徒教学与医圣成长路径规划。 依赖 tcmP 平台接口，离线不可用。"
-version: "0.2.0"
+version: "0.3.0"
 author: qhzytcm
 license: MIT
 platforms: [windows, linux, macos]

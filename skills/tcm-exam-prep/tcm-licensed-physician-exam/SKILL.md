@@ -1,7 +1,7 @@
 ---
 name: "tcm-licensed-physician-exam"
 description: "按实践技能与医学综合两阶段拆解考纲，做诊断、提分优先级与限时训练闭环。"
-version: "0.2.0"
+version: "0.3.0"
 author: qhzytcm
 license: MIT
 platforms: [windows, linux, macos]

@@ -1,7 +1,7 @@
 ---
 name: "role-device"
 description: "中医诊疗设备的维护、影像辅助、采购论证与质控追溯，打通设备全生命周期。 依赖 tcmP 平台接口，离线不可用。"
-version: "0.2.0"
+version: "0.3.0"
 author: qhzytcm
 license: MIT
 platforms: [windows, linux, macos]

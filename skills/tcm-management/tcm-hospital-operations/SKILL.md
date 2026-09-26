@@ -1,7 +1,7 @@
 ---
 name: "tcm-hospital-operations"
 description: "围绕门诊量、病床周转、药占比与人事排班做中医医院的运营指标管理。 依赖 tcmP 平台接口，离线不可用。"
-version: "0.2.0"
+version: "0.3.0"
 author: qhzytcm
 license: MIT
 platforms: [windows, linux, macos]

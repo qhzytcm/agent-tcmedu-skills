@@ -1,7 +1,7 @@
 ---
 name: "tcm-orthopedics-basics"
 description: "打牢骨伤解剖、损伤机制与检查法基础，为手法与固定提供判断依据。"
-version: "0.2.0"
+version: "0.3.0"
 author: qhzytcm
 license: MIT
 platforms: [windows, linux, macos]

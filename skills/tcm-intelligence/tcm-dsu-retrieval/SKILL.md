@@ -1,7 +1,7 @@
 ---
 name: "tcm-dsu-retrieval"
 description: "用平台的病证单元引擎做检索增强问答：TF-IDF + FTS5 + RRF 融合，内网零 token。 依赖 tcmP 平台接口，离线不可用。"
-version: "0.2.0"
+version: "0.3.0"
 author: qhzytcm
 license: MIT
 platforms: [windows, linux, macos]

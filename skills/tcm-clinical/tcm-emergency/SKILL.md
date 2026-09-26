@@ -1,7 +1,7 @@
 ---
 name: "tcm-emergency"
 description: "按「先辨危重、再辨寒热虚实」的顺序处理急症，并强制给出转诊与西医协同判断。"
-version: "0.2.0"
+version: "0.3.0"
 author: qhzytcm
 license: MIT
 platforms: [windows, linux, macos]

@@ -1,9 +1,9 @@
 {
   "name": "agent-tcmedu-skills",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "description": "tcmP 中医药网络教育平台 Agent Skill Pack 发现索引（.well-known/skills/index.json）",
   "generatedFrom": "scripts/skills.spec.mjs",
-  "skillCount": 72,
+  "skillCount": 84,
   "skills": [
     {
       "name": "tcm-basic-theory",
@@ -580,6 +580,102 @@
       "category": "tcm-management",
       "libraryCode": "7.3.1.1",
       "path": "skills/tcm-management/tcm-health-economics/SKILL.md"
+    },
+    {
+      "name": "tcm-review-assistant",
+      "title": "中医复习助手 Skill",
+      "description": "把「复习」从重读一遍变成按遗忘曲线与考点权重的排程任务。",
+      "category": "tcm-upstream",
+      "libraryCode": "13.1.1.1",
+      "path": "skills/tcm-upstream/tcm-review-assistant/SKILL.md"
+    },
+    {
+      "name": "tcm-weakness-boost",
+      "title": "中医薄弱项提升 Skill",
+      "description": "定位薄弱环节的最小知识块，做定点突破而不是整章重学。",
+      "category": "tcm-upstream",
+      "libraryCode": "13.1.1.2",
+      "path": "skills/tcm-upstream/tcm-weakness-boost/SKILL.md"
+    },
+    {
+      "name": "tcm-memory-method",
+      "title": "中医记忆方法 Skill",
+      "description": "针对方歌、条文、药性、腧穴四类高记忆负荷内容，匹配专门的记忆编码法。",
+      "category": "tcm-upstream",
+      "libraryCode": "13.1.2.1",
+      "path": "skills/tcm-upstream/tcm-memory-method/SKILL.md"
+    },
+    {
+      "name": "tcm-socratic-tutor",
+      "title": "中医启发式讲题 Skill",
+      "description": "不给答案先给问题：用苏格拉底式追问把学习者逼到自己找出辨证结论。",
+      "category": "tcm-upstream",
+      "libraryCode": "13.1.3.1",
+      "path": "skills/tcm-upstream/tcm-socratic-tutor/SKILL.md"
+    },
+    {
+      "name": "tcm-learning-habit",
+      "title": "中医学习习惯 Skill",
+      "description": "把「每天学一点」变成有触发条件、有打卡判据、有连续记录的固定习惯。",
+      "category": "tcm-upstream",
+      "libraryCode": "13.1.1.3",
+      "path": "skills/tcm-upstream/tcm-learning-habit/SKILL.md"
+    },
+    {
+      "name": "tcm-holiday-plan",
+      "title": "中医假期提升 Skill",
+      "description": "把寒暑假的整块时间投到学期内做不了的事：经典通读、跟诊积累、专项补强。",
+      "category": "tcm-upstream",
+      "libraryCode": "13.1.1.4",
+      "path": "skills/tcm-upstream/tcm-holiday-plan/SKILL.md"
+    },
+    {
+      "name": "tcm-daily-recitation",
+      "title": "中医每日背诵 Skill",
+      "description": "每天 10–15 分钟的经典条文与方歌背诵闭环：给线索回忆 → 核对 → 补漏。",
+      "category": "tcm-upstream",
+      "libraryCode": "13.2.1.1",
+      "path": "skills/tcm-upstream/tcm-daily-recitation/SKILL.md"
+    },
+    {
+      "name": "tcm-daily-herb-drill",
+      "title": "中医方药速练 Skill",
+      "description": "每天 8–12 道方药速练：药性功效、方剂组成、配伍禁忌的高频短时训练。",
+      "category": "tcm-upstream",
+      "libraryCode": "13.3.1.1",
+      "path": "skills/tcm-upstream/tcm-daily-herb-drill/SKILL.md"
+    },
+    {
+      "name": "tcm-daily-acupoint-drill",
+      "title": "中医腧穴速练 Skill",
+      "description": "每天 8–12 道腧穴速练：定位、归经、主治与危险穴位的短时高频训练。",
+      "category": "tcm-upstream",
+      "libraryCode": "13.4.1.1",
+      "path": "skills/tcm-upstream/tcm-daily-acupoint-drill/SKILL.md"
+    },
+    {
+      "name": "tcm-homework-generation",
+      "title": "中医疗效作业生成 Skill",
+      "description": "按学时与教学目标生成分层作业，配答案、解析与批改要点。",
+      "category": "tcm-upstream",
+      "libraryCode": "13.5.1.1",
+      "path": "skills/tcm-upstream/tcm-homework-generation/SKILL.md"
+    },
+    {
+      "name": "tcm-unit-review",
+      "title": "中医单元复习设计 Skill",
+      "description": "把单元复习设计成「知识结构重建 → 易错点清扫 → 综合应用」三段课堂。",
+      "category": "tcm-upstream",
+      "libraryCode": "13.5.1.2",
+      "path": "skills/tcm-upstream/tcm-unit-review/SKILL.md"
+    },
+    {
+      "name": "tcm-class-analysis",
+      "title": "中医班级学情分析 Skill",
+      "description": "从成绩与作业数据算出班级的掌握度分布，定位集体性缺口与个别短板。",
+      "category": "tcm-upstream",
+      "libraryCode": "13.5.1.3",
+      "path": "skills/tcm-upstream/tcm-class-analysis/SKILL.md"
     }
   ]
 }

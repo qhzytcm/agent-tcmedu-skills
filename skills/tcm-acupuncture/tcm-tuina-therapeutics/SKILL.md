@@ -1,7 +1,7 @@
 ---
 name: "tcm-tuina-therapeutics"
 description: "按病种给出推拿治疗方案：手法组合、施术部位、力度层次与疗程节奏。"
-version: "0.2.0"
+version: "0.3.0"
 author: qhzytcm
 license: MIT
 platforms: [windows, linux, macos]

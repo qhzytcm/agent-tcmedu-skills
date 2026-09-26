@@ -1,7 +1,7 @@
 ---
 name: "tcm-tuina"
 description: "按「力度—频率—着力部位—操作要领」解析推拿手法，并给出可自练的分解动作。"
-version: "0.2.0"
+version: "0.3.0"
 author: qhzytcm
 license: MIT
 platforms: [windows, linux, macos]

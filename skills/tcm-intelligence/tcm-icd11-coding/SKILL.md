@@ -1,7 +1,7 @@
 ---
 name: "tcm-icd11-coding"
 description: "把中医病证名称映射到 ICD-11（含传统医学章节）标准编码，走内网镜像零外网依赖。 依赖 tcmP 平台接口，离线不可用。"
-version: "0.2.0"
+version: "0.3.0"
 author: qhzytcm
 license: MIT
 platforms: [windows, linux, macos]

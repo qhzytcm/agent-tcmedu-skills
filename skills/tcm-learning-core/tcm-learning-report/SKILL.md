@@ -1,7 +1,7 @@
 ---
 name: "tcm-learning-report"
 description: "把学习行为与考核结果汇总成带证据的学情报告，供学生、教师、师承导师共用。"
-version: "0.2.0"
+version: "0.3.0"
 author: qhzytcm
 license: MIT
 platforms: [windows, linux, macos]

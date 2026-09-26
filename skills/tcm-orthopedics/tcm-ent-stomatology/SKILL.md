@@ -1,7 +1,7 @@
 ---
 name: "tcm-ent-stomatology"
 description: "按「局部辨证 + 脏腑经络关联」处理眼、耳鼻喉、口腔疾病，避免只见局部不见整体。"
-version: "0.2.0"
+version: "0.3.0"
 author: qhzytcm
 license: MIT
 platforms: [windows, linux, macos]

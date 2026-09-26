@@ -1,7 +1,7 @@
 ---
 name: "tcm-neijing"
 description: "《黄帝内经》原文—注释—译文三层对照研读，并把经文落到现代生理与临床场景。"
-version: "0.2.0"
+version: "0.3.0"
 author: qhzytcm
 license: MIT
 platforms: [windows, linux, macos]

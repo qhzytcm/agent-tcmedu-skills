@@ -1,7 +1,7 @@
 ---
 name: "tcm-pediatrics"
 description: "按小儿生理特点调整问诊重心与用药剂量，把儿科病种转成家长可执行的照护任务。"
-version: "0.2.0"
+version: "0.3.0"
 author: qhzytcm
 license: MIT
 platforms: [windows, linux, macos]

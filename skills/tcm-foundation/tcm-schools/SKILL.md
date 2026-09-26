@@ -1,7 +1,7 @@
 ---
 name: "tcm-schools"
 description: "把历代学术流派的主张、代表方与分歧点做成可对比的流派矩阵。"
-version: "0.2.0"
+version: "0.3.0"
 author: qhzytcm
 license: MIT
 platforms: [windows, linux, macos]

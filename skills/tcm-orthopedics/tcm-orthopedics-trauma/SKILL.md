@@ -1,7 +1,7 @@
 ---
 name: "tcm-orthopedics-trauma"
 description: "把正骨理筋手法的适应证、复位标准与固定康复方案串成完整的骨伤处理链。"
-version: "0.2.0"
+version: "0.3.0"
 author: qhzytcm
 license: MIT
 platforms: [windows, linux, macos]

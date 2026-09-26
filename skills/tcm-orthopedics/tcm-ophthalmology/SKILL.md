@@ -1,13 +1,13 @@
 ---
 name: "tcm-ophthalmology"
 description: "以「五轮学说」为纲，把眼部局部体征对应到脏腑，并与视力警戒阈值绑定。"
-version: "0.2.0"
+version: "0.3.0"
 author: qhzytcm
 license: MIT
 platforms: [windows, linux, macos]
 metadata:
   hermes:
-    tags: ["眼科","五轮学说","转诊","内障外障"]
+    tags: ["眼科","五轮学说","转诊","内障外障","青光眼","眼压","视力下降","目痛","内障"]
     source: agent-tcmedu-skills
     category: "tcm-orthopedics"
     domain: "D05,D06"

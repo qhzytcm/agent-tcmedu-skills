@@ -1,7 +1,7 @@
 ---
 name: "tcm-wenbing"
 description: "卫气营血与三焦两条辨证主线并行，配合四大家学说与温病方剂的情境化应用。"
-version: "0.2.0"
+version: "0.3.0"
 author: qhzytcm
 license: MIT
 platforms: [windows, linux, macos]

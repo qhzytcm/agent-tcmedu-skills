@@ -1,7 +1,7 @@
 ---
 name: "tcm-clinical-reasoning"
 description: "显式化中医临床决策过程：假设生成、鉴别、权重分配与动态修正。"
-version: "0.2.0"
+version: "0.3.0"
 author: qhzytcm
 license: MIT
 platforms: [windows, linux, macos]

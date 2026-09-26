@@ -1,7 +1,7 @@
 ---
 name: "tcm-basic-theory"
 description: "把阴阳五行、藏象、气血津液、经络、病因病机转成可自检的概念网络学习任务。"
-version: "0.2.0"
+version: "0.3.0"
 author: qhzytcm
 license: MIT
 platforms: [windows, linux, macos]

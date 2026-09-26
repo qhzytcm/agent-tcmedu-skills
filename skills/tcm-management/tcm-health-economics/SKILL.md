@@ -1,7 +1,7 @@
 ---
 name: "tcm-health-economics"
 description: "用成本—效果视角评估中医诊疗方案，并解读医保支付政策对中医的影响。 依赖 tcmP 平台接口，离线不可用。"
-version: "0.2.0"
+version: "0.3.0"
 author: qhzytcm
 license: MIT
 platforms: [windows, linux, macos]

@@ -1,7 +1,7 @@
 ---
 name: "tcm-herb-identification"
 description: "按来源、性状、显微、理化四类鉴定方法，做出可判定的真伪优劣结论。"
-version: "0.2.0"
+version: "0.3.0"
 author: qhzytcm
 license: MIT
 platforms: [windows, linux, macos]
